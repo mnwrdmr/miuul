@@ -1,7 +1,0 @@
-name: miuul
-channels:
-  -conda-forge
-  -bioconda
-dependencies:
-  - python>=3.8
-

@@ -1,0 +1,58 @@
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Creating conda environment env/env.yaml...
+Downloading and installing remote packages.
+Environment for /Users/macvbookpro/PycharmProjects/miuul/env/env.yaml created (location: .snakemake/conda/c42a5307f78dbf3aa35e8054a59b5714_)
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job               count
+--------------  -------
+all                   1
+tRNAscan              1
+tRNAscan_stats        1
+total                 3
+
+Select jobs to execute...
+
+[Mon Dec 18 22:23:48 2023]
+rule tRNAscan:
+    input: resource/G_intestinalis.fasta
+    output: output/tRNA_scan_result.txt
+    jobid: 1
+    reason: Missing output files: output/tRNA_scan_result.txt
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+
+tRNAscan-SE resource/G_intestinalis.fasta -o output/tRNA_scan_result.txt
+[Mon Dec 18 22:24:43 2023]
+Finished job 1.
+1 of 3 steps (33%) done
+Select jobs to execute...
+
+[Mon Dec 18 22:24:43 2023]
+rule tRNAscan_stats:
+    input: resource/G_intestinalis.fasta
+    output: output/G_intestinalis.tRNA, output/G_intestinalis.stats
+    jobid: 2
+    reason: Missing output files: output/G_intestinalis.tRNA
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+
+/Users/macvbookpro/PycharmProjects/miuul/venv/bin/python /Users/macvbookpro/PycharmProjects/miuul/.snakemake/scripts/tmp5fp96wg2.tRNAscan_stats.py
+Activating conda environment: .snakemake/conda/c42a5307f78dbf3aa35e8054a59b5714_
+[Mon Dec 18 22:25:24 2023]
+Finished job 2.
+2 of 3 steps (67%) done
+Select jobs to execute...
+
+[Mon Dec 18 22:25:24 2023]
+localrule all:
+    input: output/tRNA_scan_result.txt, output/G_intestinalis.tRNA
+    jobid: 0
+    reason: Input files updated by another job: output/G_intestinalis.tRNA, output/tRNA_scan_result.txt
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+
+[Mon Dec 18 22:25:24 2023]
+Finished job 0.
+3 of 3 steps (100%) done
+Complete log: .snakemake/log/2023-12-18T222252.615545.snakemake.log

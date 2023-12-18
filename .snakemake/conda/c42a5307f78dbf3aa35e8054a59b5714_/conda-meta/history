@@ -1,0 +1,7 @@
+==> 2023-12-18 22:23:47 <==
+# cmd: /Users/macvbookpro/opt/anaconda3/condabin/mamba create --quiet --file /Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/c42a5307f78dbf3aa35e8054a59b5714_.yaml --prefix /Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/c42a5307f78dbf3aa35e8054a59b5714_
+# conda version: 23.11.0
++bioconda/osx-64::infernal-1.1.4-pl5321h2413b67_4
++bioconda/osx-64::trnascan-se-2.0.12-pl5321h2413b67_0
++conda-forge/osx-64::perl-5.32.1-4_h0dc2134_perl5
+# update specs: ['trnascan-se']
