@@ -1,0 +1,9 @@
+prefix=/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: OpenSSL
+Description: Secure Sockets Layer and cryptography libraries and tools
+Version: 3.2.0
+Requires: libssl libcrypto

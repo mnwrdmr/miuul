@@ -1,0 +1,43 @@
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Creating conda environment env/env.yaml...
+Downloading and installing remote packages.
+Environment for /Users/macvbookpro/PycharmProjects/miuul/env/env.yaml created (location: .snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_)
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                        count
+-----------------------  -------
+all                            1
+tRNAscan_stats_wildcard        1
+total                          2
+
+Select jobs to execute...
+
+[Fri Jan  5 00:04:54 2024]
+rule tRNAscan_stats_wildcard:
+    input: resource/Genome/G_muris.fasta
+    output: output/tRNAscan/G_muris.tRNA, output/tRNAscan/G_muris.stats
+    jobid: 1
+    reason: Missing output files: output/tRNAscan/G_muris.tRNA
+    wildcards: Genome=G_muris
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+
+/Users/macvbookpro/PycharmProjects/miuul/venv/bin/python /Users/macvbookpro/PycharmProjects/miuul/.snakemake/scripts/tmpl1wph8x5.tRNAscan_stats.py
+[Fri Jan  5 00:05:21 2024]
+Finished job 1.
+1 of 2 steps (50%) done
+Select jobs to execute...
+
+[Fri Jan  5 00:05:21 2024]
+localrule all:
+    input: output/tRNAscan/G_muris.tRNA, output/tRNAscan/G_intestinalis.tRNA
+    jobid: 0
+    reason: Input files updated by another job: output/tRNAscan/G_muris.tRNA
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+
+[Fri Jan  5 00:05:21 2024]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: .snakemake/log/2024-01-05T000121.697300.snakemake.log

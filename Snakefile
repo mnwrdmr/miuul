@@ -1,7 +1,7 @@
 rule all:
     input: #'output/tRNA_scan_result.txt',
             #'output/G_intestinalis.tRNA',
-            expand('output/tRNAscan/{sp}.tRNA', sp=['G_muris, G_intestinalis']),
+            expand('output/tRNAscan/{sp}.tRNA', sp=['G_muris', 'G_intestinalis']),
             #expand('output/blastn/G_intestinalis/{sp}.blastn',sp=['G_muris', 'S_salmonicida']),
 
 rule tRNAscan:
@@ -26,14 +26,12 @@ rule tRNAscan_stats:
 
 rule tRNAscan_stats_wildcard:
     input:
-        genome='resource/Genome/{genome}.fasta'
+        genome='resource/Genome/{Genome}.fasta'
     output:
-        tRNA='output/tRNAscan/{genome}.tRNA',
-        stats='output/tRNAscan/{genome}.stats'
+        tRNA='output/tRNAscan/{Genome}.tRNA',
+        stats='output/tRNAscan/{Genome}.stats'
     params:
         threads=2
-    conda:
-        'env/env.yaml'
     script:
         'scripts/tRNAscan_stats.py'
 
@@ -51,7 +49,7 @@ rule makeblastdb:
     params:
         outname='output/{type}/db/{db}'
     shell:
-        'makeblastdb -dbtype nucl -in {input} -out {params.outname}'
+        'makeblastdb -dbtype nucl -in {input.genome} -out {params.outname}'
 
 
 rule blastn:

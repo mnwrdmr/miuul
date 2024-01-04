@@ -1,0 +1,7 @@
+Building DAG of jobs...
+MissingInputException in rule tRNAscan_stats_wildcard in file /Users/macvbookpro/PycharmProjects/miuul/Snakefile, line 27:
+Missing input files for rule tRNAscan_stats_wildcard:
+    output: output/tRNAscan/G_muris, G_intestinalis.tRNA, output/tRNAscan/G_muris, G_intestinalis.stats
+    wildcards: Genome=G_muris, G_intestinalis
+    affected files:
+        resource/Genome/G_muris, G_intestinalis.fasta

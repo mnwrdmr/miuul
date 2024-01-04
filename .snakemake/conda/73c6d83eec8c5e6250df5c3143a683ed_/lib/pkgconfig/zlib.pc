@@ -1,0 +1,13 @@
+prefix=/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+sharedlibdir=${libdir}
+includedir=${prefix}/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}

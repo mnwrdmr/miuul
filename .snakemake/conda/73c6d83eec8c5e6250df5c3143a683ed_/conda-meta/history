@@ -1,0 +1,52 @@
+==> 2024-01-05 00:04:53 <==
+# cmd: /Users/macvbookpro/opt/anaconda3/condabin/mamba create --quiet --file /Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_.yaml --prefix /Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_
+# conda version: 23.11.0
++bioconda/noarch::perl-archive-tar-2.40-pl5321hdfd78af_0
++bioconda/noarch::perl-carp-1.38-pl5321hdfd78af_4
++bioconda/noarch::perl-common-sense-3.75-pl5321hdfd78af_0
++bioconda/noarch::perl-exporter-5.72-pl5321hdfd78af_2
++bioconda/noarch::perl-exporter-tiny-1.002002-pl5321hdfd78af_0
++bioconda/noarch::perl-io-zlib-1.14-pl5321hdfd78af_0
++bioconda/noarch::perl-json-4.10-pl5321hdfd78af_0
++bioconda/noarch::perl-list-moreutils-0.430-pl5321hdfd78af_0
++bioconda/noarch::perl-parent-0.236-pl5321hdfd78af_2
++bioconda/noarch::perl-types-serialiser-1.01-pl5321hdfd78af_0
++bioconda/osx-64::blast-2.15.0-pl5321h91c44f7_1
++bioconda/osx-64::entrez-direct-16.2-h193322a_1
++bioconda/osx-64::infernal-1.1.4-pl5321h2413b67_4
++bioconda/osx-64::ncbi-vdb-3.0.0-pl5321h9722bc1_0
++bioconda/osx-64::perl-compress-raw-bzip2-2.201-pl5321h9722bc1_0
++bioconda/osx-64::perl-compress-raw-zlib-2.105-pl5321h9722bc1_0
++bioconda/osx-64::perl-encode-3.19-pl5321ha5712d3_1
++bioconda/osx-64::perl-io-compress-2.201-pl5321h7133b54_2
++bioconda/osx-64::perl-json-xs-2.34-pl5321hcd10b59_5
++bioconda/osx-64::perl-list-moreutils-xs-0.430-pl5321ha5712d3_1
++bioconda/osx-64::perl-pathtools-3.75-pl5321ha5712d3_3
++bioconda/osx-64::perl-scalar-list-utils-1.62-pl5321ha5712d3_0
++bioconda/osx-64::trnascan-se-2.0.12-pl5321h2413b67_0
++conda-forge/noarch::perl-extutils-makemaker-7.70-pl5321hd8ed1ab_0
++conda-forge/osx-64::bzip2-1.0.8-h10d778d_5
++conda-forge/osx-64::c-ares-1.24.0-h10d778d_0
++conda-forge/osx-64::ca-certificates-2023.11.17-h8857fd0_0
++conda-forge/osx-64::curl-8.5.0-h726d00d_0
++conda-forge/osx-64::gettext-0.21.1-h8a4c099_0
++conda-forge/osx-64::krb5-1.21.2-hb884880_0
++conda-forge/osx-64::libcurl-8.5.0-h726d00d_0
++conda-forge/osx-64::libcxx-16.0.6-hd57cbcb_0
++conda-forge/osx-64::libedit-3.1.20191231-h0678c8f_2
++conda-forge/osx-64::libev-4.33-h10d778d_2
++conda-forge/osx-64::libiconv-1.17-hd75f5a5_2
++conda-forge/osx-64::libidn2-2.3.4-hb7f2c08_0
++conda-forge/osx-64::libnghttp2-1.58.0-h64cf6d3_1
++conda-forge/osx-64::libsqlite-3.44.2-h92b6c6a_0
++conda-forge/osx-64::libssh2-1.11.0-hd019ec5_0
++conda-forge/osx-64::libunistring-0.9.10-h0d85af4_0
++conda-forge/osx-64::libzlib-1.2.13-h8a1eda9_5
++conda-forge/osx-64::ncurses-6.4-h93d8f39_2
++conda-forge/osx-64::openssl-3.2.0-hd75f5a5_1
++conda-forge/osx-64::pcre-8.45-he49afe7_0
++conda-forge/osx-64::perl-5.32.1-7_h10d778d_perl5
++conda-forge/osx-64::wget-1.20.3-hd3787cc_1
++conda-forge/osx-64::zlib-1.2.13-h8a1eda9_5
++conda-forge/osx-64::zstd-1.5.5-h829000d_0
+# update specs: ['trnascan-se', 'bioconda::blast']

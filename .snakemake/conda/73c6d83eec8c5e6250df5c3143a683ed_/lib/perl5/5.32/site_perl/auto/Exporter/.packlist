@@ -1,0 +1,4 @@
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_/lib/perl5/site_perl/Exporter.pm relocate_as=../../../../site_perl/Exporter.pm
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_/lib/perl5/site_perl/Exporter/Heavy.pm relocate_as=../../../../site_perl/Exporter/Heavy.pm
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_/man/man3/Exporter.3 relocate_as=../../../../../../man/man3/Exporter.3
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_/man/man3/Exporter::Heavy.3 relocate_as=../../../../../../man/man3/Exporter::Heavy.3

@@ -1,0 +1,12 @@
+# Package Information for pkg-config
+
+prefix=/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libpcrecpp
+Description: PCRECPP - C++ wrapper for PCRE
+Version: 8.45
+Libs: -L${libdir} -lpcre -lpcrecpp
+Cflags: -I${includedir} 

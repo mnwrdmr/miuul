@@ -1,0 +1,9 @@
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_/lib/perl5/5.32/site_perl/List/Util.pm relocate_as=../../../List/Util.pm
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_/lib/perl5/5.32/site_perl/List/Util/XS.pm relocate_as=../../../List/Util/XS.pm
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_/lib/perl5/5.32/site_perl/Scalar/Util.pm relocate_as=../../../Scalar/Util.pm
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_/lib/perl5/5.32/site_perl/Sub/Util.pm relocate_as=../../../Sub/Util.pm
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_/lib/perl5/5.32/site_perl/auto/List/Util/Util.bundle relocate_as=Util.bundle
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_/man/man3/List::Util.3 relocate_as=../../../../../../../man/man3/List::Util.3
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_/man/man3/List::Util::XS.3 relocate_as=../../../../../../../man/man3/List::Util::XS.3
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_/man/man3/Scalar::Util.3 relocate_as=../../../../../../../man/man3/Scalar::Util.3
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_/man/man3/Sub::Util.3 relocate_as=../../../../../../../man/man3/Sub::Util.3

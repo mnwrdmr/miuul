@@ -1,0 +1,108 @@
+{
+  "build": "h64cf6d3_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "__osx >=10.9",
+    "c-ares >=1.23.0,<2.0a0",
+    "libcxx >=16.0.6",
+    "libev >=4.33,<4.34.0a0",
+    "libev >=4.33,<5.0a0",
+    "libzlib >=1.2.13,<1.3.0a0",
+    "openssl >=3.2.0,<4.0a0"
+  ],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/libnghttp2-1.58.0-h64cf6d3_1",
+  "features": "",
+  "files": [
+    "bin/nghttp",
+    "bin/nghttpd",
+    "bin/nghttpx",
+    "include/nghttp2/nghttp2.h",
+    "include/nghttp2/nghttp2ver.h",
+    "lib/libnghttp2.14.dylib",
+    "lib/libnghttp2.dylib",
+    "lib/pkgconfig/libnghttp2.pc"
+  ],
+  "fn": "libnghttp2-1.58.0-h64cf6d3_1.conda",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/libnghttp2-1.58.0-h64cf6d3_1",
+    "type": 1
+  },
+  "md5": "faecc55c2a8155d9ff1c0ff9a0fef64f",
+  "name": "libnghttp2",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/libnghttp2-1.58.0-h64cf6d3_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/nghttp",
+        "path_type": "hardlink",
+        "sha256": "8c64a8a3d693944fededcf042a232d95205b549cfd92de7c812f73393b1162e8",
+        "sha256_in_prefix": "8c64a8a3d693944fededcf042a232d95205b549cfd92de7c812f73393b1162e8",
+        "size_in_bytes": 341672
+      },
+      {
+        "_path": "bin/nghttpd",
+        "path_type": "hardlink",
+        "sha256": "27e92d78197547f11881105c75fac507a629f1f70772d60de7ad0f95845c809b",
+        "sha256_in_prefix": "27e92d78197547f11881105c75fac507a629f1f70772d60de7ad0f95845c809b",
+        "size_in_bytes": 308288
+      },
+      {
+        "_path": "bin/nghttpx",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/nghttp2_1702129889925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "aa3ddcb86df5a98b6c743a534aac20674dc7c5566a0df6a34cd128a92405c0cc",
+        "sha256_in_prefix": "52a547fdeb8f9f65ec15cb9260e9330674ddf11871635789b3a4140335e420cf",
+        "size_in_bytes": 1244600
+      },
+      {
+        "_path": "include/nghttp2/nghttp2.h",
+        "path_type": "hardlink",
+        "sha256": "5ee78a22bd0ad01a46be4841faa4c3c85afc64f741b812753834adb9ae95a64a",
+        "sha256_in_prefix": "5ee78a22bd0ad01a46be4841faa4c3c85afc64f741b812753834adb9ae95a64a",
+        "size_in_bytes": 205042
+      },
+      {
+        "_path": "include/nghttp2/nghttp2ver.h",
+        "path_type": "hardlink",
+        "sha256": "f4293b780f60e732ee8d4cdf07ee919be23f921b212ba0abf21173cf7231940b",
+        "sha256_in_prefix": "f4293b780f60e732ee8d4cdf07ee919be23f921b212ba0abf21173cf7231940b",
+        "size_in_bytes": 1605
+      },
+      {
+        "_path": "lib/libnghttp2.14.dylib",
+        "path_type": "hardlink",
+        "sha256": "10bcaf0e0da2de2775f5c9935cc860dc27f78cd3611bca7a5ca2f0e0023cb2ab",
+        "sha256_in_prefix": "10bcaf0e0da2de2775f5c9935cc860dc27f78cd3611bca7a5ca2f0e0023cb2ab",
+        "size_in_bytes": 180128
+      },
+      {
+        "_path": "lib/libnghttp2.dylib",
+        "path_type": "softlink",
+        "sha256": "10bcaf0e0da2de2775f5c9935cc860dc27f78cd3611bca7a5ca2f0e0023cb2ab",
+        "size_in_bytes": 180128
+      },
+      {
+        "_path": "lib/pkgconfig/libnghttp2.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/nghttp2_1702129889925/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "36b4278bca6086dffb517f94449be618ca2dfb8ef78cd2ed6a36dbd048f725e8",
+        "sha256_in_prefix": "d1978d8eebfc16de4d04477e13f965eda240a517162a542ebca287c6a2e98687",
+        "size_in_bytes": 1633
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "412fd768e787e586602f8e9ea52bf089f3460fc630f6987f0cbd89b70e9a4380",
+  "size": 599736,
+  "subdir": "osx-64",
+  "timestamp": 1702130398000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libnghttp2-1.58.0-h64cf6d3_1.conda",
+  "version": "1.58.0"
+}

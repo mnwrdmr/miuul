@@ -1,0 +1,48 @@
+{
+  "build": "h726d00d_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "krb5 >=1.21.2,<1.22.0a0",
+    "libcurl 8.5.0 h726d00d_0",
+    "libssh2 >=1.11.0,<2.0a0",
+    "libzlib >=1.2.13,<1.3.0a0",
+    "openssl >=3.2.0,<4.0a0",
+    "zstd >=1.5.5,<1.6.0a0"
+  ],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/curl-8.5.0-h726d00d_0",
+  "features": "",
+  "files": [
+    "bin/curl"
+  ],
+  "fn": "curl-8.5.0-h726d00d_0.conda",
+  "license": "curl",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/curl-8.5.0-h726d00d_0",
+    "type": 1
+  },
+  "md5": "a4440b9488f87d4da98c1a4cb121931a",
+  "name": "curl",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/curl-8.5.0-h726d00d_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/curl",
+        "path_type": "hardlink",
+        "sha256": "374a26d48aceaff59b41977a964bfcba0d5c3e54178943454af4e9a4b05bd0d6",
+        "sha256_in_prefix": "374a26d48aceaff59b41977a964bfcba0d5c3e54178943454af4e9a4b05bd0d6",
+        "size_in_bytes": 262936
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "f9e59c964945f5526cec0beb98e9983cee40da2a1e189f174af3da25a7c38c09",
+  "size": 153998,
+  "subdir": "osx-64",
+  "timestamp": 1701860657000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/curl-8.5.0-h726d00d_0.conda",
+  "version": "8.5.0"
+}

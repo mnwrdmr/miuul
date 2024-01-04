@@ -1,0 +1,22 @@
+#***************************************************************************
+# Project        ___       __ _ _ __ ___  ___ 
+#               / __|____ / _` | '__/ _ \/ __|
+#              | (_|_____| (_| | | |  __/\__ \
+#               \___|     \__,_|_|  \___||___/
+#
+# Copyright (C) The c-ares project and its contributors
+# SPDX-License-Identifier: MIT
+prefix=/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_
+exec_prefix=/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_/bin
+libdir=/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_/lib
+includedir=/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_/include
+
+Name: c-ares
+URL: https://c-ares.org/
+Description: asynchronous DNS lookup library
+Version: 1.24.0
+Requires: 
+Requires.private: 
+Cflags: -I${includedir} 
+Libs: -L${libdir} -lcares
+Libs.private: 
