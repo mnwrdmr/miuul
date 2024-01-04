@@ -1,0 +1,39 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job                        count
+-----------------------  -------
+all                            1
+tRNAscan_stats_wildcard        1
+total                          2
+
+Select jobs to execute...
+
+[Fri Jan  5 00:12:07 2024]
+rule tRNAscan_stats_wildcard:
+    input: resource/Genome/S_salmonicida.fasta
+    output: output/tRNAscan/S_salmonicida.tRNA, output/tRNAscan/S_salmonicida.stats
+    jobid: 2
+    reason: Missing output files: output/tRNAscan/S_salmonicida.tRNA
+    wildcards: Genome=S_salmonicida
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+
+/Users/macvbookpro/PycharmProjects/miuul/venv/bin/python /Users/macvbookpro/PycharmProjects/miuul/.snakemake/scripts/tmp20ox_1l4.tRNAscan_stats.py
+[Fri Jan  5 00:12:49 2024]
+Finished job 2.
+1 of 2 steps (50%) done
+Select jobs to execute...
+
+[Fri Jan  5 00:12:49 2024]
+localrule all:
+    input: output/tRNAscan/G_muris.tRNA, output/tRNAscan/S_salmonicida.tRNA
+    jobid: 0
+    reason: Input files updated by another job: output/tRNAscan/S_salmonicida.tRNA
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+
+[Fri Jan  5 00:12:49 2024]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: .snakemake/log/2024-01-05T001206.809186.snakemake.log

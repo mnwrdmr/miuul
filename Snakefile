@@ -1,7 +1,8 @@
 rule all:
     input: #'output/tRNA_scan_result.txt',
             #'output/G_intestinalis.tRNA',
-            expand('output/tRNAscan/{sp}.tRNA', sp=['G_muris', 'G_intestinalis']),
+            #expand('output/tRNAscan/{sp}.tRNA', sp=['G_muris', 'G_intestinalis']),
+            expand('output/tRNAscan/{sp}.tRNA',sp=['G_muris', 'S_salmonicida']),
             #expand('output/blastn/G_intestinalis/{sp}.blastn',sp=['G_muris', 'S_salmonicida']),
 
 rule tRNAscan:
