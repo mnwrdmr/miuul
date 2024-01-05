@@ -1,0 +1,24 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job stats:
+job            count
+-----------  -------
+all                1
+blastn             2
+makeblastdb        1
+total              4
+
+Select jobs to execute...
+
+[Fri Jan  5 12:43:18 2024]
+rule makeblastdb:
+    input: resource/blastn/db/G_intestinalis.fasta
+    output: output/blastn/db/G_intestinalis.ndb, output/blastn/db/G_intestinalis.nhr, output/blastn/db/G_intestinalis.nin, output/blastn/db/G_intestinalis.not, output/blastn/db/G_intestinalis.nsq, output/blastn/db/G_intestinalis.ntf, output/blastn/db/G_intestinalis.nto
+    jobid: 2
+    reason: Forced execution
+    wildcards: type=blastn, db=G_intestinalis
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+

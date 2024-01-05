@@ -1,0 +1,41 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job       count
+------  -------
+all           1
+blastn        2
+total         3
+
+Select jobs to execute...
+
+[Fri Jan  5 12:23:39 2024]
+rule blastn:
+    input: resource/blastn/query/S_salmonicida.fasta, output/blastn/db/G_intestinalis.ndb
+    output: output/blastn/G_intestinalis/S_salmonicida.blastn
+    jobid: 3
+    reason: Missing output files: output/blastn/G_intestinalis/S_salmonicida.blastn
+    wildcards: type=blastn, db=G_intestinalis, query=S_salmonicida
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+
+python -c "from __future__ import print_function; import sys, json; print(json.dumps([sys.version_info.major, sys.version_info.minor]))"
+Activating conda environment: ../../opt/anaconda3/envs/blast
+python /Users/macvbookpro/PycharmProjects/miuul/.snakemake/scripts/tmpqe6lkd79.blastn.py
+Activating conda environment: ../../opt/anaconda3/envs/blast
+[Fri Jan  5 12:23:43 2024]
+Error in rule blastn:
+    jobid: 3
+    input: resource/blastn/query/S_salmonicida.fasta, output/blastn/db/G_intestinalis.ndb
+    output: output/blastn/G_intestinalis/S_salmonicida.blastn
+    conda-env: /Users/macvbookpro/opt/anaconda3/envs/blast
+
+RuleException:
+CalledProcessError in file /Users/macvbookpro/PycharmProjects/miuul/Snakefile, line 75:
+Command 'source /Users/macvbookpro/opt/anaconda3/bin/activate '/Users/macvbookpro/opt/anaconda3/envs/blast'; set -euo pipefail;  python /Users/macvbookpro/PycharmProjects/miuul/.snakemake/scripts/tmpqe6lkd79.blastn.py' returned non-zero exit status 1.
+  File "/Users/macvbookpro/PycharmProjects/miuul/Snakefile", line 75, in __rule_blastn
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-01-05T122339.496346.snakemake.log

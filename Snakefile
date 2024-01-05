@@ -1,9 +1,9 @@
 rule all:
-    input: #'output/tRNA_scan_result.txt',
-            #'output/G_intestinalis.tRNA',
+    input: 'output/tRNA_scan_result.txt',
+            'output/G_intestinalis.tRNA',
             #expand('output/tRNAscan/{sp}.tRNA', sp=['G_muris', 'G_intestinalis']),
-            expand('output/tRNAscan/{sp}.tRNA',sp=['G_muris', 'S_salmonicida']),
-            outexpand('output/blastn/G_intestinalis/{sp}.blastn',sp=['G_muris', 'S_salmonicida']),
+            #expand('output/tRNAscan/{sp}.tRNA',sp=['G_muris', 'S_salmonicida']),
+            expand('output/blastn/G_intestinalis/{sp}.blastn',sp=['G_muris', 'S_salmonicida']),
 
 rule tRNAscan:
     input: 'resource/Genome/G_intestinalis.fasta'
@@ -33,6 +33,8 @@ rule tRNAscan_stats_wildcard:
         stats='output/tRNAscan/{Genome}.stats'
     params:
         threads=2
+    conda:
+        'env/env.yaml'
     script:
         'scripts/tRNAscan_stats.py'
 
@@ -49,13 +51,14 @@ rule makeblastdb:
         'output/{type}/db/{db}.nto'
     params:
         outname='output/{type}/db/{db}'
+
     shell:
         'makeblastdb -dbtype nucl -in {input} -out {params.outname}'
 
 rule blastn:
     input:
-        query = 'resource/{type}/query/{query}.fasta',
-        db = 'output/{type}/db/{db}.ndb'
+        query = 'resource/blastn/{type}/query/{query}.fasta',
+        db = 'output/blastn/{type}/db/{db}.ndb'
     output:
           'output/{type}/{db}/{query}.blastn'
     params:
@@ -65,6 +68,7 @@ rule blastn:
           max_target_seqs=1,
           max_hsps=1,
           db_prefix='output/{type}/db/{db}'
+
     script:
           'scripts/blastn.py'
 

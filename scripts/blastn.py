@@ -1,4 +1,4 @@
-import snakemake.io
+import snakemake
 from snakemake.shell import shell
 
 #input, output
@@ -7,7 +7,7 @@ out = snakemake.output[0]
 
 #parameters
 db_prefix = snakemake.params.db_prefix
-perc_idenntity = snakemake.params.perc_identity
+perc_identity = snakemake.params.perc_identity
 outfmt = snakemake.params.outfmt
 num_threads = snakemake.params.num_threads
 max_target_seqs = snakemake.params.max_target_seqs

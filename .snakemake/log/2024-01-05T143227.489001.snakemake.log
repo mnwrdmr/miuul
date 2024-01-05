@@ -1,0 +1,42 @@
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job            count
+-----------  -------
+all                1
+blastn             2
+makeblastdb        1
+tRNAscan           1
+total              5
+
+Select jobs to execute...
+
+[Fri Jan  5 14:32:31 2024]
+rule tRNAscan:
+    input: resource/Genome/G_intestinalis.fasta
+    output: output/tRNA_scan_result.txt
+    jobid: 1
+    reason: Set of input files has changed since last execution
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+
+tRNAscan-SE resource/Genome/G_intestinalis.fasta -o output/tRNA_scan_result.txt
+Activating conda environment: .snakemake/conda/73c6d83eec8c5e6250df5c3143a683ed_
+[Fri Jan  5 14:33:07 2024]
+Finished job 1.
+1 of 5 steps (20%) done
+Select jobs to execute...
+
+[Fri Jan  5 14:33:07 2024]
+rule makeblastdb:
+    input: resource/blastn/db/G_intestinalis.fasta
+    output: output/blastn/db/G_intestinalis.ndb, output/blastn/db/G_intestinalis.nhr, output/blastn/db/G_intestinalis.nin, output/blastn/db/G_intestinalis.not, output/blastn/db/G_intestinalis.nsq, output/blastn/db/G_intestinalis.ntf, output/blastn/db/G_intestinalis.nto
+    jobid: 4
+    reason: Missing output files: output/blastn/db/G_intestinalis.ndb
+    wildcards: type=blastn, db=G_intestinalis
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+
+makeblastdb -dbtype nucl -in resource/blastn/db/G_intestinalis.fasta -out output/blastn/db/G_intestinalis
+Activating conda environment: ../../opt/anaconda3/envs/blast

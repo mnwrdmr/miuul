@@ -1,0 +1,53 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job            count
+-----------  -------
+all                1
+blastn             2
+makeblastdb        1
+total              4
+
+Select jobs to execute...
+
+[Fri Jan  5 17:20:54 2024]
+rule makeblastdb:
+    input: resource/blastn/db/G_intestinalis.fasta
+    output: output/blastn/db/G_intestinalis.ndb, output/blastn/db/G_intestinalis.nhr, output/blastn/db/G_intestinalis.nin, output/blastn/db/G_intestinalis.not, output/blastn/db/G_intestinalis.nsq, output/blastn/db/G_intestinalis.ntf, output/blastn/db/G_intestinalis.nto
+    jobid: 2
+    reason: Missing output files: output/blastn/db/G_intestinalis.ndb
+    wildcards: type=blastn, db=G_intestinalis
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+
+makeblastdb -dbtype nucl -in resource/blastn/db/G_intestinalis.fasta -out output/blastn/db/G_intestinalis
+[Fri Jan  5 17:20:58 2024]
+Finished job 2.
+1 of 4 steps (25%) done
+Select jobs to execute...
+
+[Fri Jan  5 17:20:58 2024]
+rule blastn:
+    input: resource/blastn/query/S_salmonicida.fasta, output/blastn/db/G_intestinalis.ndb
+    output: output/blastn/G_intestinalis/S_salmonicida.blastn
+    jobid: 3
+    reason: Missing output files: output/blastn/G_intestinalis/S_salmonicida.blastn; Input files updated by another job: output/blastn/db/G_intestinalis.ndb
+    wildcards: type=blastn, db=G_intestinalis, query=S_salmonicida
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+
+/Users/macvbookpro/PycharmProjects/miuul/venv/bin/python /Users/macvbookpro/PycharmProjects/miuul/.snakemake/scripts/tmpftir1bnv.blastn.py
+[Fri Jan  5 17:20:59 2024]
+Error in rule blastn:
+    jobid: 3
+    input: resource/blastn/query/S_salmonicida.fasta, output/blastn/db/G_intestinalis.ndb
+    output: output/blastn/G_intestinalis/S_salmonicida.blastn
+
+RuleException:
+CalledProcessError in file /Users/macvbookpro/PycharmProjects/miuul/Snakefile, line 65:
+Command 'set -euo pipefail;  /Users/macvbookpro/PycharmProjects/miuul/venv/bin/python /Users/macvbookpro/PycharmProjects/miuul/.snakemake/scripts/tmpftir1bnv.blastn.py' returned non-zero exit status 1.
+  File "/Users/macvbookpro/PycharmProjects/miuul/Snakefile", line 65, in __rule_blastn
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-01-05T172054.214857.snakemake.log

@@ -1,0 +1,26 @@
+Building DAG of jobs...
+Your conda installation is not configured to use strict channel priorities. This is however crucial for having robust and correct environments (for details, see https://conda-forge.org/docs/user/tipsandtricks.html). Please consider to configure strict priorities by executing 'conda config --set channel_priority strict'.
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job            count
+-----------  -------
+all                1
+blastn             2
+makeblastdb        1
+total              4
+
+Select jobs to execute...
+
+[Sat Jan  6 00:33:52 2024]
+rule makeblastdb:
+    input: resource/blastn/db/G_intestinalis.fasta
+    output: output/blastn/db/G_intestinalis.ndb, output/blastn/db/G_intestinalis.nhr, output/blastn/db/G_intestinalis.nin, output/blastn/db/G_intestinalis.not, output/blastn/db/G_intestinalis.nsq, output/blastn/db/G_intestinalis.ntf, output/blastn/db/G_intestinalis.nto
+    jobid: 3
+    reason: Missing output files: output/blastn/db/G_intestinalis.nhr
+    wildcards: type=blastn, db=G_intestinalis
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+
+makeblastdb -dbtype nucl -in resource/blastn/db/G_intestinalis.fasta -out output/blastn/db/G_intestinalis
+Activating conda environment: ../../opt/anaconda3/envs/blast
