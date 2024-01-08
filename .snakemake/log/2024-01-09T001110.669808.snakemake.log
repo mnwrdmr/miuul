@@ -1,0 +1,54 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job       count
+------  -------
+all           1
+blastn        2
+total         3
+
+Select jobs to execute...
+
+[Tue Jan  9 00:11:10 2024]
+rule blastn:
+    input: resource/blastn/query/S_salmonicida.fasta, output/blastn/db/G_intestinalis.ndb
+    output: output/blastn/G_intestinalis/S_salmonicida.blastn
+    jobid: 3
+    reason: Missing output files: output/blastn/G_intestinalis/S_salmonicida.blastn
+    wildcards: type=blastn, db=G_intestinalis, query=S_salmonicida
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+
+/Users/macvbookpro/PycharmProjects/miuul/venv/bin/python /Users/macvbookpro/PycharmProjects/miuul/.snakemake/scripts/tmp2phjjffn.blastn.py
+[Tue Jan  9 00:11:19 2024]
+Finished job 3.
+1 of 3 steps (33%) done
+Select jobs to execute...
+
+[Tue Jan  9 00:11:19 2024]
+rule blastn:
+    input: resource/blastn/query/G_muris.fasta, output/blastn/db/G_intestinalis.ndb
+    output: output/blastn/G_intestinalis/G_muris.blastn
+    jobid: 1
+    reason: Code has changed since last execution
+    wildcards: type=blastn, db=G_intestinalis, query=G_muris
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+
+/Users/macvbookpro/PycharmProjects/miuul/venv/bin/python /Users/macvbookpro/PycharmProjects/miuul/.snakemake/scripts/tmpxpx70nfa.blastn.py
+[Tue Jan  9 00:11:22 2024]
+Finished job 1.
+2 of 3 steps (67%) done
+Select jobs to execute...
+
+[Tue Jan  9 00:11:22 2024]
+localrule all:
+    input: output/blastn/G_intestinalis/G_muris.blastn, output/blastn/G_intestinalis/S_salmonicida.blastn
+    jobid: 0
+    reason: Input files updated by another job: output/blastn/G_intestinalis/G_muris.blastn, output/blastn/G_intestinalis/S_salmonicida.blastn
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+
+[Tue Jan  9 00:11:22 2024]
+Finished job 0.
+3 of 3 steps (100%) done
+Complete log: .snakemake/log/2024-01-09T001110.669808.snakemake.log

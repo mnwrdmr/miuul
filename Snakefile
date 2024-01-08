@@ -1,6 +1,6 @@
 rule all:
-    input: 'output/tRNA_scan_result.txt',
-            'output/G_intestinalis.tRNA',
+    input: #'output/tRNA_scan_result.txt',
+            #'output/G_intestinalis.tRNA',
             #expand('output/tRNAscan/{sp}.tRNA', sp=['G_muris', 'G_intestinalis']),
             #expand('output/tRNAscan/{sp}.tRNA',sp=['G_muris', 'S_salmonicida']),
             expand('output/blastn/G_intestinalis/{sp}.blastn',sp=['G_muris', 'S_salmonicida']),
@@ -51,14 +51,15 @@ rule makeblastdb:
         'output/{type}/db/{db}.nto'
     params:
         outname='output/{type}/db/{db}'
-
+    conda:
+        '/Users/macvbookpro/opt/anaconda3/envs/blast'
     shell:
         'makeblastdb -dbtype nucl -in {input} -out {params.outname}'
 
 rule blastn:
     input:
-        query = 'resource/blastn/{type}/query/{query}.fasta',
-        db = 'output/blastn/{type}/db/{db}.ndb'
+        query = 'resource/{type}/query/{query}.fasta',
+        db = 'output/{type}/db/{db}.ndb'
     output:
           'output/{type}/{db}/{query}.blastn'
     params:
@@ -68,7 +69,5 @@ rule blastn:
           max_target_seqs=1,
           max_hsps=1,
           db_prefix='output/{type}/db/{db}'
-
     script:
           'scripts/blastn.py'
-
