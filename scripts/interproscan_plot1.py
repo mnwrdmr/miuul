@@ -8,6 +8,7 @@ df_ipr = df[[0, 11]]
 df_ipr = df_ipr.dropna().drop_duplicates().rename(columns={0: 'id', 11: 'ipr'})
 
 import matplotlib.pyplot as plt
+from matplotlib.gridspec import GridSpec
 #plot the most common IPRs
 df_ipr['ipr'].value_counts()[:10].plot(kind='bar')
 
@@ -15,5 +16,7 @@ df_ipr['ipr'].value_counts()[:10].plot(kind='bar')
 plt.title('Bar plot of Interproscan')
 plt.xlabel('ID')
 plt.ylabel('IPR')
+
+plt.subplots_adjust(left=0.1, right=0.9, top=0.9, bottom=0.3)
 
 plt.show()
