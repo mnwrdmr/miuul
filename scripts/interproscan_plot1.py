@@ -7,6 +7,13 @@ df = pd.read_csv('/resource/Interproscan/G_muris.tsv', sep='\t', names=list(rang
 df_ipr = df[[0, 11]]
 df_ipr = df_ipr.dropna().drop_duplicates().rename(columns={0: 'id', 11: 'ipr'})
 
+import matplotlib.pyplot as plt
 #plot the most common IPRs
 df_ipr['ipr'].value_counts()[:10].plot(kind='bar')
+
+# Set plot title and labels
+plt.title('Bar plot of Interproscan')
+plt.xlabel('ID')
+plt.ylabel('IPR')
+
 plt.show()
