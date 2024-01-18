@@ -3,7 +3,8 @@ rule all:
             #'output/G_intestinalis.tRNA',
             #expand('output/tRNAscan/{sp}.tRNA', sp=['G_muris', 'G_intestinalis']),
             #expand('output/tRNAscan/{sp}.tRNA',sp=['G_muris', 'S_salmonicida']),
-            expand('output/blastn/G_intestinalis/{sp}.blastn',sp=['G_muris', 'S_salmonicida']),
+            #expand('output/blastn/G_intestinalis/{sp}.blastn',sp=['G_muris', 'S_salmonicida']),
+            "output/orthofinder/",
 
 rule tRNAscan:
     input: 'resource/Genome/G_intestinalis.fasta'
@@ -23,7 +24,7 @@ rule tRNAscan_stats:
     conda:
         'env/env.yaml'
     script:
-        'scripts/tRNAscan_stats.py'
+        'scripts/2_BioinformaticsTools/tRNAscan_stats.py'
 
 rule tRNAscan_stats_wildcard:
     input:
@@ -36,7 +37,7 @@ rule tRNAscan_stats_wildcard:
     conda:
         'env/env.yaml'
     script:
-        'scripts/tRNAscan_stats.py'
+        'scripts/2_BioinformaticsTools/tRNAscan_stats.py'
 
 rule makeblastdb:
     input:
@@ -70,4 +71,14 @@ rule blastn:
           max_hsps=1,
           db_prefix='output/{type}/db/{db}'
     script:
-          'scripts/blastn.py'
+          'scripts/2_BioinformaticsTools/blastn.py'
+
+rule orthofinder:
+    input:
+        fasta = "resource/orthofinder/",
+    output:
+          directory('output/orthofinder/')
+    conda:
+        "env/env.yaml"
+    script:
+          "scripts/2_BioinformaticsTools/orthofinder.py"

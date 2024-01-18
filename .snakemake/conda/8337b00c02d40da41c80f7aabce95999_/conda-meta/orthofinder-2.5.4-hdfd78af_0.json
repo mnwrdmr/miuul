@@ -1,0 +1,266 @@
+{
+  "build": "hdfd78af_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/noarch",
+  "constrains": [],
+  "depends": [
+    "blast",
+    "bzip2",
+    "diamond",
+    "fastme",
+    "fasttree",
+    "iqtree",
+    "mafft",
+    "mcl",
+    "mmseqs2",
+    "muscle",
+    "python >=2.7",
+    "raxml",
+    "raxml-ng",
+    "scipy"
+  ],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/orthofinder-2.5.4-hdfd78af_0",
+  "features": "",
+  "files": [
+    "bin/convert_orthofinder_tree_ids.py",
+    "bin/make_ultrametric.py",
+    "bin/orthofinder",
+    "bin/primary_transcript.py",
+    "bin/scripts_of/__init__.py",
+    "bin/scripts_of/__main__.py",
+    "bin/scripts_of/blast_file_processor.py",
+    "bin/scripts_of/config.json",
+    "bin/scripts_of/consensus_tree.py",
+    "bin/scripts_of/files.py",
+    "bin/scripts_of/matrices.py",
+    "bin/scripts_of/mcl.py",
+    "bin/scripts_of/newick.py",
+    "bin/scripts_of/orthologues.py",
+    "bin/scripts_of/parallel_task_manager.py",
+    "bin/scripts_of/probroot.py",
+    "bin/scripts_of/program_caller.py",
+    "bin/scripts_of/resolve.py",
+    "bin/scripts_of/stag.py",
+    "bin/scripts_of/stride.py",
+    "bin/scripts_of/tree.py",
+    "bin/scripts_of/trees2ologs_dlcpar.py",
+    "bin/scripts_of/trees2ologs_of.py",
+    "bin/scripts_of/trees_msa.py",
+    "bin/scripts_of/trim.py",
+    "bin/scripts_of/util.py",
+    "bin/scripts_of/wrapper_phyldog.py"
+  ],
+  "fn": "orthofinder-2.5.4-hdfd78af_0.tar.bz2",
+  "license": "GPLv3",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/orthofinder-2.5.4-hdfd78af_0",
+    "type": 1
+  },
+  "md5": "078fd235184f7be334b43bdfc99d763e",
+  "name": "orthofinder",
+  "noarch": "generic",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/orthofinder-2.5.4-hdfd78af_0.tar.bz2",
+  "package_type": "noarch_generic",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/convert_orthofinder_tree_ids.py",
+        "path_type": "hardlink",
+        "sha256": "d522561e3b6d30139e3b099197dc20ef73b2c5aaa016504b38edc33551bf451d",
+        "sha256_in_prefix": "d522561e3b6d30139e3b099197dc20ef73b2c5aaa016504b38edc33551bf451d",
+        "size_in_bytes": 3140
+      },
+      {
+        "_path": "bin/make_ultrametric.py",
+        "path_type": "hardlink",
+        "sha256": "2b801fb9ecb4e3e4d4db2ce723ad6cd813bc8a1ef9e3fdef45a4a43b9ed009c9",
+        "sha256_in_prefix": "2b801fb9ecb4e3e4d4db2ce723ad6cd813bc8a1ef9e3fdef45a4a43b9ed009c9",
+        "size_in_bytes": 2446
+      },
+      {
+        "_path": "bin/orthofinder",
+        "path_type": "hardlink",
+        "sha256": "889b6ccebd8b74bb3d9f2f871866c3a590a4ac2955585dd43daeb181d78a2bc2",
+        "sha256_in_prefix": "889b6ccebd8b74bb3d9f2f871866c3a590a4ac2955585dd43daeb181d78a2bc2",
+        "size_in_bytes": 138
+      },
+      {
+        "_path": "bin/primary_transcript.py",
+        "path_type": "hardlink",
+        "sha256": "405daa11e5d1b113cb67ae0f8e94e061c9d131f061045e982332fc4719b0a423",
+        "sha256_in_prefix": "405daa11e5d1b113cb67ae0f8e94e061c9d131f061045e982332fc4719b0a423",
+        "size_in_bytes": 7739
+      },
+      {
+        "_path": "bin/scripts_of/__init__.py",
+        "path_type": "hardlink",
+        "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "sha256_in_prefix": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "size_in_bytes": 0
+      },
+      {
+        "_path": "bin/scripts_of/__main__.py",
+        "path_type": "hardlink",
+        "sha256": "d12e3ff770372bc7f5f48aa5ea174f065fe8f98803ad6866b541e144c4000185",
+        "sha256_in_prefix": "d12e3ff770372bc7f5f48aa5ea174f065fe8f98803ad6866b541e144c4000185",
+        "size_in_bytes": 94300
+      },
+      {
+        "_path": "bin/scripts_of/blast_file_processor.py",
+        "path_type": "hardlink",
+        "sha256": "400b59c28e6fbb12ab832950b1d89f99efc826ea7dcd31404781b3d2c8158edb",
+        "sha256_in_prefix": "400b59c28e6fbb12ab832950b1d89f99efc826ea7dcd31404781b3d2c8158edb",
+        "size_in_bytes": 4962
+      },
+      {
+        "_path": "bin/scripts_of/config.json",
+        "path_type": "hardlink",
+        "sha256": "2180feed9859e04c1d4d81fce11483d888b41bf91effb2126cd6e5ecf6335ee5",
+        "sha256_in_prefix": "2180feed9859e04c1d4d81fce11483d888b41bf91effb2126cd6e5ecf6335ee5",
+        "size_in_bytes": 2974
+      },
+      {
+        "_path": "bin/scripts_of/consensus_tree.py",
+        "path_type": "hardlink",
+        "sha256": "6bd34afa6bb73386f26e6da1a58685ca540c9c6ad74edaf23212fa60e7b57191",
+        "sha256_in_prefix": "6bd34afa6bb73386f26e6da1a58685ca540c9c6ad74edaf23212fa60e7b57191",
+        "size_in_bytes": 9970
+      },
+      {
+        "_path": "bin/scripts_of/files.py",
+        "path_type": "hardlink",
+        "sha256": "e4339212e8ec1a86dd0227a792ee0c8c08b8171ac1708a4dfbcd104ab0ede6ae",
+        "sha256_in_prefix": "e4339212e8ec1a86dd0227a792ee0c8c08b8171ac1708a4dfbcd104ab0ede6ae",
+        "size_in_bytes": 41462
+      },
+      {
+        "_path": "bin/scripts_of/matrices.py",
+        "path_type": "hardlink",
+        "sha256": "26c0b6ffc4caba8624911ec05bfe789a88ae9fe56b4e4cabffb8576b7f9304d8",
+        "sha256_in_prefix": "26c0b6ffc4caba8624911ec05bfe789a88ae9fe56b4e4cabffb8576b7f9304d8",
+        "size_in_bytes": 2863
+      },
+      {
+        "_path": "bin/scripts_of/mcl.py",
+        "path_type": "hardlink",
+        "sha256": "444246ea42363100d7c7975c272692f0e3b42701d57848af3d8a6ad0b2a19475",
+        "sha256_in_prefix": "444246ea42363100d7c7975c272692f0e3b42701d57848af3d8a6ad0b2a19475",
+        "size_in_bytes": 4272
+      },
+      {
+        "_path": "bin/scripts_of/newick.py",
+        "path_type": "hardlink",
+        "sha256": "7343d09d71c5cf6fb5f26ddb4fcc123dfaed161add896c56a457061de2309a14",
+        "sha256_in_prefix": "7343d09d71c5cf6fb5f26ddb4fcc123dfaed161add896c56a457061de2309a14",
+        "size_in_bytes": 16762
+      },
+      {
+        "_path": "bin/scripts_of/orthologues.py",
+        "path_type": "hardlink",
+        "sha256": "8e93e4e34ec3e7ec429bdf4ba61e2f53468aff36cee73d5fc5abc1824eedd094",
+        "sha256_in_prefix": "8e93e4e34ec3e7ec429bdf4ba61e2f53468aff36cee73d5fc5abc1824eedd094",
+        "size_in_bytes": 53879
+      },
+      {
+        "_path": "bin/scripts_of/parallel_task_manager.py",
+        "path_type": "hardlink",
+        "sha256": "69e77bfb30f6aebee1b961dc00e41dc9b622be68b83e0256221451a8489bcc41",
+        "sha256_in_prefix": "69e77bfb30f6aebee1b961dc00e41dc9b622be68b83e0256221451a8489bcc41",
+        "size_in_bytes": 17067
+      },
+      {
+        "_path": "bin/scripts_of/probroot.py",
+        "path_type": "hardlink",
+        "sha256": "17fa8357e04dbea012191098204615faf1b484582efd59df9134e3d9cbd1462b",
+        "sha256_in_prefix": "17fa8357e04dbea012191098204615faf1b484582efd59df9134e3d9cbd1462b",
+        "size_in_bytes": 22467
+      },
+      {
+        "_path": "bin/scripts_of/program_caller.py",
+        "path_type": "hardlink",
+        "sha256": "d108be168c3cc4e8824a467920a04bfdac4f5eb532315b8a5d3e9d501bf82acf",
+        "sha256_in_prefix": "d108be168c3cc4e8824a467920a04bfdac4f5eb532315b8a5d3e9d501bf82acf",
+        "size_in_bytes": 18432
+      },
+      {
+        "_path": "bin/scripts_of/resolve.py",
+        "path_type": "hardlink",
+        "sha256": "540f7cd4b57a2494ba61dc514049a9712c341359a49336afa8df65733c89980c",
+        "sha256_in_prefix": "540f7cd4b57a2494ba61dc514049a9712c341359a49336afa8df65733c89980c",
+        "size_in_bytes": 19762
+      },
+      {
+        "_path": "bin/scripts_of/stag.py",
+        "path_type": "hardlink",
+        "sha256": "be1042210c91050f2f062045e26aecd99bbe1a25350136633f2a268d94209b46",
+        "sha256_in_prefix": "be1042210c91050f2f062045e26aecd99bbe1a25350136633f2a268d94209b46",
+        "size_in_bytes": 12741
+      },
+      {
+        "_path": "bin/scripts_of/stride.py",
+        "path_type": "hardlink",
+        "sha256": "a930e8d59bd9c59cd5f9c2d9283852f35b14f53bd61f3e435d81ce3b844bc090",
+        "sha256_in_prefix": "a930e8d59bd9c59cd5f9c2d9283852f35b14f53bd61f3e435d81ce3b844bc090",
+        "size_in_bytes": 33678
+      },
+      {
+        "_path": "bin/scripts_of/tree.py",
+        "path_type": "hardlink",
+        "sha256": "e3c9e093fa9f19e6f00e1bea958c28194afcd94aa53c19a60f0ea2d4c7d7c5aa",
+        "sha256_in_prefix": "e3c9e093fa9f19e6f00e1bea958c28194afcd94aa53c19a60f0ea2d4c7d7c5aa",
+        "size_in_bytes": 64322
+      },
+      {
+        "_path": "bin/scripts_of/trees2ologs_dlcpar.py",
+        "path_type": "hardlink",
+        "sha256": "3fbfe9a8a94d91f7d73125496f2a730daf3c985ae1fb15c10920d917c11d5263",
+        "sha256_in_prefix": "3fbfe9a8a94d91f7d73125496f2a730daf3c985ae1fb15c10920d917c11d5263",
+        "size_in_bytes": 13941
+      },
+      {
+        "_path": "bin/scripts_of/trees2ologs_of.py",
+        "path_type": "hardlink",
+        "sha256": "bd0769d6170026694fa854844bf3b437a2f0b8e51ceedb218a45dbc64672c590",
+        "sha256_in_prefix": "bd0769d6170026694fa854844bf3b437a2f0b8e51ceedb218a45dbc64672c590",
+        "size_in_bytes": 72341
+      },
+      {
+        "_path": "bin/scripts_of/trees_msa.py",
+        "path_type": "hardlink",
+        "sha256": "6ba0f3fb41cb485d03df75ee4237db9b447eadafd9349864ca3719c3c7b673fc",
+        "sha256_in_prefix": "6ba0f3fb41cb485d03df75ee4237db9b447eadafd9349864ca3719c3c7b673fc",
+        "size_in_bytes": 21469
+      },
+      {
+        "_path": "bin/scripts_of/trim.py",
+        "path_type": "hardlink",
+        "sha256": "1dd38b5d314531144bec8974f162007165fc605e8aa8cdad7f5555d47f2bc473",
+        "sha256_in_prefix": "1dd38b5d314531144bec8974f162007165fc605e8aa8cdad7f5555d47f2bc473",
+        "size_in_bytes": 8452
+      },
+      {
+        "_path": "bin/scripts_of/util.py",
+        "path_type": "hardlink",
+        "sha256": "20359ed421296275db66f3f109864a18ba0d203af27e1b88241d844d0b528c04",
+        "sha256_in_prefix": "20359ed421296275db66f3f109864a18ba0d203af27e1b88241d844d0b528c04",
+        "size_in_bytes": 18566
+      },
+      {
+        "_path": "bin/scripts_of/wrapper_phyldog.py",
+        "path_type": "hardlink",
+        "sha256": "7133ce335f2e1187fac55e04a95aa2a2fc04a0b5aef7d2569832545ac4c1b719",
+        "sha256_in_prefix": "7133ce335f2e1187fac55e04a95aa2a2fc04a0b5aef7d2569832545ac4c1b719",
+        "size_in_bytes": 8363
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "bioconda::orthofinder",
+  "sha256": "7bda87b6105b985934bc125866eef305f6bb30fd599dc261af791fc3a77cb905",
+  "size": 131956,
+  "subdir": "noarch",
+  "timestamp": 1625740216000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/noarch/orthofinder-2.5.4-hdfd78af_0.tar.bz2",
+  "version": "2.5.4"
+}

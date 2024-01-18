@@ -1,0 +1,40 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job            count
+-----------  -------
+all                1
+orthofinder        1
+total              2
+
+Select jobs to execute...
+
+[Thu Jan 18 21:46:03 2024]
+rule orthofinder:
+    input: resource/orthofinder
+    output: output/orthofinder
+    jobid: 1
+    reason: Missing output files: output/orthofinder
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+
+python -c "from __future__ import print_function; import sys, json; print(json.dumps([sys.version_info.major, sys.version_info.minor]))"
+Activating conda environment: .snakemake/conda/8337b00c02d40da41c80f7aabce95999_
+python /Users/macvbookpro/PycharmProjects/miuul/.snakemake/scripts/tmpt3alhf_d.orthofinder.py
+Activating conda environment: .snakemake/conda/8337b00c02d40da41c80f7aabce95999_
+[Thu Jan 18 21:46:04 2024]
+Error in rule orthofinder:
+    jobid: 1
+    input: resource/orthofinder
+    output: output/orthofinder
+    conda-env: /Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8337b00c02d40da41c80f7aabce95999_
+
+RuleException:
+CalledProcessError in file /Users/macvbookpro/PycharmProjects/miuul/Snakefile, line 83:
+Command 'source /Users/macvbookpro/opt/anaconda3/bin/activate '/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8337b00c02d40da41c80f7aabce95999_'; set -euo pipefail;  python /Users/macvbookpro/PycharmProjects/miuul/.snakemake/scripts/tmpt3alhf_d.orthofinder.py' returned non-zero exit status 1.
+  File "/Users/macvbookpro/PycharmProjects/miuul/Snakefile", line 83, in __rule_orthofinder
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-01-18T214559.334842.snakemake.log

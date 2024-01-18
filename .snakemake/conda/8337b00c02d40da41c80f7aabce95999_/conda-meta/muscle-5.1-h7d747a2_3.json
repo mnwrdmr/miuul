@@ -1,0 +1,44 @@
+{
+  "build": "h7d747a2_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=15.0.7",
+    "llvm-openmp >=15.0.7"
+  ],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/muscle-5.1-h7d747a2_3",
+  "features": "",
+  "files": [
+    "bin/muscle"
+  ],
+  "fn": "muscle-5.1-h7d747a2_3.tar.bz2",
+  "license": "GPL-3.0-only",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/muscle-5.1-h7d747a2_3",
+    "type": 1
+  },
+  "md5": "81b3ad80ed932a9307d61bee17c95f38",
+  "name": "muscle",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/muscle-5.1-h7d747a2_3.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/muscle",
+        "path_type": "hardlink",
+        "sha256": "063365ae5e5c8127abdf1613edfa8fa481ecc0ca9bc303106379a05453947c2d",
+        "sha256_in_prefix": "063365ae5e5c8127abdf1613edfa8fa481ecc0ca9bc303106379a05453947c2d",
+        "size_in_bytes": 765864
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "879144aa91168987e23b9a83843899f98545b6094cfc992d6b38a3342b6459cf",
+  "size": 345640,
+  "subdir": "osx-64",
+  "timestamp": 1684186288000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/muscle-5.1-h7d747a2_3.tar.bz2",
+  "version": "5.1"
+}

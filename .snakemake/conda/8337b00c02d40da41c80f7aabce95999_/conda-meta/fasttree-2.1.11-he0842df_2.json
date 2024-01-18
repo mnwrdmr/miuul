@@ -1,0 +1,52 @@
+{
+  "build": "he0842df_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "llvm-openmp >=14.0.6",
+    "llvm-openmp >=16.0.3"
+  ],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/fasttree-2.1.11-he0842df_2",
+  "features": "",
+  "files": [
+    "bin/FastTree",
+    "bin/FastTreeMP"
+  ],
+  "fn": "fasttree-2.1.11-he0842df_2.tar.bz2",
+  "license": "GPL-2",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/fasttree-2.1.11-he0842df_2",
+    "type": 1
+  },
+  "md5": "14eeafb0539fff16c5bb968573e65f02",
+  "name": "fasttree",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/fasttree-2.1.11-he0842df_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/FastTree",
+        "path_type": "hardlink",
+        "sha256": "23d8658ee4473866cb47e5db7a74e64e49c83101384e7615b03a1f84a644be13",
+        "sha256_in_prefix": "23d8658ee4473866cb47e5db7a74e64e49c83101384e7615b03a1f84a644be13",
+        "size_in_bytes": 323400
+      },
+      {
+        "_path": "bin/FastTreeMP",
+        "path_type": "hardlink",
+        "sha256": "bced77769e9c4ac1d6a16abab869b13d0cb3342a719abce7cb52e08cb94b1394",
+        "sha256_in_prefix": "bced77769e9c4ac1d6a16abab869b13d0cb3342a719abce7cb52e08cb94b1394",
+        "size_in_bytes": 336976
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "881a24a43121780ce66fc7a9b9e4038aff1d220184ab8fa00dfca09b3c26eb31",
+  "size": 246788,
+  "subdir": "osx-64",
+  "timestamp": 1683820346000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/fasttree-2.1.11-he0842df_2.tar.bz2",
+  "version": "2.1.11"
+}

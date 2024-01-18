@@ -1,0 +1,203 @@
+{
+  "build": "pl5321h2413b67_4",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "perl >=5.32.1,<5.33.0a0 *_perl5"
+  ],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/infernal-1.1.4-pl5321h2413b67_4",
+  "features": "",
+  "files": [
+    "bin/cmalign",
+    "bin/cmbuild",
+    "bin/cmcalibrate",
+    "bin/cmconvert",
+    "bin/cmemit",
+    "bin/cmfetch",
+    "bin/cmpress",
+    "bin/cmscan",
+    "bin/cmsearch",
+    "bin/cmstat",
+    "share/man/man1/cmalign.1",
+    "share/man/man1/cmbuild.1",
+    "share/man/man1/cmcalibrate.1",
+    "share/man/man1/cmconvert.1",
+    "share/man/man1/cmemit.1",
+    "share/man/man1/cmfetch.1",
+    "share/man/man1/cmpress.1",
+    "share/man/man1/cmscan.1",
+    "share/man/man1/cmsearch.1",
+    "share/man/man1/cmstat.1",
+    "share/man/man1/infernal.1"
+  ],
+  "fn": "infernal-1.1.4-pl5321h2413b67_4.tar.bz2",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/infernal-1.1.4-pl5321h2413b67_4",
+    "type": 1
+  },
+  "md5": "fed8c169e8699d8073bd9aba74489f2c",
+  "name": "infernal",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/infernal-1.1.4-pl5321h2413b67_4.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/cmalign",
+        "path_type": "hardlink",
+        "sha256": "9342fda68421780426f629b311f56c73da87e76525879e32c8bfeb26b82ac90d",
+        "sha256_in_prefix": "9342fda68421780426f629b311f56c73da87e76525879e32c8bfeb26b82ac90d",
+        "size_in_bytes": 2292512
+      },
+      {
+        "_path": "bin/cmbuild",
+        "path_type": "hardlink",
+        "sha256": "c51ede8036d5f206df98a55e77d86d16efb5aaeefe4a51b923fcac492bc1e31f",
+        "sha256_in_prefix": "c51ede8036d5f206df98a55e77d86d16efb5aaeefe4a51b923fcac492bc1e31f",
+        "size_in_bytes": 2531440
+      },
+      {
+        "_path": "bin/cmcalibrate",
+        "path_type": "hardlink",
+        "sha256": "941a527842265bb8191b5839c37bf56cba84d67ef15d6c96227552523db5045b",
+        "sha256_in_prefix": "941a527842265bb8191b5839c37bf56cba84d67ef15d6c96227552523db5045b",
+        "size_in_bytes": 2276904
+      },
+      {
+        "_path": "bin/cmconvert",
+        "path_type": "hardlink",
+        "sha256": "1ea124dd0738212f13f9ef7de178e7f83e1f50caa4108c13b26d66dc9aa99daa",
+        "sha256_in_prefix": "1ea124dd0738212f13f9ef7de178e7f83e1f50caa4108c13b26d66dc9aa99daa",
+        "size_in_bytes": 2228664
+      },
+      {
+        "_path": "bin/cmemit",
+        "path_type": "hardlink",
+        "sha256": "67a2172fc2126149dc240b35aa334f36eeaec270276e43c238349f0b8d495c78",
+        "sha256_in_prefix": "67a2172fc2126149dc240b35aa334f36eeaec270276e43c238349f0b8d495c78",
+        "size_in_bytes": 2241040
+      },
+      {
+        "_path": "bin/cmfetch",
+        "path_type": "hardlink",
+        "sha256": "ccdb9e64bcf40dc2ffd6177741d5e38bf4e9a95f108a36b61e30105fbe73ce14",
+        "sha256_in_prefix": "ccdb9e64bcf40dc2ffd6177741d5e38bf4e9a95f108a36b61e30105fbe73ce14",
+        "size_in_bytes": 2228752
+      },
+      {
+        "_path": "bin/cmpress",
+        "path_type": "hardlink",
+        "sha256": "80b09ffaf4c3c69bca35b30e4acb93057bd2e3d813f3400813b260ece6180219",
+        "sha256_in_prefix": "80b09ffaf4c3c69bca35b30e4acb93057bd2e3d813f3400813b260ece6180219",
+        "size_in_bytes": 2232768
+      },
+      {
+        "_path": "bin/cmscan",
+        "path_type": "hardlink",
+        "sha256": "7efdc602bcaed5f3937689e1360b85027fd385631a13a81809eeba670a6894b1",
+        "sha256_in_prefix": "7efdc602bcaed5f3937689e1360b85027fd385631a13a81809eeba670a6894b1",
+        "size_in_bytes": 2296368
+      },
+      {
+        "_path": "bin/cmsearch",
+        "path_type": "hardlink",
+        "sha256": "7bbab10e58e63616d7602396057553d02681693dd770b87fadaa952a5acb676b",
+        "sha256_in_prefix": "7bbab10e58e63616d7602396057553d02681693dd770b87fadaa952a5acb676b",
+        "size_in_bytes": 2292248
+      },
+      {
+        "_path": "bin/cmstat",
+        "path_type": "hardlink",
+        "sha256": "7ed81593a0dd6c101a117925b81bdf18b96cf5f7341ef804d172068d3acef409",
+        "sha256_in_prefix": "7ed81593a0dd6c101a117925b81bdf18b96cf5f7341ef804d172068d3acef409",
+        "size_in_bytes": 2298944
+      },
+      {
+        "_path": "share/man/man1/cmalign.1",
+        "path_type": "hardlink",
+        "sha256": "f62b56811886c89a46e80732a593fd13b2c8367c0f704d578ecac8884a24a701",
+        "sha256_in_prefix": "f62b56811886c89a46e80732a593fd13b2c8367c0f704d578ecac8884a24a701",
+        "size_in_bytes": 19303
+      },
+      {
+        "_path": "share/man/man1/cmbuild.1",
+        "path_type": "hardlink",
+        "sha256": "7bf119981e4f3864feb53ac32a9c1c7543cb3c155e6abe5949f6c78d43ef4b6b",
+        "sha256_in_prefix": "7bf119981e4f3864feb53ac32a9c1c7543cb3c155e6abe5949f6c78d43ef4b6b",
+        "size_in_bytes": 16524
+      },
+      {
+        "_path": "share/man/man1/cmcalibrate.1",
+        "path_type": "hardlink",
+        "sha256": "49b049c970c2147287387031484a2aff301dec0995064e492468817ed8485152",
+        "sha256_in_prefix": "49b049c970c2147287387031484a2aff301dec0995064e492468817ed8485152",
+        "size_in_bytes": 10343
+      },
+      {
+        "_path": "share/man/man1/cmconvert.1",
+        "path_type": "hardlink",
+        "sha256": "31f7e763af599d1d9f37e8897629739c991a6f3f10178d9bc8b3c646ad520b31",
+        "sha256_in_prefix": "31f7e763af599d1d9f37e8897629739c991a6f3f10178d9bc8b3c646ad520b31",
+        "size_in_bytes": 2252
+      },
+      {
+        "_path": "share/man/man1/cmemit.1",
+        "path_type": "hardlink",
+        "sha256": "ea0def299c2413106ff13df8afff6842067233d11b53bba0d8c02008829765d6",
+        "sha256_in_prefix": "ea0def299c2413106ff13df8afff6842067233d11b53bba0d8c02008829765d6",
+        "size_in_bytes": 7559
+      },
+      {
+        "_path": "share/man/man1/cmfetch.1",
+        "path_type": "hardlink",
+        "sha256": "d091fa79656786c962b974e5ea15a097160c046c516d12bff75a225a03944c2f",
+        "sha256_in_prefix": "d091fa79656786c962b974e5ea15a097160c046c516d12bff75a225a03944c2f",
+        "size_in_bytes": 3637
+      },
+      {
+        "_path": "share/man/man1/cmpress.1",
+        "path_type": "hardlink",
+        "sha256": "341908990d1796dc0fb573653e29f4b097d58763c41cf1f06091f6e4984635e7",
+        "sha256_in_prefix": "341908990d1796dc0fb573653e29f4b097d58763c41cf1f06091f6e4984635e7",
+        "size_in_bytes": 2101
+      },
+      {
+        "_path": "share/man/man1/cmscan.1",
+        "path_type": "hardlink",
+        "sha256": "c7de3b797a8626a3200f77c7a439cdc7e3262695f3d8f7990b36b2f911f4ac2c",
+        "sha256_in_prefix": "c7de3b797a8626a3200f77c7a439cdc7e3262695f3d8f7990b36b2f911f4ac2c",
+        "size_in_bytes": 24295
+      },
+      {
+        "_path": "share/man/man1/cmsearch.1",
+        "path_type": "hardlink",
+        "sha256": "b1aa9765ed7ec403e8a627fdc337c514f026a5266a68d44f7133b9a42d21b0bf",
+        "sha256_in_prefix": "b1aa9765ed7ec403e8a627fdc337c514f026a5266a68d44f7133b9a42d21b0bf",
+        "size_in_bytes": 21999
+      },
+      {
+        "_path": "share/man/man1/cmstat.1",
+        "path_type": "hardlink",
+        "sha256": "323223c8e55025255de47155a5f66899ccad1ad9ac2ed023a5f0ad8b1f319dc4",
+        "sha256_in_prefix": "323223c8e55025255de47155a5f66899ccad1ad9ac2ed023a5f0ad8b1f319dc4",
+        "size_in_bytes": 5688
+      },
+      {
+        "_path": "share/man/man1/infernal.1",
+        "path_type": "hardlink",
+        "sha256": "01abc7acf24c3b8605736f6a604002a9c9155bfe76369e6e5cd4251ce86ca055",
+        "sha256_in_prefix": "01abc7acf24c3b8605736f6a604002a9c9155bfe76369e6e5cd4251ce86ca055",
+        "size_in_bytes": 4582
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d7bb1fcb4890a77ca104f32b42f186819ae5fc7500fb0f7ce07e40695e11a56a",
+  "size": 10078700,
+  "subdir": "osx-64",
+  "timestamp": 1684217640000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/infernal-1.1.4-pl5321h2413b67_4.tar.bz2",
+  "version": "1.1.4"
+}

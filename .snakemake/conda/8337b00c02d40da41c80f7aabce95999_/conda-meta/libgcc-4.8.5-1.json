@@ -1,0 +1,87 @@
+{
+  "build": "1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/libgcc-4.8.5-1",
+  "features": "",
+  "files": [
+    "lib/libgcc_s.1.dylib",
+    "lib/libgcc_s_ppc64.1.dylib",
+    "lib/libgcc_s_x86_64.1.dylib",
+    "lib/libgfortran.3.dylib",
+    "lib/libgfortran.dylib",
+    "lib/libgomp.1.dylib",
+    "lib/libgomp.dylib",
+    "lib/libquadmath.0.dylib",
+    "lib/libquadmath.dylib",
+    "lib/libstdc++.6.dylib",
+    "lib/libstdc++.dylib"
+  ],
+  "fn": "libgcc-4.8.5-1.tar.bz2",
+  "license": "GPL",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/libgcc-4.8.5-1",
+    "type": 1
+  },
+  "md5": "954bdf42de0d03eac9aae517dd7ebcf9",
+  "name": "libgcc",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/libgcc-4.8.5-1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/libgcc_s.1.dylib",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libgcc_s_ppc64.1.dylib",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libgcc_s_x86_64.1.dylib",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libgfortran.3.dylib",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libgfortran.dylib",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libgomp.1.dylib",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libgomp.dylib",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libquadmath.0.dylib",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libquadmath.dylib",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libstdc++.6.dylib",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libstdc++.dylib",
+        "path_type": "softlink"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "5a53fa5291873916bde4c6266aca6e79127a4ff8bb9897dfb1470bf059164364",
+  "size": 804331,
+  "subdir": "osx-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libgcc-4.8.5-1.tar.bz2",
+  "version": "4.8.5"
+}

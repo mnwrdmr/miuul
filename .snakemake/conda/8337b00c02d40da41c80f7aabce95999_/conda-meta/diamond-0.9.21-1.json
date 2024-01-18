@@ -1,0 +1,43 @@
+{
+  "build": "1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "libgcc",
+    "zlib 1.2.11*"
+  ],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/diamond-0.9.21-1",
+  "features": "",
+  "files": [
+    "bin/diamond"
+  ],
+  "fn": "diamond-0.9.21-1.tar.bz2",
+  "license": "AGPL",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/diamond-0.9.21-1",
+    "type": 1
+  },
+  "md5": "38dd61b75311e8bb634b035e3e9b80d4",
+  "name": "diamond",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/diamond-0.9.21-1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/diamond",
+        "path_type": "hardlink",
+        "sha256": "33a2bdf7cc9e3bddd5f972c860b3862f7026a9ac4209602744acf85380b7600e",
+        "sha256_in_prefix": "33a2bdf7cc9e3bddd5f972c860b3862f7026a9ac4209602744acf85380b7600e",
+        "size_in_bytes": 1702768
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "ec5b24eaff0a24ec828d7e1f18af48aadb4c2f9ab23203ce000e9cb25e276574",
+  "size": 669152,
+  "subdir": "osx-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/diamond-0.9.21-1.tar.bz2",
+  "version": "0.9.21"
+}
