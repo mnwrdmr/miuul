@@ -1,0 +1,100 @@
+	G_intestinalis_aa	G_muris_aa	S_salmonicida_aa
+Number of genes	4963	4653	8668
+Number of genes in orthogroups	4137	4141	5230
+Number of unassigned genes	826	512	3438
+Percentage of genes in orthogroups	83.4	89.0	60.3
+Percentage of unassigned genes	16.6	11.0	39.7
+Number of orthogroups containing species	3521	3480	2734
+Percentage of orthogroups containing species	79.0	78.1	61.3
+Number of species-specific orthogroups	62	56	862
+Number of genes in species-specific orthogroups	366	437	2735
+Percentage of genes in species-specific orthogroups	7.4	9.4	31.6
+
+
+Number of genes per-species in orthogroup	Number of orthogroups	Number of orthogroups	Number of orthogroups
+'0	937	978	1724
+'1	3279	3275	1582
+'2	175	149	805
+'3	32	26	156
+'4	9	9	57
+'5	5	4	34
+'6	3	3	30
+'7	3	2	14
+'8	1	2	16
+'9	3	1	5
+'10	1	0	6
+11-15	3	3	18
+16-20	2	0	5
+21-50	5	4	5
+51-100	0	1	0
+101-150	0	0	0
+151-200	0	1	1
+201-500	0	0	0
+501-1000	0	0	0
+'1001+	0	0	0
+
+Number of genes per-species in orthogroup	Percentage of orthogroups	Percentage of orthogroups	Percentage of orthogroups
+'0	21.0	21.9	38.7
+'1	73.6	73.5	35.5
+'2	3.9	3.3	18.1
+'3	0.7	0.6	3.5
+'4	0.2	0.2	1.3
+'5	0.1	0.1	0.8
+'6	0.1	0.1	0.7
+'7	0.1	0.0	0.3
+'8	0.0	0.0	0.4
+'9	0.1	0.0	0.1
+'10	0.0	0.0	0.1
+11-15	0.1	0.1	0.4
+16-20	0.0	0.0	0.1
+21-50	0.1	0.1	0.1
+51-100	0.0	0.0	0.0
+101-150	0.0	0.0	0.0
+151-200	0.0	0.0	0.0
+201-500	0.0	0.0	0.0
+501-1000	0.0	0.0	0.0
+'1001+	0.0	0.0	0.0
+
+Number of genes per-species in orthogroup	Number of genes	Number of genes	Number of genes
+'0	0	0	0
+'1	3279	3275	1582
+'2	350	298	1610
+'3	96	78	468
+'4	36	36	228
+'5	25	20	170
+'6	18	18	180
+'7	21	14	98
+'8	8	16	128
+'9	27	9	45
+'10	10	0	60
+11-15	43	39	237
+16-20	37	0	89
+21-50	187	115	176
+51-100	0	54	0
+101-150	0	0	0
+151-200	0	169	159
+201-500	0	0	0
+501-1000	0	0	0
+'1001+	0	0	0
+
+Number of genes per-species in orthogroup	Percentage of genes	Percentage of genes	Percentage of genes
+'0	0.0	0.0	0.0
+'1	66.1	70.4	18.3
+'2	7.1	6.4	18.6
+'3	1.9	1.7	5.4
+'4	0.7	0.8	2.6
+'5	0.5	0.4	2.0
+'6	0.4	0.4	2.1
+'7	0.4	0.3	1.1
+'8	0.2	0.3	1.5
+'9	0.5	0.2	0.5
+'10	0.2	0.0	0.7
+11-15	0.9	0.8	2.7
+16-20	0.7	0.0	1.0
+21-50	3.8	2.5	2.0
+51-100	0.0	1.2	0.0
+101-150	0.0	0.0	0.0
+151-200	0.0	3.6	1.8
+201-500	0.0	0.0	0.0
+501-1000	0.0	0.0	0.0
+'1001+	0.0	0.0	0.0
