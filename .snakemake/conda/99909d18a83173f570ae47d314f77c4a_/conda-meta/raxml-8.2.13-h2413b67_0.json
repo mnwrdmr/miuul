@@ -1,0 +1,81 @@
+{
+  "build": "h2413b67_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/raxml-8.2.13-h2413b67_0",
+  "features": "",
+  "files": [
+    "bin/raxmlHPC",
+    "bin/raxmlHPC-AVX2",
+    "bin/raxmlHPC-PTHREADS",
+    "bin/raxmlHPC-PTHREADS-AVX2",
+    "bin/raxmlHPC-PTHREADS-SSE3",
+    "bin/raxmlHPC-SSE3"
+  ],
+  "fn": "raxml-8.2.13-h2413b67_0.tar.bz2",
+  "license": "GPL",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/raxml-8.2.13-h2413b67_0",
+    "type": 1
+  },
+  "md5": "dde09be50ad941d96c115359723da928",
+  "name": "raxml",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/raxml-8.2.13-h2413b67_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/raxmlHPC",
+        "path_type": "hardlink",
+        "sha256": "9c06badbbb69933982111cb466f2bf2e0ac48e7405fbd88334248c8fefbab779",
+        "sha256_in_prefix": "9c06badbbb69933982111cb466f2bf2e0ac48e7405fbd88334248c8fefbab779",
+        "size_in_bytes": 962536
+      },
+      {
+        "_path": "bin/raxmlHPC-AVX2",
+        "path_type": "hardlink",
+        "sha256": "1baf68a6e3974dc593ea9e847026e55af6cae5cce2b2f5dc5bdb13eb17f19066",
+        "sha256_in_prefix": "1baf68a6e3974dc593ea9e847026e55af6cae5cce2b2f5dc5bdb13eb17f19066",
+        "size_in_bytes": 979608
+      },
+      {
+        "_path": "bin/raxmlHPC-PTHREADS",
+        "path_type": "hardlink",
+        "sha256": "8dc4fb5ce676c9b3fb46b4d058d5586cc165a09880c41d40c0bf816cada5ba13",
+        "sha256_in_prefix": "8dc4fb5ce676c9b3fb46b4d058d5586cc165a09880c41d40c0bf816cada5ba13",
+        "size_in_bytes": 1028304
+      },
+      {
+        "_path": "bin/raxmlHPC-PTHREADS-AVX2",
+        "path_type": "hardlink",
+        "sha256": "5bdcceaac7b765d440ee89a6382c0d115fbb0b282d49ab3492f0fed9a01955bb",
+        "sha256_in_prefix": "5bdcceaac7b765d440ee89a6382c0d115fbb0b282d49ab3492f0fed9a01955bb",
+        "size_in_bytes": 1045056
+      },
+      {
+        "_path": "bin/raxmlHPC-PTHREADS-SSE3",
+        "path_type": "hardlink",
+        "sha256": "45c488397dad6edc43e00081190f99d3ca3a92f1189d35087ece1e551bba35d9",
+        "sha256_in_prefix": "45c488397dad6edc43e00081190f99d3ca3a92f1189d35087ece1e551bba35d9",
+        "size_in_bytes": 1048656
+      },
+      {
+        "_path": "bin/raxmlHPC-SSE3",
+        "path_type": "hardlink",
+        "sha256": "5276b4af71e02a28d0792626a54b0332a749a73eb673f58103cd0c80d260bccb",
+        "sha256_in_prefix": "5276b4af71e02a28d0792626a54b0332a749a73eb673f58103cd0c80d260bccb",
+        "size_in_bytes": 983056
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "c2b4b3c7f0ed5cd38d75e328b86fc132e8c2b98354451b1af4ebd6f949033725",
+  "size": 2691382,
+  "subdir": "osx-64",
+  "timestamp": 1696442500000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/raxml-8.2.13-h2413b67_0.tar.bz2",
+  "version": "8.2.13"
+}

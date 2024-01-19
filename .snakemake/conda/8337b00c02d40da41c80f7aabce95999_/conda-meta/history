@@ -59,3 +59,50 @@
 +conda-forge/osx-64::xz-5.2.6-h775f41a_0
 +conda-forge/osx-64::zlib-1.2.11-h6c3fc93_1014
 # update specs: ['trnascan-se', 'bioconda::blast', 'bioconda::orthofinder']
+==> 2024-01-19 00:15:24 <==
+# cmd: /Users/macvbookpro/opt/anaconda3/bin/conda install scipy
+# conda version: 23.11.0
+-bioconda/osx-64::blast-2.7.1-boost1.64_2
+-bioconda/osx-64::infernal-1.1.4-pl5321h2413b67_4
+-bioconda/osx-64::mcl-22.282-pl5321h2413b67_1
+-bioconda/osx-64::mmseqs2-13.45111-pl5321hdb1ff06_2
+-bioconda/osx-64::trnascan-se-2.0.12-pl5321h2413b67_0
+-conda-forge/osx-64::ca-certificates-2023.11.17-h8857fd0_0
+-conda-forge/osx-64::openssl-1.1.1w-h8a1eda9_0
+-conda-forge/osx-64::perl-5.32.1-7_h10d778d_perl5
++bioconda/osx-64::blast-2.12.0-h0370960_3
++bioconda/osx-64::entrez-direct-16.2-h193322a_1
++bioconda/osx-64::infernal-1.1.4-hb4d813b_0
++bioconda/osx-64::mcl-14.137-pl5262hb4d813b_6
++bioconda/osx-64::mmseqs2-13.45111-h14b862d_1
++bioconda/osx-64::perl-archive-tar-2.32-pl526_0
++bioconda/osx-64::perl-carp-1.38-pl526_3
++bioconda/osx-64::perl-common-sense-3.74-pl526_2
++bioconda/osx-64::perl-compress-raw-bzip2-2.087-pl526h6de7cb9_0
++bioconda/osx-64::perl-compress-raw-zlib-2.087-pl526h770b8ee_0
++bioconda/osx-64::perl-exporter-5.72-pl526_1
++bioconda/osx-64::perl-exporter-tiny-1.002001-pl526_0
++bioconda/osx-64::perl-extutils-makemaker-7.36-pl526_1
++bioconda/osx-64::perl-io-compress-2.087-pl526h6de7cb9_0
++bioconda/osx-64::perl-io-zlib-1.10-pl526_2
++bioconda/osx-64::perl-json-4.02-pl526_0
++bioconda/osx-64::perl-json-xs-2.34-pl526h04f5b5a_3
++bioconda/osx-64::perl-list-moreutils-0.428-pl526_1
++bioconda/osx-64::perl-list-moreutils-xs-0.428-pl526_0
++bioconda/osx-64::perl-pathtools-3.75-pl526h1de35cc_1
++bioconda/osx-64::perl-scalar-list-utils-1.52-pl526h01d97ff_0
++bioconda/osx-64::perl-types-serialiser-1.0-pl526_2
++bioconda/osx-64::perl-xsloader-0.24-pl526_0
++bioconda/osx-64::trnascan-se-2.0.9-pl5262hb4d813b_1
++defaults/osx-64::c-ares-1.19.1-h6c40b1e_0
++defaults/osx-64::ca-certificates-2023.12.12-hecd8cb5_0
++defaults/osx-64::curl-7.82.0-hca72f7f_0
++defaults/osx-64::krb5-1.19.4-hdba6334_0
++defaults/osx-64::libcurl-7.82.0-h6dfd666_0
++defaults/osx-64::libedit-3.1.20230828-h6c40b1e_0
++defaults/osx-64::libev-4.33-h9ed2024_1
++defaults/osx-64::libnghttp2-1.46.0-ha29bfda_0
++defaults/osx-64::libssh2-1.10.0-hdb2fb19_2
++defaults/osx-64::openssl-1.1.1w-hca72f7f_0
++defaults/osx-64::perl-5.26.2-h4e221da_0
+# update specs: ['scipy']

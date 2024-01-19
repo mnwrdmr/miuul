@@ -1,0 +1,43 @@
+{
+  "build": "hca72f7f_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcurl 7.82.0 h6dfd666_0"
+  ],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/curl-7.82.0-hca72f7f_0",
+  "features": "",
+  "files": [
+    "bin/curl"
+  ],
+  "fn": "curl-7.82.0-hca72f7f_0.conda",
+  "license": "curl",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/curl-7.82.0-hca72f7f_0",
+    "type": 1
+  },
+  "md5": "71b58810016859ef80b0ba29ee83c7da",
+  "name": "curl",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/curl-7.82.0-hca72f7f_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/curl",
+        "path_type": "hardlink",
+        "sha256": "a92f25b842616f6c6d182df9d2523c97df4c3d6cb77ef5a019c657bed32202cf",
+        "sha256_in_prefix": "a92f25b842616f6c6d182df9d2523c97df4c3d6cb77ef5a019c657bed32202cf",
+        "size_in_bytes": 182220
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "413a90f36a483c6d76d42d9e06300833cad823fdae1118909e35b466879ab473",
+  "size": 85581,
+  "subdir": "osx-64",
+  "timestamp": 1649749291000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/curl-7.82.0-hca72f7f_0.conda",
+  "version": "7.82.0"
+}

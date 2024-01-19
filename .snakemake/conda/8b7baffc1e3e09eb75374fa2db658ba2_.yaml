@@ -1,0 +1,8 @@
+name: miuul
+channels:
+  - bioconda
+  - nanoporetech
+dependencies:
+  - bioconda::orthofinder
+
+

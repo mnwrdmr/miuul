@@ -1,0 +1,64 @@
+{
+  "build": "pl526h770b8ee_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1",
+    "perl >=5.26.2,<5.26.3.0a0"
+  ],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/perl-compress-raw-zlib-2.087-pl526h770b8ee_0",
+  "features": "",
+  "files": [
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/Compress/Raw/Zlib.pm",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/Compress/Raw/Zlib/.packlist",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/Compress/Raw/Zlib/Zlib.bundle"
+  ],
+  "fn": "perl-compress-raw-zlib-2.087-pl526h770b8ee_0.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/perl-compress-raw-zlib-2.087-pl526h770b8ee_0",
+    "type": 1
+  },
+  "md5": "68718b74132ec00741b06d1d380ddda7",
+  "name": "perl-compress-raw-zlib",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/perl-compress-raw-zlib-2.087-pl526h770b8ee_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/Compress/Raw/Zlib.pm",
+        "path_type": "hardlink",
+        "sha256": "1311c2f54f7f38f9757aef50113faf7ca4b00cfe20de3476c78e33e175477713",
+        "sha256_in_prefix": "1311c2f54f7f38f9757aef50113faf7ca4b00cfe20de3476c78e33e175477713",
+        "size_in_bytes": 47456
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/Compress/Raw/Zlib/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "d685538f68a741f9a6805692fad17034c170017f8de832d16b72d999d38af161",
+        "sha256_in_prefix": "a99462b6803a63d0654a4deda017d3a00cda17c59d5021c9b9232cd3559aac56",
+        "size_in_bytes": 418
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/Compress/Raw/Zlib/Zlib.bundle",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/distiller/project/miniconda/conda-bld/perl-compress-raw-zlib_1565466552554/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "79dc1f1125c664c9c3d7eca87e176ef8004cbd8eb75714197b1eb9ee59739319",
+        "sha256_in_prefix": "0bd466c31f71c110cc18358e126ba49eb66f0832ec9f78d9347d938b20646511",
+        "size_in_bytes": 131248
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8f0eb1595685a444d8b5848a8c835cf8d0761c2a3ffaed6489a2bb9d9cdf70ca",
+  "size": 73149,
+  "subdir": "osx-64",
+  "timestamp": 1565466710000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/perl-compress-raw-zlib-2.087-pl526h770b8ee_0.tar.bz2",
+  "version": "2.087"
+}

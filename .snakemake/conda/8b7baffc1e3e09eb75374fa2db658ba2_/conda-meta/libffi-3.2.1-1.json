@@ -1,0 +1,103 @@
+{
+  "build": "1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/libffi-3.2.1-1",
+  "features": "",
+  "files": [
+    "include/ffi.h",
+    "include/ffitarget.h",
+    "lib/libffi.6.dylib",
+    "lib/libffi.a",
+    "lib/libffi.dylib",
+    "lib/libffi.la",
+    "lib/pkgconfig/libffi.pc",
+    "share/info/dir",
+    "share/info/libffi.info",
+    "share/man/man3/ffi.3",
+    "share/man/man3/ffi_call.3",
+    "share/man/man3/ffi_prep_cif.3",
+    "share/man/man3/ffi_prep_cif_var.3"
+  ],
+  "fn": "libffi-3.2.1-1.tar.bz2",
+  "license": "https://raw.githubusercontent.com/atgreen/libffi/master/LICENSE",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/libffi-3.2.1-1",
+    "type": 1
+  },
+  "md5": "36086c3c6a4880763fa99cc7f9bdfe35",
+  "name": "libffi",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/libffi-3.2.1-1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/ffi.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/ffitarget.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libffi.6.dylib",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libffi.a",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libffi.dylib",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libffi.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "572458253a989f85faa0c6c7d6f26c0e9b4011d7a086f4e48e336a63771b7524"
+      },
+      {
+        "_path": "lib/pkgconfig/libffi.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "b21f8c4c5ea3ee6a93ed3e9a52465021c46dccea0db572b4e0b693f3244a6a79"
+      },
+      {
+        "_path": "share/info/dir",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/info/libffi.info",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ffi.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ffi_call.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ffi_prep_cif.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ffi_prep_cif_var.3",
+        "path_type": "hardlink"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "aa60dc60663ed91d0a660f389cc4442eaf1c30d3c0370edf9e43b4cb7e3e7ddd",
+  "size": 41810,
+  "subdir": "osx-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/libffi-3.2.1-1.tar.bz2",
+  "version": "3.2.1"
+}

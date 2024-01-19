@@ -1,0 +1,4 @@
+import os ;
+local CXXFLAGS = [ os.environ CXXFLAGS ] ;
+local LDFLAGS = [ os.environ LDFLAGS ] ;
+using clang : custom : x86_64-apple-darwin13.4.0-clang++ : <compileflags>-I/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8b7baffc1e3e09eb75374fa2db658ba2_/include $(CXXFLAGS) -Wno-deprecated-declarations <linkflags>-L/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8b7baffc1e3e09eb75374fa2db658ba2_/lib $(LDFLAGS) ;

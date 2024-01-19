@@ -1,0 +1,3 @@
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8337b00c02d40da41c80f7aabce95999_/lib/site_perl/5.26.2/darwin-thread-multi-2level/common/sense.pm relocate_as=../../../common/sense.pm
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8337b00c02d40da41c80f7aabce95999_/lib/site_perl/5.26.2/darwin-thread-multi-2level/common/sense.pod relocate_as=../../../common/sense.pod
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8337b00c02d40da41c80f7aabce95999_/man/man3/common::sense.3 relocate_as=../../../../../../../man/man3/common::sense.3

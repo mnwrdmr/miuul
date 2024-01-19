@@ -1,0 +1,7 @@
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/99909d18a83173f570ae47d314f77c4a_/bin/json_xs relocate_as=../../../../../../../bin/json_xs
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/99909d18a83173f570ae47d314f77c4a_/lib/site_perl/5.26.2/darwin-thread-multi-2level/JSON/XS.pm relocate_as=../../../JSON/XS.pm
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/99909d18a83173f570ae47d314f77c4a_/lib/site_perl/5.26.2/darwin-thread-multi-2level/JSON/XS/Boolean.pm relocate_as=../../../JSON/XS/Boolean.pm
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/99909d18a83173f570ae47d314f77c4a_/lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/JSON/XS/XS.bundle relocate_as=XS.bundle
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/99909d18a83173f570ae47d314f77c4a_/man/man1/json_xs.1 relocate_as=../../../../../../../man/man1/json_xs.1
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/99909d18a83173f570ae47d314f77c4a_/man/man3/JSON::XS.3 relocate_as=../../../../../../../man/man3/JSON::XS.3
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/99909d18a83173f570ae47d314f77c4a_/man/man3/JSON::XS::Boolean.3 relocate_as=../../../../../../../man/man3/JSON::XS::Boolean.3

@@ -1,0 +1,10 @@
+prefix=/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/99909d18a83173f570ae47d314f77c4a_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+vendor=MIT
+
+Name: krb5-gssapi
+Description: Kerberos implementation of the GSSAPI
+Version: 1.17.2
+Requires: mit-krb5-gssapi

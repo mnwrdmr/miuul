@@ -1,0 +1,35 @@
+{
+  "build": "py37_4",
+  "build_number": 4,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libboost 1.67.0 hebc422b_4",
+    "py-boost 1.67.0 py37h6440ff4_4",
+    "python >=3.7,<3.8.0a0"
+  ],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/boost-1.67.0-py37_4",
+  "features": "",
+  "files": [],
+  "fn": "boost-1.67.0-py37_4.conda",
+  "license": "Boost-1.0",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/boost-1.67.0-py37_4",
+    "type": 1
+  },
+  "md5": "2e2e39579dc6ba4cccfe8d0caa2080c4",
+  "name": "boost",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/boost-1.67.0-py37_4.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "3daad77891e8087815dc322af3b790fd401df26dcbaa4f9a69dd8922ce37bac7",
+  "size": 11685,
+  "subdir": "osx-64",
+  "timestamp": 1530774044000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/boost-1.67.0-py37_4.conda",
+  "version": "1.67.0"
+}

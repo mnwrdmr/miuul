@@ -1,0 +1,11 @@
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8b7baffc1e3e09eb75374fa2db658ba2_/bin/ptar relocate_as=../../../../../../../bin/ptar
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8b7baffc1e3e09eb75374fa2db658ba2_/bin/ptardiff relocate_as=../../../../../../../bin/ptardiff
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8b7baffc1e3e09eb75374fa2db658ba2_/bin/ptargrep relocate_as=../../../../../../../bin/ptargrep
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8b7baffc1e3e09eb75374fa2db658ba2_/lib/site_perl/5.26.2/Archive/Tar.pm relocate_as=../../../../Archive/Tar.pm
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8b7baffc1e3e09eb75374fa2db658ba2_/lib/site_perl/5.26.2/Archive/Tar/Constant.pm relocate_as=../../../../Archive/Tar/Constant.pm
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8b7baffc1e3e09eb75374fa2db658ba2_/lib/site_perl/5.26.2/Archive/Tar/File.pm relocate_as=../../../../Archive/Tar/File.pm
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8b7baffc1e3e09eb75374fa2db658ba2_/man/man1/ptar.1 relocate_as=../../../../../../../man/man1/ptar.1
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8b7baffc1e3e09eb75374fa2db658ba2_/man/man1/ptardiff.1 relocate_as=../../../../../../../man/man1/ptardiff.1
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8b7baffc1e3e09eb75374fa2db658ba2_/man/man1/ptargrep.1 relocate_as=../../../../../../../man/man1/ptargrep.1
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8b7baffc1e3e09eb75374fa2db658ba2_/man/man3/Archive::Tar.3 relocate_as=../../../../../../../man/man3/Archive::Tar.3
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8b7baffc1e3e09eb75374fa2db658ba2_/man/man3/Archive::Tar::File.3 relocate_as=../../../../../../../man/man3/Archive::Tar::File.3

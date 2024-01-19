@@ -1,0 +1,85 @@
+{
+  "build": "pl526h01d97ff_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.2,<5.26.3.0a0"
+  ],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/perl-scalar-list-utils-1.52-pl526h01d97ff_0",
+  "features": "",
+  "files": [
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/List/Util.pm",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/List/Util/XS.pm",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/Scalar/Util.pm",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/Sub/Util.pm",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/List/Util/.packlist",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/List/Util/Util.bundle"
+  ],
+  "fn": "perl-scalar-list-utils-1.52-pl526h01d97ff_0.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/perl-scalar-list-utils-1.52-pl526h01d97ff_0",
+    "type": 1
+  },
+  "md5": "eae2b69459ef38772914b48d1e113fe5",
+  "name": "perl-scalar-list-utils",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/perl-scalar-list-utils-1.52-pl526h01d97ff_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/List/Util.pm",
+        "path_type": "hardlink",
+        "sha256": "a592912e856817819330e40411754ba061acafddc6638f0a18de2a4137e9fd61",
+        "sha256_in_prefix": "a592912e856817819330e40411754ba061acafddc6638f0a18de2a4137e9fd61",
+        "size_in_bytes": 21296
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/List/Util/XS.pm",
+        "path_type": "hardlink",
+        "sha256": "7700e8d5fa7c35ca1eb6f104b9921779bfc572e26ce8c324bd2434d5c689cf0a",
+        "sha256_in_prefix": "7700e8d5fa7c35ca1eb6f104b9921779bfc572e26ce8c324bd2434d5c689cf0a",
+        "size_in_bytes": 1018
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/Scalar/Util.pm",
+        "path_type": "hardlink",
+        "sha256": "b56bfd287b2477d76f4c8314ed250adb4eb90b927ff62af75c20bd31d917d369",
+        "sha256_in_prefix": "b56bfd287b2477d76f4c8314ed250adb4eb90b927ff62af75c20bd31d917d369",
+        "size_in_bytes": 9935
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/Sub/Util.pm",
+        "path_type": "hardlink",
+        "sha256": "55c9c6f196fb53df81762c370958d766ac082eeb1eb6901970ae1ee63dd56129",
+        "sha256_in_prefix": "55c9c6f196fb53df81762c370958d766ac082eeb1eb6901970ae1ee63dd56129",
+        "size_in_bytes": 4661
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/List/Util/.packlist",
+        "path_type": "hardlink",
+        "sha256": "18f8ef46afa39276db9d3e78af6bbefe48c021e439838f0a162ffa049d9ca7b5",
+        "sha256_in_prefix": "18f8ef46afa39276db9d3e78af6bbefe48c021e439838f0a162ffa049d9ca7b5",
+        "size_in_bytes": 3109
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/List/Util/Util.bundle",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/distiller/project/miniconda/conda-bld/perl-scalar-list-utils_1566140689509/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placeh",
+        "sha256": "cbbf2ad7e1dab9b4c4ee6c62547d304c5961dc253e5b40401c9243e17f43cb61",
+        "sha256_in_prefix": "23baaf3a2afa3fe7eb084e1d7377b30fe963a27fc90e43cc0e868f15f7cfc888",
+        "size_in_bytes": 52356
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "433b087b23e7449340728f1b8abaa71874e88345bd7fae7c85c59ec79a7af36f",
+  "size": 36231,
+  "subdir": "osx-64",
+  "timestamp": 1566140833000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/perl-scalar-list-utils-1.52-pl526h01d97ff_0.tar.bz2",
+  "version": "1.52"
+}

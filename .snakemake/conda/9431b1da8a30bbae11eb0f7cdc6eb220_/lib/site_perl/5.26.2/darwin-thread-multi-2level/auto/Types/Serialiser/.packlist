@@ -1,0 +1,4 @@
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/9431b1da8a30bbae11eb0f7cdc6eb220_/lib/site_perl/5.26.2/Types/Serialiser.pm relocate_as=../../../../Types/Serialiser.pm
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/9431b1da8a30bbae11eb0f7cdc6eb220_/lib/site_perl/5.26.2/Types/Serialiser/Error.pm relocate_as=../../../../Types/Serialiser/Error.pm
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/9431b1da8a30bbae11eb0f7cdc6eb220_/man/man3/Types::Serialiser.3 relocate_as=../../../../../../../man/man3/Types::Serialiser.3
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/9431b1da8a30bbae11eb0f7cdc6eb220_/man/man3/Types::Serialiser::Error.3 relocate_as=../../../../../../../man/man3/Types::Serialiser::Error.3

@@ -1,0 +1,12 @@
+prefix=/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/99909d18a83173f570ae47d314f77c4a_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: pmix
+Description: Process Management Interface for Exascale (PMIx)
+Version: 3.2.5a1
+URL: https://pmix.org/
+Requires:  zlib
+Libs: -L${libdir} -lpmix 
+Cflags: -I${includedir}

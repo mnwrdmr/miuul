@@ -1,0 +1,22 @@
+=head2 Fri May 10 22:35:56 2019: C<Module> L<JSON|JSON>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/b6f094dedc6fad9f512373e3dcd5b2da_/lib/site_perl/5.26.2>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 4.02>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

@@ -1,0 +1,11 @@
+prefix=/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/99909d18a83173f570ae47d314f77c4a_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: kadm-client
+Description: Kerberos administration client library
+Version: 1.17.2
+Requires.private: mit-krb5-gssapi gssrpc
+Cflags: -I${includedir}
+Libs: -L${libdir} -lkadm5clnt_mit

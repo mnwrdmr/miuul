@@ -1,0 +1,6 @@
+Building DAG of jobs...
+MissingInputException in rule orthofinder in file /Users/macvbookpro/PycharmProjects/miuul/Snakefile, line 76:
+Missing input files for rule orthofinder:
+    output: output/orthofinder
+    affected files:
+        resource/orthofinder/[0]

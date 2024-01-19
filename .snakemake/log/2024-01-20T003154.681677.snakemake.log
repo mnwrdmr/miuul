@@ -1,0 +1,37 @@
+Building DAG of jobs...
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Conda environments: ignored
+Job stats:
+job            count
+-----------  -------
+all                1
+orthofinder        1
+total              2
+
+Select jobs to execute...
+
+[Sat Jan 20 00:31:54 2024]
+rule orthofinder:
+    input: resource/orthofinder
+    output: output/orthofinder
+    jobid: 1
+    reason: Missing output files: output/orthofinder
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+
+[Sat Jan 20 00:34:29 2024]
+Error in rule orthofinder:
+    jobid: 1
+    input: resource/orthofinder
+    output: output/orthofinder
+    conda-env: /Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/99909d18
+
+RuleException:
+CalledProcessError in file /Users/macvbookpro/PycharmProjects/miuul/Snakefile, line 84:
+Command 'set -euo pipefail;  /Users/macvbookpro/PycharmProjects/miuul/venv/bin/python /Users/macvbookpro/PycharmProjects/miuul/.snakemake/scripts/tmpz2gihwti.orthofinder.py' returned non-zero exit status 1.
+  File "/Users/macvbookpro/PycharmProjects/miuul/Snakefile", line 84, in __rule_orthofinder
+  File "/Library/Developer/CommandLineTools/Library/Frameworks/Python3.framework/Versions/3.9/lib/python3.9/concurrent/futures/thread.py", line 52, in run
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-01-20T003154.681677.snakemake.log

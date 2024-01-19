@@ -1,0 +1,13 @@
+# Package Information for pkg-config
+
+prefix=/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/b6f094dedc6fad9f512373e3dcd5b2da_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: SQLite
+Description: SQL database engine
+Version: 3.41.2
+Libs: -L${libdir} -lsqlite3
+Libs.private: -lz 
+Cflags: -I${includedir}

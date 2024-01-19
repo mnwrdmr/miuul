@@ -1,0 +1,13 @@
+prefix=/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8b7baffc1e3e09eb75374fa2db658ba2_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+modules=1
+
+Name: libXML
+Version: 2.10.4
+Description: libXML library version2.
+Requires:
+Libs: -L${libdir} -lxml2
+Libs.private: -L/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8b7baffc1e3e09eb75374fa2db658ba2_/lib -lz -L/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8b7baffc1e3e09eb75374fa2db658ba2_/lib -llzma -lpthread -L/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8b7baffc1e3e09eb75374fa2db658ba2_/lib -liconv -L/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8b7baffc1e3e09eb75374fa2db658ba2_/lib -licui18n -licuuc -licudata   
+Cflags: -I${includedir}/libxml2 -I/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8b7baffc1e3e09eb75374fa2db658ba2_/include 

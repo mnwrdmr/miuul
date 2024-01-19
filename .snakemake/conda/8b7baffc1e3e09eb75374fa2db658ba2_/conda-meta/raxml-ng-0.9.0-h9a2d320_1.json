@@ -1,0 +1,47 @@
+{
+  "build": "h9a2d320_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1",
+    "openmpi >=4.0.1,<4.1.0a0",
+    "gmp >=6.1.2,<7.0a0"
+  ],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/raxml-ng-0.9.0-h9a2d320_1",
+  "features": "",
+  "files": [
+    "bin/raxml-ng"
+  ],
+  "fn": "raxml-ng-0.9.0-h9a2d320_1.tar.bz2",
+  "license": "AGPL-3",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/raxml-ng-0.9.0-h9a2d320_1",
+    "type": 1
+  },
+  "md5": "812d1b432e6ba6b7320a1c8ec663e012",
+  "name": "raxml-ng",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/raxml-ng-0.9.0-h9a2d320_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/raxml-ng",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/distiller/project/miniconda/conda-bld/raxml-ng_1569616334172/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_",
+        "sha256": "c74d1e5f2681a084d41509844dec28eab406de743d876e32a5c15cd3e2232099",
+        "sha256_in_prefix": "18374b8b1d6abf01c8f2dab6c1bc500d4fb5e201c12c471b828d2d5b22bd186a",
+        "size_in_bytes": 1749240
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "57ced1e9ad4f24638c816f03a607d5080db78ae31b2a02bdd5f76a8e2c54750a",
+  "size": 727076,
+  "subdir": "osx-64",
+  "timestamp": 1569616724000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/raxml-ng-0.9.0-h9a2d320_1.tar.bz2",
+  "version": "0.9.0"
+}

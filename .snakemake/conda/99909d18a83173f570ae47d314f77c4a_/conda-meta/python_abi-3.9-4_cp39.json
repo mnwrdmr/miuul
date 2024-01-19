@@ -1,0 +1,33 @@
+{
+  "build": "4_cp39",
+  "build_number": 4,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [
+    "python 3.9.* *_cpython"
+  ],
+  "depends": [],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/python_abi-3.9-4_cp39",
+  "features": "",
+  "files": [],
+  "fn": "python_abi-3.9-4_cp39.conda",
+  "license": "BSD-3-Clause",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/python_abi-3.9-4_cp39",
+    "type": 1
+  },
+  "md5": "2d9f6c00555127a9058cfa955adf1090",
+  "name": "python_abi",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/python_abi-3.9-4_cp39.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a2b38ce566d9f48a49369f46c50912300a6ac09bf1c58a0d6c2caab074ee551e",
+  "size": 6486,
+  "subdir": "osx-64",
+  "timestamp": 1695147714000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/python_abi-3.9-4_cp39.conda",
+  "version": "3.9"
+}

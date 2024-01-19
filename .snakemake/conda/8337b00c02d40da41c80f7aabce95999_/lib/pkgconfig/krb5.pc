@@ -1,0 +1,14 @@
+prefix=/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/8337b00c02d40da41c80f7aabce95999_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+vendor=MIT
+
+defccname=KCM:
+defktname=FILE:/etc/krb5.keytab
+defcktname=FILE:/Users/builder/miniconda3/envs/prefect/var/krb5/user/%{euid}/client.keytab
+
+Name: krb5
+Description: An implementation of Kerberos network authentication
+Version: 1.19.4
+Requires: mit-krb5

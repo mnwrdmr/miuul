@@ -1,0 +1,12 @@
+prefix=/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/99909d18a83173f570ae47d314f77c4a_
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: GNU MP C++
+Description: GNU Multiple Precision Arithmetic Library (C++ bindings)
+URL: https://gmplib.org
+Version: 6.3.0
+Requires: gmp
+Cflags: -I${includedir}
+Libs: -L${libdir} -lgmpxx

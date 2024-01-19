@@ -1,0 +1,1336 @@
+{
+  "build": "h0370960_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "bzip2 >=1.0.8,<2.0a0",
+    "curl >=7.81.0,<8.0a0",
+    "entrez-direct",
+    "libcxx >=11.1.0",
+    "libzlib >=1.2.11,<1.3.0a0",
+    "llvm-openmp >=11.1.0",
+    "pcre >=8.45,<9.0a0",
+    "perl",
+    "perl-archive-tar",
+    "perl-json",
+    "perl-list-moreutils",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/blast-2.12.0-h0370960_3",
+  "features": "",
+  "files": [
+    "bin/blast_formatter",
+    "bin/blastdb_aliastool",
+    "bin/blastdbcheck",
+    "bin/blastdbcmd",
+    "bin/blastn",
+    "bin/blastp",
+    "bin/blastx",
+    "bin/cleanup-blastdb-volumes.py",
+    "bin/convert2blastmask",
+    "bin/datatool",
+    "bin/deltablast",
+    "bin/dustmasker",
+    "bin/get_species_taxids.sh",
+    "bin/get_species_taxids.sh.bak",
+    "bin/legacy_blast.pl",
+    "bin/makeblastdb",
+    "bin/makembindex",
+    "bin/makeprofiledb",
+    "bin/project_tree_builder",
+    "bin/psiblast",
+    "bin/rpsblast",
+    "bin/rpstblastn",
+    "bin/run_with_lock",
+    "bin/segmasker",
+    "bin/tblastn",
+    "bin/tblastx",
+    "bin/update_blastdb.pl",
+    "bin/update_blastdb.pl.bak",
+    "bin/windowmasker",
+    "bin/windowmasker_2.2.22_adapter.py",
+    "lib/ncbi-blast+/libalign_format.dylib",
+    "lib/ncbi-blast+/libbiblio.dylib",
+    "lib/ncbi-blast+/libblast.dylib",
+    "lib/ncbi-blast+/libblast_app_util-static.a",
+    "lib/ncbi-blast+/libblast_app_util.a",
+    "lib/ncbi-blast+/libblast_services.dylib",
+    "lib/ncbi-blast+/libblastdb.dylib",
+    "lib/ncbi-blast+/libblastdb_format.dylib",
+    "lib/ncbi-blast+/libblastinput.dylib",
+    "lib/ncbi-blast+/libblastxml.dylib",
+    "lib/ncbi-blast+/libblastxml2.dylib",
+    "lib/ncbi-blast+/libcomposition_adjustment.dylib",
+    "lib/ncbi-blast+/libconnect.dylib",
+    "lib/ncbi-blast+/libdbapi_driver-static.a",
+    "lib/ncbi-blast+/libdbapi_driver.a",
+    "lib/ncbi-blast+/libdbapi_driver.dylib",
+    "lib/ncbi-blast+/libegquery.dylib",
+    "lib/ncbi-blast+/libehistory.dylib",
+    "lib/ncbi-blast+/libeinfo.dylib",
+    "lib/ncbi-blast+/libelink.dylib",
+    "lib/ncbi-blast+/libepost.dylib",
+    "lib/ncbi-blast+/libesearch.dylib",
+    "lib/ncbi-blast+/libespell.dylib",
+    "lib/ncbi-blast+/libesummary.dylib",
+    "lib/ncbi-blast+/libeutils.dylib",
+    "lib/ncbi-blast+/libgbseq.dylib",
+    "lib/ncbi-blast+/libgene_info.dylib",
+    "lib/ncbi-blast+/libgeneral.dylib",
+    "lib/ncbi-blast+/libgenome_collection.dylib",
+    "lib/ncbi-blast+/libid1.dylib",
+    "lib/ncbi-blast+/libid2.dylib",
+    "lib/ncbi-blast+/liblmdb.dylib",
+    "lib/ncbi-blast+/libmedlars.dylib",
+    "lib/ncbi-blast+/libmedline.dylib",
+    "lib/ncbi-blast+/libmla.dylib",
+    "lib/ncbi-blast+/libmlacli.dylib",
+    "lib/ncbi-blast+/libncbi_xloader_blastdb.dylib",
+    "lib/ncbi-blast+/libncbi_xloader_blastdb_rmt.dylib",
+    "lib/ncbi-blast+/libncbi_xloader_genbank-static.a",
+    "lib/ncbi-blast+/libncbi_xloader_genbank.a",
+    "lib/ncbi-blast+/libncbi_xloader_genbank.dylib",
+    "lib/ncbi-blast+/libncbi_xreader-static.a",
+    "lib/ncbi-blast+/libncbi_xreader.a",
+    "lib/ncbi-blast+/libncbi_xreader.dylib",
+    "lib/ncbi-blast+/libncbi_xreader_cache-static.a",
+    "lib/ncbi-blast+/libncbi_xreader_cache.a",
+    "lib/ncbi-blast+/libncbi_xreader_cache.dylib",
+    "lib/ncbi-blast+/libncbi_xreader_id1-static.a",
+    "lib/ncbi-blast+/libncbi_xreader_id1.a",
+    "lib/ncbi-blast+/libncbi_xreader_id1.dylib",
+    "lib/ncbi-blast+/libncbi_xreader_id2-static.a",
+    "lib/ncbi-blast+/libncbi_xreader_id2.a",
+    "lib/ncbi-blast+/libncbi_xreader_id2.dylib",
+    "lib/ncbi-blast+/libproteinkmer.dylib",
+    "lib/ncbi-blast+/libpub.dylib",
+    "lib/ncbi-blast+/libpubmed.dylib",
+    "lib/ncbi-blast+/libscoremat.dylib",
+    "lib/ncbi-blast+/libseq.dylib",
+    "lib/ncbi-blast+/libseqcode.dylib",
+    "lib/ncbi-blast+/libseqdb.dylib",
+    "lib/ncbi-blast+/libseqedit.dylib",
+    "lib/ncbi-blast+/libseqmasks_io.dylib",
+    "lib/ncbi-blast+/libseqset.dylib",
+    "lib/ncbi-blast+/libseqsplit.dylib",
+    "lib/ncbi-blast+/libsequtil.dylib",
+    "lib/ncbi-blast+/libsubmit.dylib",
+    "lib/ncbi-blast+/libtables.dylib",
+    "lib/ncbi-blast+/libtaxon1.dylib",
+    "lib/ncbi-blast+/libtaxon3.dylib",
+    "lib/ncbi-blast+/libtest_mt.dylib",
+    "lib/ncbi-blast+/libuilist.dylib",
+    "lib/ncbi-blast+/libutrtprof.dylib",
+    "lib/ncbi-blast+/libvalid.dylib",
+    "lib/ncbi-blast+/libvariation.dylib",
+    "lib/ncbi-blast+/libwritedb.dylib",
+    "lib/ncbi-blast+/libxalgoblastdbindex.dylib",
+    "lib/ncbi-blast+/libxalgodustmask.dylib",
+    "lib/ncbi-blast+/libxalgosegmask.dylib",
+    "lib/ncbi-blast+/libxalgowinmask.dylib",
+    "lib/ncbi-blast+/libxalnmgr.dylib",
+    "lib/ncbi-blast+/libxblast.dylib",
+    "lib/ncbi-blast+/libxblastformat.dylib",
+    "lib/ncbi-blast+/libxcgi.dylib",
+    "lib/ncbi-blast+/libxcleanup.dylib",
+    "lib/ncbi-blast+/libxcompress.dylib",
+    "lib/ncbi-blast+/libxconnect.dylib",
+    "lib/ncbi-blast+/libxconnserv.dylib",
+    "lib/ncbi-blast+/libxformat.dylib",
+    "lib/ncbi-blast+/libxhtml.dylib",
+    "lib/ncbi-blast+/libxlogging.dylib",
+    "lib/ncbi-blast+/libxncbi.dylib",
+    "lib/ncbi-blast+/libxnetblast.dylib",
+    "lib/ncbi-blast+/libxnetblastcli.dylib",
+    "lib/ncbi-blast+/libxobjedit.dylib",
+    "lib/ncbi-blast+/libxobjmgr.dylib",
+    "lib/ncbi-blast+/libxobjread.dylib",
+    "lib/ncbi-blast+/libxobjsimple.dylib",
+    "lib/ncbi-blast+/libxobjutil.dylib",
+    "lib/ncbi-blast+/libxregexp.dylib",
+    "lib/ncbi-blast+/libxregexp_template_tester.dylib",
+    "lib/ncbi-blast+/libxser.dylib",
+    "lib/ncbi-blast+/libxthrserv.dylib",
+    "lib/ncbi-blast+/libxutil.dylib"
+  ],
+  "fn": "blast-2.12.0-h0370960_3.tar.bz2",
+  "license": "Public Domain",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/blast-2.12.0-h0370960_3",
+    "type": 1
+  },
+  "md5": "25a9f6f86305face1dd080991c83cd06",
+  "name": "blast",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/blast-2.12.0-h0370960_3.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/blast_formatter",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "6c9f07ffc540f1e471544e76a14505cfb011b748f578cd28ffe8fd95e42d6a0f",
+        "sha256_in_prefix": "892ccee681479cbc6a8f8521cd9fa4d4686c373d6e003406c531dc4e178c4808",
+        "size_in_bytes": 770440
+      },
+      {
+        "_path": "bin/blastdb_aliastool",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "9cbd93feb14e8c31352770a5f530b32b4b01a53f5044cee7ccb9504e858e964e",
+        "sha256_in_prefix": "0af28c4c383e6fbf9e239b6146289a014bad5978e9910092604269de6b32b2e5",
+        "size_in_bytes": 667560
+      },
+      {
+        "_path": "bin/blastdbcheck",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "11c2a430d53c1ccc029820b46af539744cd81cadd322f811e67375c361f397ca",
+        "sha256_in_prefix": "ff089bc5e973621fe38065ac292b1c4ce9ac15e8e41e72f8ddf48da6687471b8",
+        "size_in_bytes": 677616
+      },
+      {
+        "_path": "bin/blastdbcmd",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "c3bfbc18ec662794d545dd17e9e89eac8cfd51c71c9fa371be7d52a398d51bba",
+        "sha256_in_prefix": "097bb42ae22473b3b56d2f3a8dc8b0bdce3b3180999fd1d049c87014060e77c4",
+        "size_in_bytes": 670144
+      },
+      {
+        "_path": "bin/blastn",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "18e3c0ee2d9a17424843b9e0696b37c70b7613613ce6246fecda6aa28f8d560f",
+        "sha256_in_prefix": "ffa0dd617fb036663f28edf4984086c9a539b5d73b14e16e761b41ef81ed6c2e",
+        "size_in_bytes": 787400
+      },
+      {
+        "_path": "bin/blastp",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "e361d68d06f8533899b2e89d8709fa3acfac9dc032d94dfa3278898d8591a768",
+        "sha256_in_prefix": "7d53c76862d1edfea03e48f414a263464bc102d10b456346407f45f8ee64fb96",
+        "size_in_bytes": 777152
+      },
+      {
+        "_path": "bin/blastx",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "2bf73cd1a9ff0b91e14050812dc943876809d3b41f456587ead2430fd6767a72",
+        "sha256_in_prefix": "0e52d0ebb5dd037d1283b38e1d1d08002e324712c70d1d28fadb99fdc47ce5f0",
+        "size_in_bytes": 777152
+      },
+      {
+        "_path": "bin/cleanup-blastdb-volumes.py",
+        "path_type": "hardlink",
+        "sha256": "461958df49684e7496a7fc46738dc63f2bf5332f500f635ac565aacbf7f01c49",
+        "sha256_in_prefix": "461958df49684e7496a7fc46738dc63f2bf5332f500f635ac565aacbf7f01c49",
+        "size_in_bytes": 6243
+      },
+      {
+        "_path": "bin/convert2blastmask",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "c9187ad7365c8e312c35c0f7eaec8aa2b92cda7c8501a05db1dc2967a8751e8e",
+        "sha256_in_prefix": "d671a70986f31b0040697f35b9fc5ad7c99627943e38f32777ce73a863d95296",
+        "size_in_bytes": 415888
+      },
+      {
+        "_path": "bin/datatool",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "87c46da53695194e5ef6d373323bda5dd4358d20e69dccdedd1f1a342c388a54",
+        "sha256_in_prefix": "0309f1236fd0ec9ce441332addbb4cb8a3560bd3f002b0702c8aac955f2da2ca",
+        "size_in_bytes": 1220984
+      },
+      {
+        "_path": "bin/deltablast",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "d1a5ab4ef1389850a6d23c73d9292710083a6e718f249fe3e39a0e05f01d75ed",
+        "sha256_in_prefix": "d27221a29b3aa7a5830560c18d9756860b040594eca7b4a470a4ae6634a52d4f",
+        "size_in_bytes": 762328
+      },
+      {
+        "_path": "bin/dustmasker",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "38625d11fe96c0b7ee5de84c1f7232847505940993a3d4dd42308f8cc3f82d60",
+        "sha256_in_prefix": "314b37a38bf5c212b3409039eb2efc735f0502f4bcd83fa65593261bf3f96aa1",
+        "size_in_bytes": 341640
+      },
+      {
+        "_path": "bin/get_species_taxids.sh",
+        "path_type": "hardlink",
+        "sha256": "a56df7ab27f447eabf85ec5dbaede5bd952255861e6cb88be436f93f61de6f81",
+        "sha256_in_prefix": "a56df7ab27f447eabf85ec5dbaede5bd952255861e6cb88be436f93f61de6f81",
+        "size_in_bytes": 4793
+      },
+      {
+        "_path": "bin/get_species_taxids.sh.bak",
+        "path_type": "hardlink",
+        "sha256": "6212976a4310c521eab2e2d380cbd019d5115321efba24f7b80442f7860f795f",
+        "sha256_in_prefix": "6212976a4310c521eab2e2d380cbd019d5115321efba24f7b80442f7860f795f",
+        "size_in_bytes": 4792
+      },
+      {
+        "_path": "bin/legacy_blast.pl",
+        "path_type": "hardlink",
+        "sha256": "9748a081205bf734a92cc095aff6390163e2012169bf382c1de72fd18db08d18",
+        "sha256_in_prefix": "9748a081205bf734a92cc095aff6390163e2012169bf382c1de72fd18db08d18",
+        "size_in_bytes": 51346
+      },
+      {
+        "_path": "bin/makeblastdb",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "46aab0927f29d3f31be2d7f949d7523ba52bdeebfeef969f6904490a66c3562c",
+        "sha256_in_prefix": "df1a8009dada3d80e67495b98a0fad858d2a075c758ffceb3e5711b2ef6a50ef",
+        "size_in_bytes": 709688
+      },
+      {
+        "_path": "bin/makembindex",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "8527c8189e472f04d4c6890992fc4bcad29ea19e1243ca5084fdf9c1742209f8",
+        "sha256_in_prefix": "6fc5d960a5c0b31cbf6c3ec3b298140ea3e418cedd8a8d13dc44c66da5ffbb88",
+        "size_in_bytes": 275400
+      },
+      {
+        "_path": "bin/makeprofiledb",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "4f132020e6c3fb64f53d86397e1c66f00c43d6524763076dad897527afbc9211",
+        "sha256_in_prefix": "8fb8cdcd6d54dd19204bfd4ec034bca3b348935a9bbee8674902fe7e0010c7db",
+        "size_in_bytes": 691264
+      },
+      {
+        "_path": "bin/project_tree_builder",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "5db9d7c1158e240b9103f6387200e6d94619fe5e7a297a4d50e14705788a82fc",
+        "sha256_in_prefix": "06200c6d43352a249d5b1de7ce30ec3d77bf60e1a2793e7c6aafdc1f25c1ed5d",
+        "size_in_bytes": 1009272
+      },
+      {
+        "_path": "bin/psiblast",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "743cc0cfa21f98f70962538751980b06f6463b72fd49991579276e3761b12d97",
+        "sha256_in_prefix": "76dc9c50520bc3e95259b394a5526431b2553ed1c45cd5a0d0e695adf741f4dc",
+        "size_in_bytes": 761712
+      },
+      {
+        "_path": "bin/rpsblast",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "416fcbab3f2684b5739a735b0c57d7881ff904fbe10b4132aa3274af50d6533d",
+        "sha256_in_prefix": "8c4de2699cc9a75f4230b6af13c86d76b02c9848ee5f186bdba63e4b8a17baf8",
+        "size_in_bytes": 777296
+      },
+      {
+        "_path": "bin/rpstblastn",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "cca63a3e1ca0d609acb6636f29e4940ba6f9f7cbb9993b024c561e20f2b7b461",
+        "sha256_in_prefix": "095cb90e9df2ccfb648e7eac2f5dde3f40d2cdaeb2e29b96b0489ccfcc19659d",
+        "size_in_bytes": 777320
+      },
+      {
+        "_path": "bin/run_with_lock",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "9b17fdf8c8033bdaecd8a5feb9c9c9ca4f4f1e3536093d87ac9c09061f9a532c",
+        "sha256_in_prefix": "b9977dc3e029db2de78f9e8e96e571513962afa2a6b699f4fcb0c99ada48ded4",
+        "size_in_bytes": 14768
+      },
+      {
+        "_path": "bin/segmasker",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "1bcfee301bb9f1883c3f83a990f07ad0c13b5fea2b00e1740f75120f84c4a0aa",
+        "sha256_in_prefix": "9f43836aba23d8b56b921278a44cef105c6dea8380a179faab226b3498ba21e3",
+        "size_in_bytes": 389048
+      },
+      {
+        "_path": "bin/tblastn",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "fd085fac59f5b5ddfd613265922648cd271495c449ae78ec833a5bc019ff2168",
+        "sha256_in_prefix": "47f809581bb68c1f110c0237984992157355c222b8b532f754bc15a9d6bde169",
+        "size_in_bytes": 799424
+      },
+      {
+        "_path": "bin/tblastx",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "277752d2d89c320c06f31e912e6949bd54d73502f3fe127a6e17ad54691464f3",
+        "sha256_in_prefix": "bb5a14b20f61265facd5b9ba398efc95348e93c6f549a20feeeb2ac501ab10bc",
+        "size_in_bytes": 727600
+      },
+      {
+        "_path": "bin/update_blastdb.pl",
+        "path_type": "hardlink",
+        "sha256": "27945e656e0398907a8d9b75b2334ffd821b406e68d4736694e851f231bae238",
+        "sha256_in_prefix": "27945e656e0398907a8d9b75b2334ffd821b406e68d4736694e851f231bae238",
+        "size_in_bytes": 25985
+      },
+      {
+        "_path": "bin/update_blastdb.pl.bak",
+        "path_type": "hardlink",
+        "sha256": "27945e656e0398907a8d9b75b2334ffd821b406e68d4736694e851f231bae238",
+        "sha256_in_prefix": "27945e656e0398907a8d9b75b2334ffd821b406e68d4736694e851f231bae238",
+        "size_in_bytes": 25985
+      },
+      {
+        "_path": "bin/windowmasker",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "8533c2f370eb02076d01548087bc97ed1ed62e1c23c2191ae69c5724eb1f2bfa",
+        "sha256_in_prefix": "5e15fd7ba2cd940fa43d5647bad5bbca0078ee5aa6b1d03bb75e335a6a84f308",
+        "size_in_bytes": 353640
+      },
+      {
+        "_path": "bin/windowmasker_2.2.22_adapter.py",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "2ce99fda1b12f2da3722697dd8f2fc823eeb5da4398e8789147132497618f569",
+        "sha256_in_prefix": "f235dcfdd1193d2f5eea89b1f67cf42f609406674bf019171fcaa2c31a7c0f84",
+        "size_in_bytes": 6201
+      },
+      {
+        "_path": "lib/ncbi-blast+/libalign_format.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "2b6ff4d147f6220f1c97d2fb360bda66a5d4d6a6fd2985747d6bba1cd6128f74",
+        "sha256_in_prefix": "57d7dff4508e013e69b2a56004027660369a9e087cd59314421e7e07f04025f4",
+        "size_in_bytes": 1386792
+      },
+      {
+        "_path": "lib/ncbi-blast+/libbiblio.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "c2fea11a4c5cadcecb253ffc937b7616ce7a1b4cb7dbfc74bd2c07a8c40cf211",
+        "sha256_in_prefix": "6eba4e358fe9a3be62896da45afc3cba9d94c67cf469aa9cc71a87de651d1e21",
+        "size_in_bytes": 378096
+      },
+      {
+        "_path": "lib/ncbi-blast+/libblast.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "214ad6c21497d6dba25fc7362e04b5da6afa6e9681302b391aadbea62c8bc30a",
+        "sha256_in_prefix": "dd9e3177f926d061eda0eee807706ee2f05b526fe9d896ac7fd25da33befd978",
+        "size_in_bytes": 729440
+      },
+      {
+        "_path": "lib/ncbi-blast+/libblast_app_util-static.a",
+        "path_type": "hardlink",
+        "sha256": "f54ef175938cd75d6a4406576b5fe536bf1dc2cc59cde3605d8f6874b3796011",
+        "sha256_in_prefix": "f54ef175938cd75d6a4406576b5fe536bf1dc2cc59cde3605d8f6874b3796011",
+        "size_in_bytes": 197448
+      },
+      {
+        "_path": "lib/ncbi-blast+/libblast_app_util.a",
+        "path_type": "hardlink",
+        "sha256": "f54ef175938cd75d6a4406576b5fe536bf1dc2cc59cde3605d8f6874b3796011",
+        "sha256_in_prefix": "f54ef175938cd75d6a4406576b5fe536bf1dc2cc59cde3605d8f6874b3796011",
+        "size_in_bytes": 197448
+      },
+      {
+        "_path": "lib/ncbi-blast+/libblast_services.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "77bbb324315af3769e1197406dca457bde226c4071223cb5636c331186968921",
+        "sha256_in_prefix": "93a163f67e34167cd5a69d0a11ced95ed4737bd6acd55d60e07f8622e7049e3e",
+        "size_in_bytes": 81584
+      },
+      {
+        "_path": "lib/ncbi-blast+/libblastdb.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "f70e933f5184f8b86534c08f831494f237d092a93d81055cbc77bafc073f3537",
+        "sha256_in_prefix": "878ca8fa0bf8cb2ed410c7487a15d5dca7e1d05319c4eae8625fb50106c436df",
+        "size_in_bytes": 103840
+      },
+      {
+        "_path": "lib/ncbi-blast+/libblastdb_format.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "e8b1ac792d5721e230caae5c7d2f7d8a8e9d8421f4bd78e35bf84b96f19a1faf",
+        "sha256_in_prefix": "9d27bb5e54bf744d184cb850a4a95ab0405735ff139a795fb898d2a1b77286bc",
+        "size_in_bytes": 195368
+      },
+      {
+        "_path": "lib/ncbi-blast+/libblastinput.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "99827485eec075c5e29e164b30ed2f409d78cb9fec38a8265bf374fd7de20b12",
+        "sha256_in_prefix": "68b2fa8ceb648480650ac75bb45f4dccd93698f34cb89094f9c6bf63c62926df",
+        "size_in_bytes": 807560
+      },
+      {
+        "_path": "lib/ncbi-blast+/libblastxml.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "fd0d882d645e6abad8ebbdca6b0217bba5d2fa30f46692ce5137c56d1d00fe89",
+        "sha256_in_prefix": "b509ebf0f5bfd9d521c74fee79a7fc0d00a274e33b67a38da57b9e32550ac69f",
+        "size_in_bytes": 90552
+      },
+      {
+        "_path": "lib/ncbi-blast+/libblastxml2.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "903a866055161035c62688768580c663057564c639553c239e1ab31f3437af83",
+        "sha256_in_prefix": "91305f0b132d1cc5d94fb270ee3d63eea195806acf5343967dcf0e1b9b3db310",
+        "size_in_bytes": 177784
+      },
+      {
+        "_path": "lib/ncbi-blast+/libcomposition_adjustment.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "ffae82194ca2593bfc666b468140979a7a34fafc425dc455817cd7676e0a1b25",
+        "sha256_in_prefix": "5d07f6a485344f019bee109fee5aa252be884b986b1052da9ffd2d5cc8582560",
+        "size_in_bytes": 105616
+      },
+      {
+        "_path": "lib/ncbi-blast+/libconnect.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "40fb2078e026c8fa2ad3b3d3481352dabfe6ea021bbd8f56edc7161304fd4e48",
+        "sha256_in_prefix": "208cae2f8b9263bf83cd17cfae3251b793a6f7316e39cf5df5f502c49b0d3377",
+        "size_in_bytes": 489904
+      },
+      {
+        "_path": "lib/ncbi-blast+/libdbapi_driver-static.a",
+        "path_type": "hardlink",
+        "sha256": "bc94d833df893c0cc9de0f56cbc4bf0ec3fa96dac4b96cf1b9ab70e8887d90b9",
+        "sha256_in_prefix": "bc94d833df893c0cc9de0f56cbc4bf0ec3fa96dac4b96cf1b9ab70e8887d90b9",
+        "size_in_bytes": 6924552
+      },
+      {
+        "_path": "lib/ncbi-blast+/libdbapi_driver.a",
+        "path_type": "hardlink",
+        "sha256": "bc94d833df893c0cc9de0f56cbc4bf0ec3fa96dac4b96cf1b9ab70e8887d90b9",
+        "sha256_in_prefix": "bc94d833df893c0cc9de0f56cbc4bf0ec3fa96dac4b96cf1b9ab70e8887d90b9",
+        "size_in_bytes": 6924552
+      },
+      {
+        "_path": "lib/ncbi-blast+/libdbapi_driver.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "e1392af33f180f0278d1cde2ec3ad333e04192ee5fe9929ae4c0f27e80e57734",
+        "sha256_in_prefix": "43ca986327f5c1fb39009032182a2a9436775210ebebe7416dcb6d21d8309a4d",
+        "size_in_bytes": 2599752
+      },
+      {
+        "_path": "lib/ncbi-blast+/libegquery.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "d5152fa9eb9b372cece9100ce71ac01b944fd00bb6c93b620891e504898084d7",
+        "sha256_in_prefix": "ebf2590cfd60160c73ee1b2cca414830bb54864b789bbcb94b717b283dc2b5c9",
+        "size_in_bytes": 50120
+      },
+      {
+        "_path": "lib/ncbi-blast+/libehistory.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "ed5b2cf5ee516e0cbca0283b47f0755d38f693a4626e564363b15f9368283d56",
+        "sha256_in_prefix": "34ab1b4122c98eb4beb7af14483462749e5f4e7f294d24b28005082bd1e71843",
+        "size_in_bytes": 58664
+      },
+      {
+        "_path": "lib/ncbi-blast+/libeinfo.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "6e820eb68705709880f3bb2adf34629d52488eed006f95963a816b2253c154b9",
+        "sha256_in_prefix": "e4c1549f33409deda59e647c8838d1784d40f70b84aa86b6da97e2f8e99f45d6",
+        "size_in_bytes": 94232
+      },
+      {
+        "_path": "lib/ncbi-blast+/libelink.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "26ec5142f4decd24ffc0a352fa67a3557ec4dc20f741b4abb112ee49e4591b35",
+        "sha256_in_prefix": "00c3eafa7fd82636a3eae995862bfb0696c61e1fc57e351d02691be7d7e62716",
+        "size_in_bytes": 284504
+      },
+      {
+        "_path": "lib/ncbi-blast+/libepost.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "9a070706f726cd1dc97c416e1359bc37a368d6f2ca3e2c9ba7ae4e9c9add1c0c",
+        "sha256_in_prefix": "b6e1475f8bbfd1ba5be23772aa169bd34d5263a1fe8970ff289a01f5f571d1ee",
+        "size_in_bytes": 49888
+      },
+      {
+        "_path": "lib/ncbi-blast+/libesearch.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "e1209abb6fa70ff26649207cc57897fe87deb8a91d5b318f83092f50ddf475f4",
+        "sha256_in_prefix": "94d52159c82e0275da5c9ace69d04c21aa07bfcafa7467cfbb1711d7cafe5cb7",
+        "size_in_bytes": 125040
+      },
+      {
+        "_path": "lib/ncbi-blast+/libespell.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "1a84738f81f5a3cf101ec85e63035821d1d356aab850e8a837034beead9f0114",
+        "sha256_in_prefix": "715d4e1989a9496589b06b03666061b5956f71ba962fd503932c9d00626cbfc1",
+        "size_in_bytes": 53736
+      },
+      {
+        "_path": "lib/ncbi-blast+/libesummary.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "8dfb5ca45a8cb36e353631c30fed11b1e65af0897efb4c643284429ea2240117",
+        "sha256_in_prefix": "be407adeb05fb9b8f01517c8324ebd4cc38196e1bd858be480b2749c8d4042aa",
+        "size_in_bytes": 95880
+      },
+      {
+        "_path": "lib/ncbi-blast+/libeutils.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "044d0e12848c47eb8c2373acac7a5bd59ed98257c681072514df4f7b2eb11dd2",
+        "sha256_in_prefix": "0c89edd0cc725892ff1e0c9e2f801d5a13454c9718e930c96e09119ddbb3b173",
+        "size_in_bytes": 139904
+      },
+      {
+        "_path": "lib/ncbi-blast+/libgbseq.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "3b7945725f172ea65ba962474a8357e6c71f815e836c6fee74a767e7e8bdb494",
+        "sha256_in_prefix": "30d543592de79254638068bf0e1dc2b4c842df18c29d02dbb81b7c1026064719",
+        "size_in_bytes": 227384
+      },
+      {
+        "_path": "lib/ncbi-blast+/libgene_info.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "ddd7dc7d275d4f74b249aafd0752219e1aa0d601593006b4c3a960ec9713c3bd",
+        "sha256_in_prefix": "ebad0c0fc8291ee064957cd631cdbf813fc1ac16764022a3271323d3b9181a46",
+        "size_in_bytes": 92240
+      },
+      {
+        "_path": "lib/ncbi-blast+/libgeneral.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "8e7696565d0660148ea85ff1ba3109642c5633b9d812b37b9438973be996f00c",
+        "sha256_in_prefix": "a577177bd0dbb43be6c0b9e38d8f8a5746b255530cc098afd4afb96846cae2f4",
+        "size_in_bytes": 545368
+      },
+      {
+        "_path": "lib/ncbi-blast+/libgenome_collection.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "099ca3a5868c3d585af27368ce06c1ab7b9932a3f4938f3415ec514dacc4b87b",
+        "sha256_in_prefix": "1952fcd75a3d6371b01a07cb631d92229e93a247f64505ea339ff25c7f7e66dc",
+        "size_in_bytes": 382120
+      },
+      {
+        "_path": "lib/ncbi-blast+/libid1.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "adbab9e47667439ad0fc88a6e3d0617b8cfdfc724c7e39f102df0508055b560e",
+        "sha256_in_prefix": "5d5738cfc5a80e4df0207f025fe215b2ca4a0f845758de7eca304aa662a00b67",
+        "size_in_bytes": 119824
+      },
+      {
+        "_path": "lib/ncbi-blast+/libid2.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "3ec03f7ede194f722f19eca665d19f58e0b0ab4c1ec4709051e2984da6674a5b",
+        "sha256_in_prefix": "6c0180c7cc863c765d9fcd49c53c390f897b083ef57aa8d30b1ccef7e17df90e",
+        "size_in_bytes": 316392
+      },
+      {
+        "_path": "lib/ncbi-blast+/liblmdb.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "9a118f85c535c4423f597e104cdb9367fcb6a4ef2dcf1e3c43cbe83b1a71bcff",
+        "sha256_in_prefix": "5c15083199878703412396fb1cf6addbaf50b1146e4d0c18300c373ccc1ddea9",
+        "size_in_bytes": 94816
+      },
+      {
+        "_path": "lib/ncbi-blast+/libmedlars.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "2da0bb41b5b733e5235cd9f7b4cab60b4a76f0bf835270be3e00460b55b38abe",
+        "sha256_in_prefix": "3a520c8bf8a4ba85b463ac7dbafd1dbe239aa2ab1d6df8556a53653c0ca9c48e",
+        "size_in_bytes": 47544
+      },
+      {
+        "_path": "lib/ncbi-blast+/libmedline.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "4cdf299d0e520150f953b51c048a9784f97f41b6180b0d468d3acced07aa6c2c",
+        "sha256_in_prefix": "b1140179bbe84fcd1403593c540bc53b573218259b7c9d75dc8b61a788206cc6",
+        "size_in_bytes": 131920
+      },
+      {
+        "_path": "lib/ncbi-blast+/libmla.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "51087add315c399c6402137af3d6c68fef8c143de5841cd325e79eb3a0c03c39",
+        "sha256_in_prefix": "009be237a958cdbe8d4a299dec0873f36c71985a6979281aaee798a69cd2d385",
+        "size_in_bytes": 85152
+      },
+      {
+        "_path": "lib/ncbi-blast+/libmlacli.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "4590f9badfe679674d8bd63ae7e5018b6be1de944e20fbc0e65d85fa25ae6dd1",
+        "sha256_in_prefix": "4fc5d7bf83ae177300a73abb809d8b26a9cde902596e4d54a5d3bdb458304fb2",
+        "size_in_bytes": 81096
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xloader_blastdb.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "5539fe1a2ea2344868bf92231c596ec66aa7d380633dc8873ce375ee1b177524",
+        "sha256_in_prefix": "40947db0dabe986ca4019d3a4bcedea04c133eccb51766360541dbd0309cdfe6",
+        "size_in_bytes": 167064
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xloader_blastdb_rmt.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "3fa2384c80f446e28cd92251bea797f16c2e506cb51b6dc027fa6ee56e62e4e0",
+        "sha256_in_prefix": "2070a62b3bc5e1f1b5f8a30fa712d92c599c7f6ad11af30cd4de5c7b44ed650f",
+        "size_in_bytes": 155072
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xloader_genbank-static.a",
+        "path_type": "hardlink",
+        "sha256": "4dc83fc9ef6686948e1872d9770a21b5d477a208b2370c30aa1fe5ad61c14753",
+        "sha256_in_prefix": "4dc83fc9ef6686948e1872d9770a21b5d477a208b2370c30aa1fe5ad61c14753",
+        "size_in_bytes": 413152
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xloader_genbank.a",
+        "path_type": "hardlink",
+        "sha256": "4dc83fc9ef6686948e1872d9770a21b5d477a208b2370c30aa1fe5ad61c14753",
+        "sha256_in_prefix": "4dc83fc9ef6686948e1872d9770a21b5d477a208b2370c30aa1fe5ad61c14753",
+        "size_in_bytes": 413152
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xloader_genbank.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "616718f77e98cef771919480b82af804d519b45537b818653bc4bb16887e03b6",
+        "sha256_in_prefix": "50a14ccac7ce70b4e2a4d73f5dabdbc209b81f371a2b83df6a3cfddae658b23b",
+        "size_in_bytes": 311152
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader-static.a",
+        "path_type": "hardlink",
+        "sha256": "cbb5c8ada8d9e6ff3b2015f865a21fffeaa428780ccb3b4d3860bbad51741ed0",
+        "sha256_in_prefix": "cbb5c8ada8d9e6ff3b2015f865a21fffeaa428780ccb3b4d3860bbad51741ed0",
+        "size_in_bytes": 1911528
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader.a",
+        "path_type": "hardlink",
+        "sha256": "cbb5c8ada8d9e6ff3b2015f865a21fffeaa428780ccb3b4d3860bbad51741ed0",
+        "sha256_in_prefix": "cbb5c8ada8d9e6ff3b2015f865a21fffeaa428780ccb3b4d3860bbad51741ed0",
+        "size_in_bytes": 1911528
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "5acb64a443fd3e247bb3d515c8011b823c386391ddcc68385aa5e507dd389725",
+        "sha256_in_prefix": "4d82ceb15f1e6589f670dcae21e32b5976fa4171eca269799eee84ed083d140f",
+        "size_in_bytes": 1141696
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader_cache-static.a",
+        "path_type": "hardlink",
+        "sha256": "e8d070f2c6bd4425ffcabe0be6bc68ea046ad6dab40d56ce2e3bf915067580cc",
+        "sha256_in_prefix": "e8d070f2c6bd4425ffcabe0be6bc68ea046ad6dab40d56ce2e3bf915067580cc",
+        "size_in_bytes": 359824
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader_cache.a",
+        "path_type": "hardlink",
+        "sha256": "e8d070f2c6bd4425ffcabe0be6bc68ea046ad6dab40d56ce2e3bf915067580cc",
+        "sha256_in_prefix": "e8d070f2c6bd4425ffcabe0be6bc68ea046ad6dab40d56ce2e3bf915067580cc",
+        "size_in_bytes": 359824
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader_cache.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "edde12577943af4539ddce6690a9e327035e2b609f4662b945039437f915a934",
+        "sha256_in_prefix": "fe1b4c337bb2bfc7fa91b79967ea25177bb90feee242f41a47b9586d377e3c21",
+        "size_in_bytes": 281992
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader_id1-static.a",
+        "path_type": "hardlink",
+        "sha256": "02da727ed9169e2040aa7bbb220c0a55c24580b1ebc82dbfd9cdd4385a77a4ee",
+        "sha256_in_prefix": "02da727ed9169e2040aa7bbb220c0a55c24580b1ebc82dbfd9cdd4385a77a4ee",
+        "size_in_bytes": 175440
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader_id1.a",
+        "path_type": "hardlink",
+        "sha256": "02da727ed9169e2040aa7bbb220c0a55c24580b1ebc82dbfd9cdd4385a77a4ee",
+        "sha256_in_prefix": "02da727ed9169e2040aa7bbb220c0a55c24580b1ebc82dbfd9cdd4385a77a4ee",
+        "size_in_bytes": 175440
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader_id1.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "5f0d806cac67c7876c0eab6908e21366fa8930a0af2d232fe98d457c36d1bceb",
+        "sha256_in_prefix": "84a869a3e19d073914c59043cd4ae5f6432ed753424683fd660878042f8f219e",
+        "size_in_bytes": 178128
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader_id2-static.a",
+        "path_type": "hardlink",
+        "sha256": "8418c9ed601d029a2868394589f3bf3ceff38af080f093c7c46756312dfab845",
+        "sha256_in_prefix": "8418c9ed601d029a2868394589f3bf3ceff38af080f093c7c46756312dfab845",
+        "size_in_bytes": 112928
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader_id2.a",
+        "path_type": "hardlink",
+        "sha256": "8418c9ed601d029a2868394589f3bf3ceff38af080f093c7c46756312dfab845",
+        "sha256_in_prefix": "8418c9ed601d029a2868394589f3bf3ceff38af080f093c7c46756312dfab845",
+        "size_in_bytes": 112928
+      },
+      {
+        "_path": "lib/ncbi-blast+/libncbi_xreader_id2.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "20c473e58c6c4f470c5047c5de789a0d41e42aa4573680a1575134d6f3bb9b47",
+        "sha256_in_prefix": "5e49996554d522be870bec597aba147e5cd7626fe118a7c3e62994552930d147",
+        "size_in_bytes": 113936
+      },
+      {
+        "_path": "lib/ncbi-blast+/libproteinkmer.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "219c435067d336b7445090f46f97b1f7c82105651d14adf5394a0ef23532f7ac",
+        "sha256_in_prefix": "ef91456eb1e4cf8d6af0606774812f98fc93080fbfec80db5b1e4501b911aa66",
+        "size_in_bytes": 243200
+      },
+      {
+        "_path": "lib/ncbi-blast+/libpub.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "a3566927d1ac904ba398f2b875a8759748ea1e8f40ad8a2d3b7f04557b451818",
+        "sha256_in_prefix": "668b5323304c9a246a3f56fb0488661ca3e824d7ab02465a66dec753001f73df",
+        "size_in_bytes": 156008
+      },
+      {
+        "_path": "lib/ncbi-blast+/libpubmed.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "49b691ea4e8f8a23bd563f416fbdb6aba81022016d6e8b50fda0e7f984747f9b",
+        "sha256_in_prefix": "3315cf4ff6a4a0ac2ece19e7e6d5e8152067cc095b5b9cc1803c81a7c589a5e7",
+        "size_in_bytes": 48984
+      },
+      {
+        "_path": "lib/ncbi-blast+/libscoremat.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "fd4e4cb4a4132e67d84946f3dd316a0c741d3d715415217429d46177dc3dd5e9",
+        "sha256_in_prefix": "c8d3ccd8b9af4f215dbd3c2d8878cc70db0c852b55cb68fdfec093411ee97da1",
+        "size_in_bytes": 159504
+      },
+      {
+        "_path": "lib/ncbi-blast+/libseq.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "c5fd35c9234a051b253a7bfbd527c3d82c4b16294f11e0b727db7ae76edef628",
+        "sha256_in_prefix": "276422479f8f63d0b30e3bc2d539f0abf007b1eb68628cd720678c3007d72c51",
+        "size_in_bytes": 6649984
+      },
+      {
+        "_path": "lib/ncbi-blast+/libseqcode.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "e4aa66f362026a9dba058c53db608377a0227621c4c0e8bf3ebbcb89029bf03c",
+        "sha256_in_prefix": "8c66559413e1d785290a4b9ecb576c7909373ecdfdca0fe2e57e5dbcbb23c9b0",
+        "size_in_bytes": 76072
+      },
+      {
+        "_path": "lib/ncbi-blast+/libseqdb.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "425ae175371504815caead67d16b126ace21f484ffefb7a60a67c585a01a7206",
+        "sha256_in_prefix": "26274519055641801a9421d28127469524a1de60afb87236d98bf101388424fa",
+        "size_in_bytes": 1012600
+      },
+      {
+        "_path": "lib/ncbi-blast+/libseqedit.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "b87121268b77349e01dd5dad643c35b64e4071c5ce9c0eef70f52dff2309893b",
+        "sha256_in_prefix": "47296e960eea87701fcfe7752639843c4e80682ca3310c8071a3409cb0a10f85",
+        "size_in_bytes": 298680
+      },
+      {
+        "_path": "lib/ncbi-blast+/libseqmasks_io.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "4d22034d20cc52f73b523b8b3f5f8edcf3ffffe9005d357a81581dc1d7fc04fc",
+        "sha256_in_prefix": "e0a650ce850ead9b08aae0e722f3d06e4bfabffe0a6b0de04758c80b6421895d",
+        "size_in_bytes": 86928
+      },
+      {
+        "_path": "lib/ncbi-blast+/libseqset.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "b8f44ccac0e6bc9787e3d74f0f45805a008fa44b9142180f54cbec3e6c33447b",
+        "sha256_in_prefix": "b8a283331c28436ec95aee2a41abfd6a120a4bb647def9ea21bdd182500c4f89",
+        "size_in_bytes": 167120
+      },
+      {
+        "_path": "lib/ncbi-blast+/libseqsplit.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "c8bda4872487133dbeb8129a33af16e93aab4b29858fbd6bd22ef869628b65af",
+        "sha256_in_prefix": "a2e0d0c6fe819a457bf4eb6ceebe71f2b7ab1d18a179612443d88c0e97cb7b1c",
+        "size_in_bytes": 327328
+      },
+      {
+        "_path": "lib/ncbi-blast+/libsequtil.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "a0f420db8ed1fc1a8640e58d405290b3dbb9cd46f01a48a96f07f9157e293a7f",
+        "sha256_in_prefix": "ea7515f1a56af6d985f7784b2a65bc31fc07e45dcec3426af662aefba91b0c92",
+        "size_in_bytes": 96728
+      },
+      {
+        "_path": "lib/ncbi-blast+/libsubmit.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "2a71b72864d8a11f312b7cc37bfabef29a93fcc5d154ab649efaf81441267495",
+        "sha256_in_prefix": "5feedb46367392adb760771a3374726908b29969599cd27ab5cd8f5b5ca58351",
+        "size_in_bytes": 96096
+      },
+      {
+        "_path": "lib/ncbi-blast+/libtables.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "187e9aa8e04f8b393168052ef02ec1501142f35e1e19e3dbf54693665a06ee00",
+        "sha256_in_prefix": "56e1dc60a872f2e7fe42d059e8bcaaa652b93c78773563341390741e38b4dd41",
+        "size_in_bytes": 38328
+      },
+      {
+        "_path": "lib/ncbi-blast+/libtaxon1.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "53649be9eefe8c04dcae171fa31f7ce48e52d850f6865e3e907861999a9141d8",
+        "sha256_in_prefix": "bb78d87f01166b8c81c4ab8dd4960bddf6852923f87307c6f4dad34e58dc5442",
+        "size_in_bytes": 271488
+      },
+      {
+        "_path": "lib/ncbi-blast+/libtaxon3.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "f505121f234fdf02a04fd05a070c09bc46eeff0b94773006f0941529f139a5f1",
+        "sha256_in_prefix": "7eeea518638edd185e5be4f79c8e0515bbad4ffb2b1841f1cc453a4789d35b49",
+        "size_in_bytes": 161776
+      },
+      {
+        "_path": "lib/ncbi-blast+/libtest_mt.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "6f4839e0a085b54b2878179960782bbcd0a64267cb00ed9422c02b0a35ff9361",
+        "sha256_in_prefix": "4604f056ba4efb055ff920b163f06974052c91a6c3f74ce3958b4cf282eb80b6",
+        "size_in_bytes": 94904
+      },
+      {
+        "_path": "lib/ncbi-blast+/libuilist.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "18cb375632b44d4fbf2883d4657660c5453d6e627cd7f3f26ee408f0ebdda30b",
+        "sha256_in_prefix": "9affd22adf4610e813a1d8b4fd6c2686f112c48d0a23be9bbd3e24f77ef5907e",
+        "size_in_bytes": 38120
+      },
+      {
+        "_path": "lib/ncbi-blast+/libutrtprof.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "bc771eae451ceb941ef317811c0d0d91545667150bc9fa695ea362085f7c8795",
+        "sha256_in_prefix": "78f8dd8eafdf1f9610a1a628186166d01147149c2cf59f0c819fe3a80471c5a6",
+        "size_in_bytes": 51640
+      },
+      {
+        "_path": "lib/ncbi-blast+/libvalid.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "534cd02305a1170353102e6becc90742c50aafdd3b860857c07191b96059b381",
+        "sha256_in_prefix": "b6ae627b8852f4056a45e656f7adda48ef60ad31434148a6e70955be6c0c335b",
+        "size_in_bytes": 197472
+      },
+      {
+        "_path": "lib/ncbi-blast+/libvariation.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "3362ec23834faa2b1e1f51b90ddceeca7baf57b80c1b61f479232ba0d6f9ea79",
+        "sha256_in_prefix": "7baea91f239aacab96d15a929726d87cdc6171707d76bde839b9a626a6fd2c82",
+        "size_in_bytes": 226832
+      },
+      {
+        "_path": "lib/ncbi-blast+/libwritedb.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "76acba0242e9ff96447939705bb6d5e216a0b1b56b934488d499f0c44eb1ee59",
+        "sha256_in_prefix": "6ccc0a7e907546b5b548885f1347c2e93ed20cae2f5f25c958e813068a7318b6",
+        "size_in_bytes": 578232
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxalgoblastdbindex.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "7989382fe988a7a55f9805a5eff49cb13b9d86db94406f733d2d92f21562b4b7",
+        "sha256_in_prefix": "f117ef79218c9f4f0919f6f78932ad9ff5b7681e617d6928062e777319fa5991",
+        "size_in_bytes": 225040
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxalgodustmask.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "94676534633a4b68a2dce5457ca649e812b277477079b0fbb22c1ff36b29ff21",
+        "sha256_in_prefix": "37116321c9603e7602e14d119f58b2483adc4feda28ec92807e9feb9f044519c",
+        "size_in_bytes": 40296
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxalgosegmask.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "dcb06e6240b1e277271672445b4e7f2d65bdac905929c958514acfe2f9f6bfc1",
+        "sha256_in_prefix": "af6dd35aa9330c2d4a36f33b813efe21b0782fa42588b03cfd608dfbafcf023f",
+        "size_in_bytes": 29424
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxalgowinmask.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "44830664b0c2c1054dfea7d40f6aecf71e3bb8f20a1a87ad6d6efc328ca07b98",
+        "sha256_in_prefix": "2c9e08d765a1f3737ab9fc45d866711e45149163da9e2ec77242fd41e86e4ea0",
+        "size_in_bytes": 343960
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxalnmgr.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "fe1b1c1e6cfbd59b5733ac0e36f65f2536866d1301d4aa2aa44e528ca566d81c",
+        "sha256_in_prefix": "bd4759a2d4ea8c33d6035071575cd574bbb90f379b66a5cf327009774a0ac75f",
+        "size_in_bytes": 690072
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxblast.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "b0fd2b33e5d784212ef7768ae942ef8f3ae9245820751364e0b185deea9b3ed9",
+        "sha256_in_prefix": "6eddda224d7a44043631ec35a26a813cc31d37d807592e03f9aa8996cc127fb4",
+        "size_in_bytes": 2674544
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxblastformat.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "8fcaa93cd34fc26e667b0e8529978a157a2d9c62068dc51fb53ac427879a5b6a",
+        "sha256_in_prefix": "913d66b4c3351f50dfc6680edd3d13002de5bcf5f289d205e5cf3b821b602438",
+        "size_in_bytes": 666688
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxcgi.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "d3bd2d45504bcf6108602b5487d2d6c74b5a5b64739f81d226885051edfd2291",
+        "sha256_in_prefix": "5e5084b7a7295f2fc7c2f6c4e6cb7cce2b28ca915eb4436f475b25af7f3b5c27",
+        "size_in_bytes": 755088
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxcleanup.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "d7baa3e63e9c018015c4fd9350cde008184ee0e5780c13ffb1c92e7876899e43",
+        "sha256_in_prefix": "a3ef2a458d277ee3f5a81d9bfb9353baaa5f22adc352a8a8087cc6fcedfd4423",
+        "size_in_bytes": 1417184
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxcompress.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "5d5a88139ffe651509de597b05fb8933a497081bf131ae7663a92b9a71e34821",
+        "sha256_in_prefix": "4c89604ff4fdb24e04a0903f569d44b10974747192797f3d50eb9a15b9a275b1",
+        "size_in_bytes": 639712
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxconnect.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "d3e39c386cf3218c234de96d94dfc280e14834f94f192002c3564f493013eee6",
+        "sha256_in_prefix": "ed630bb30082084ee95c4ef034b1e5f113f3f15283e137669a22affd5579fbc2",
+        "size_in_bytes": 1756080
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxconnserv.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "2d1ef8ec054eb7789d955f80ccc801aed5acef20827c56a77507fe6c7a39ee29",
+        "sha256_in_prefix": "f3c44ece72f32fb8d22e33dffd54c395ee87b92fda57620e66df297c986a6538",
+        "size_in_bytes": 1819112
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxformat.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "909e6947925fe4378f2b4eb050e0be9c626bcd518d929250cbebfa7cb5ff3a8a",
+        "sha256_in_prefix": "5d425829a7a5c39c53050c5d1cbcf48a8d11fdeeedc6de44e1dc6d0a0ced87ba",
+        "size_in_bytes": 2073960
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxhtml.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "7c6d8e5420fdd01fa24c58465fb5cf96757146427d5c40b9d604a74d5e7cb841",
+        "sha256_in_prefix": "0a5723ea03a323578d10debd50d4ba3f8ccd729d51e4b6be673dab44b58b4a0b",
+        "size_in_bytes": 449768
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxlogging.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "c8755fcd91bec5b9d3e329821a2d2f2935fb80c012e50985ec86539871c02edb",
+        "sha256_in_prefix": "c029f01efc4ed562a1f0b58a3bbf315d3d51435307eed214b0f06c08dde9a0ce",
+        "size_in_bytes": 40800
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxncbi.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "425374f7eb2212a3d6c0f215354be8ad5cdd6e4e5a52fa42b24cf60de1b049a6",
+        "sha256_in_prefix": "e048a52208fe3fae69f7ef263192d2cd2e128efe13008de77ba99b85f7cea8d5",
+        "size_in_bytes": 3226304
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxnetblast.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "44ea88c77674a2cfaa010f33b677220ef3ee4e80dba4321d09af7e1ee8ca358b",
+        "sha256_in_prefix": "9cf2a82422f5e243f0056cd75ec2f51155134c8699059431658bb03c73f38832",
+        "size_in_bytes": 607192
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxnetblastcli.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "d20692417c047f322388b719ba6764be1d536e5943aa7bee8695833c82159651",
+        "sha256_in_prefix": "5f6bee3be2afd2b48805ec222ace7c000d3d6ace0f6bba1a84e7aa119c122c72",
+        "size_in_bytes": 64680
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxobjedit.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "b95d9dc2d080f34f6c1c21eba269bb4e6383ae4f89fc47e0fed75eeb23fe536c",
+        "sha256_in_prefix": "75bc49a3fa6c6df4a8b4e68e9468ea6c30f975a6870809edaa8dae243c0c0502",
+        "size_in_bytes": 1343952
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxobjmgr.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "28ea2de91181f7ccbe3e2da284e36f19b45eb058a0dad524441d4ff983c7ce0c",
+        "sha256_in_prefix": "a411be0fe572a3e450c44ca9abe3331e7edd418d30b22d7877ce6a7fa1cc75d1",
+        "size_in_bytes": 3459544
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxobjread.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "9691ed83c6cf59b8d7fd09857aca66d6233533bb8ac4b8a72cfffa60a6e33911",
+        "sha256_in_prefix": "6a241824de397b040a2ac3765a9e387c454963be618a49085de8cc964a330ec7",
+        "size_in_bytes": 2814544
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxobjsimple.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "17b0f0ec9ac803f4c5f67083c42331f2ab8c0df37a124d2d7d351d243e2cb2e8",
+        "sha256_in_prefix": "6dd717b38518375956afb533398e08b32a40c9e475919e52e5b48e3761a7c5bd",
+        "size_in_bytes": 38864
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxobjutil.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "7e0bfeec396ccd784f87b4b4e683b7bf73f7ac745dd22f7b244fcd617113b527",
+        "sha256_in_prefix": "1390f885919b7d505d0c0d0b5573849ce1abe4bee8b93db0b2fc932569e348ca",
+        "size_in_bytes": 1680680
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxregexp.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "3f84c016da2b437eb2b1499f325f5c2a111fd37fc745c60f59529d1eace4d820",
+        "sha256_in_prefix": "c5395cf9277ca2f65e3e4d0398cd763f5c2137b6e826fd65426560cb15c5f4ee",
+        "size_in_bytes": 100536
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxregexp_template_tester.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "400328604a008b8d14cc01222430c8a5e74d8a5ce19fc8794d71493dbbb32fbd",
+        "sha256_in_prefix": "b8d5f56fc65778c4fb3119f6ff16122b3c3baf73d737041dc8ac9d3768992ccc",
+        "size_in_bytes": 113584
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxser.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "f1af86effa3a16e834a068c3a4e01f7a0f7832ee46273c3aa049d37a876667f2",
+        "sha256_in_prefix": "97882a3fb0db6f22960039798f27858cdb2c346b45590db8d88736794b412b97",
+        "size_in_bytes": 1838000
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxthrserv.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "6d6995a714689d5df89e94d0029be1dca30555fb6a1ea4137d13210607dc9d30",
+        "sha256_in_prefix": "2a0f94261bc71da8e881504b0b2af878f09b6d64723f7c616b2beefb91cc6d95",
+        "size_in_bytes": 159112
+      },
+      {
+        "_path": "lib/ncbi-blast+/libxutil.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/bioconda/conda-bld/blast_1644320565292/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "b5e4eaced74828dd274c2a74a6616a80348941125c04dae82b38f69bf955d115",
+        "sha256_in_prefix": "7d9d60eeea793c4e411e11d69d63723623a880f6da03e7b99f2066fd7e6ca34a",
+        "size_in_bytes": 1127224
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "e3f1956198fa9ce14447d89a85f4d8a9ace0e97ebf16275888583c2364e0e57e",
+  "size": 22022695,
+  "subdir": "osx-64",
+  "timestamp": 1644325072000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/blast-2.12.0-h0370960_3.tar.bz2",
+  "version": "2.12.0"
+}

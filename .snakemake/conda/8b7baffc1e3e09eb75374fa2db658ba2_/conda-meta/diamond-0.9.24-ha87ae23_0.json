@@ -1,0 +1,46 @@
+{
+  "build": "ha87ae23_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "zlib >=1.2.11,<1.3.0a0",
+    "boost >=1.67.0,<1.67.1.0a0"
+  ],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/diamond-0.9.24-ha87ae23_0",
+  "features": "",
+  "files": [
+    "bin/diamond"
+  ],
+  "fn": "diamond-0.9.24-ha87ae23_0.tar.bz2",
+  "license": "AGPL-3.0",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/diamond-0.9.24-ha87ae23_0",
+    "type": 1
+  },
+  "md5": "99c6fbe7d3a7fb90538285a4a5c26477",
+  "name": "diamond",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/diamond-0.9.24-ha87ae23_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/diamond",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/distiller/project/miniconda/conda-bld/diamond_1545925986993/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "517275a222c48aa159e7adccbe4c8114734b1e7e161fb4dd8eeadadbdef49f8e",
+        "sha256_in_prefix": "7be39d3ca921ad39d7a69d6849da3f904fe42a74293237c9784a0c273b011092",
+        "size_in_bytes": 1146728
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "7ee8fdca993eb58747f4d3c7b6a48b016764f27aec85fd0c96bafe7955157e0c",
+  "size": 505327,
+  "subdir": "osx-64",
+  "timestamp": 1545926232000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/diamond-0.9.24-ha87ae23_0.tar.bz2",
+  "version": "0.9.24"
+}

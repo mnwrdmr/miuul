@@ -1,0 +1,3 @@
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/99909d18a83173f570ae47d314f77c4a_/lib/site_perl/5.26.2/darwin-thread-multi-2level/Compress/Raw/Zlib.pm relocate_as=../../../../Compress/Raw/Zlib.pm
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/99909d18a83173f570ae47d314f77c4a_/lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/Compress/Raw/Zlib/Zlib.bundle relocate_as=Zlib.bundle
+/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/99909d18a83173f570ae47d314f77c4a_/man/man3/Compress::Raw::Zlib.3 relocate_as=../../../../../../../../man/man3/Compress::Raw::Zlib.3

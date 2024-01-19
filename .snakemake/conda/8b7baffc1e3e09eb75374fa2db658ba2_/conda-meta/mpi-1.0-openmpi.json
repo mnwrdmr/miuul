@@ -1,0 +1,31 @@
+{
+  "build": "openmpi",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/mpi-1.0-openmpi",
+  "features": "",
+  "files": [],
+  "fn": "mpi-1.0-openmpi.conda",
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/mpi-1.0-openmpi",
+    "type": 1
+  },
+  "md5": "ce0721847dfc63612523ecdcf37ce53e",
+  "name": "mpi",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/mpi-1.0-openmpi.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d8de050f7d7ed0c672d3f6fc3b24fcbe5ef053bb26e2aa3c52c2b08f68721a75",
+  "size": 13645,
+  "subdir": "osx-64",
+  "timestamp": 1555635272000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/mpi-1.0-openmpi.conda",
+  "version": "1.0"
+}

@@ -1,0 +1,71 @@
+{
+  "build": "ha585b31_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/osx-64",
+  "constrains": [],
+  "depends": [
+    "libidn2 >=2,<3.0a0",
+    "openssl >=1.1.1u,<1.1.2a",
+    "zlib >=1.2.13,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/wget-1.21.4-ha585b31_1",
+  "features": "",
+  "files": [
+    "bin/wget",
+    "etc/wgetrc",
+    "share/info/wget.info",
+    "share/man/man1/wget.1"
+  ],
+  "fn": "wget-1.21.4-ha585b31_1.conda",
+  "license": "GPL-3.0-or-later",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/wget-1.21.4-ha585b31_1",
+    "type": 1
+  },
+  "md5": "ebd5d8a149fdca5cf37c4b63be02b77f",
+  "name": "wget",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/wget-1.21.4-ha585b31_1.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/wget",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/var/folders/sy/f16zz6x50xz3113nwtb9bvq00000gp/T/abs_33wz1u9_w4/croot/wget_1686948280301/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold",
+        "sha256": "4555a6fa86f5e0d67585b4ea46229c10615e74f01aa617e30825c8d8e4a88272",
+        "sha256_in_prefix": "7945a713fceca96731e2750016f72102d0de97ee80ec2d6d637e446575d51e06",
+        "size_in_bytes": 571676
+      },
+      {
+        "_path": "etc/wgetrc",
+        "path_type": "hardlink",
+        "sha256": "3737ac6d89021aaccaaf4cda78d9ba02c894f71e9afaae1fc7722de1d96b1023",
+        "sha256_in_prefix": "3737ac6d89021aaccaaf4cda78d9ba02c894f71e9afaae1fc7722de1d96b1023",
+        "size_in_bytes": 4945
+      },
+      {
+        "_path": "share/info/wget.info",
+        "path_type": "hardlink",
+        "sha256": "d7c4ef76c295e8c9ce578c9cec8cb8a090f0813aba4e784a0567f7c7ab8fdda7",
+        "sha256_in_prefix": "d7c4ef76c295e8c9ce578c9cec8cb8a090f0813aba4e784a0567f7c7ab8fdda7",
+        "size_in_bytes": 233677
+      },
+      {
+        "_path": "share/man/man1/wget.1",
+        "path_type": "hardlink",
+        "sha256": "7de38b62f87b5da869db131bed52821beeaa8d9e8e83ff5915af96c26d835bf2",
+        "sha256_in_prefix": "7de38b62f87b5da869db131bed52821beeaa8d9e8e83ff5915af96c26d835bf2",
+        "size_in_bytes": 113234
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "eadfbf213e633b7d54d10e122c00e4a521775b1590cf9cafdf9d1ac355649652",
+  "size": 373023,
+  "subdir": "osx-64",
+  "timestamp": 1686948589000,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/osx-64/wget-1.21.4-ha585b31_1.conda",
+  "version": "1.21.4"
+}

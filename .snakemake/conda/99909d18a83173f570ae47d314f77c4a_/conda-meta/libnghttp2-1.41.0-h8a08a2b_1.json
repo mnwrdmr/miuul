@@ -1,0 +1,119 @@
+{
+  "build": "h8a08a2b_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/conda-forge/osx-64",
+  "constrains": [],
+  "depends": [
+    "c-ares >=1.7.5",
+    "libev >=4.11",
+    "openssl >=1.1.1g,<1.1.2a",
+    "zlib >=1.2.11,<1.3.0a0"
+  ],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/libnghttp2-1.41.0-h8a08a2b_1",
+  "features": "",
+  "files": [
+    "bin/nghttp",
+    "bin/nghttpd",
+    "bin/nghttpx",
+    "include/nghttp2/nghttp2.h",
+    "include/nghttp2/nghttp2ver.h",
+    "lib/libnghttp2.14.dylib",
+    "lib/libnghttp2.a",
+    "lib/libnghttp2.dylib",
+    "lib/pkgconfig/libnghttp2.pc"
+  ],
+  "fn": "libnghttp2-1.41.0-h8a08a2b_1.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/libnghttp2-1.41.0-h8a08a2b_1",
+    "type": 1
+  },
+  "md5": "36f0b720affe5e8588f55f375c033228",
+  "name": "libnghttp2",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/libnghttp2-1.41.0-h8a08a2b_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/nghttp",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/nghttp2_1594890026471/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "7f38646f0ec0ad077a531c99b85c081978520879ef2a47dce4ffff41213db0fa",
+        "sha256_in_prefix": "c7acea411c8684e754840eb242e1a5c27df1cce5d9c3156f7b57da6ac59620e6",
+        "size_in_bytes": 318660
+      },
+      {
+        "_path": "bin/nghttpd",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/nghttp2_1594890026471/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "930aa7e808d1d4f4f98fbf996faa3c657f8602f38f64005755ed6ac670204abf",
+        "sha256_in_prefix": "438efa20f37d7f3ac2f9125a7292ca4f9655b1dee7388c630631e4bed03d6a19",
+        "size_in_bytes": 288236
+      },
+      {
+        "_path": "bin/nghttpx",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/nghttp2_1594890026471/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "48d0025c88e04ab9aa5e5252f2fb788ac3936ceed2c104960b2b735f804780cc",
+        "sha256_in_prefix": "0c82b238f2649faded8963984e6e06a0e834ebee96d0ed68820a8dacdf607a2e",
+        "size_in_bytes": 1221132
+      },
+      {
+        "_path": "include/nghttp2/nghttp2.h",
+        "path_type": "hardlink",
+        "sha256": "f8e5351bad6c3c961fbc247790047c031508b98ae083f8d72483505c8c039931",
+        "sha256_in_prefix": "f8e5351bad6c3c961fbc247790047c031508b98ae083f8d72483505c8c039931",
+        "size_in_bytes": 191528
+      },
+      {
+        "_path": "include/nghttp2/nghttp2ver.h",
+        "path_type": "hardlink",
+        "sha256": "6a36cd36e694976de00dd7aa55a8731a7fa9e06cde1a855d6409530bcfbd4e40",
+        "sha256_in_prefix": "6a36cd36e694976de00dd7aa55a8731a7fa9e06cde1a855d6409530bcfbd4e40",
+        "size_in_bytes": 1605
+      },
+      {
+        "_path": "lib/libnghttp2.14.dylib",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/nghttp2_1594890026471/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "ecbf011abac7c10572a287a0d54e9c614ef2107d517a7b31cfbcca7503a86025",
+        "sha256_in_prefix": "4ec98be9dbb5731e18393d6bccc6893e8c425d57c7676bfa402627d5d9399cfc",
+        "size_in_bytes": 164284
+      },
+      {
+        "_path": "lib/libnghttp2.a",
+        "path_type": "hardlink",
+        "sha256": "99a14d704de742bef1f3aaca1d6f17dbc3b5c6047ec72371b2a62bd38285d0df",
+        "sha256_in_prefix": "99a14d704de742bef1f3aaca1d6f17dbc3b5c6047ec72371b2a62bd38285d0df",
+        "size_in_bytes": 240632
+      },
+      {
+        "_path": "lib/libnghttp2.dylib",
+        "path_type": "softlink",
+        "sha256": "ecbf011abac7c10572a287a0d54e9c614ef2107d517a7b31cfbcca7503a86025",
+        "size_in_bytes": 164284
+      },
+      {
+        "_path": "lib/pkgconfig/libnghttp2.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/runner/miniforge3/conda-bld/nghttp2_1594890026471/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_p",
+        "sha256": "d455bea3120d47cb3c7aa8d7b5faad126257b3720eb597f0b609da36651a45ab",
+        "sha256_in_prefix": "53cf9115854089aa25c847d9945138f89b2c6aa8ecbd94ce82892b85cea47640",
+        "size_in_bytes": 1633
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d11bf4e089d1a6a14ccff876b9cec0ebb16b1eeaddf865bd69349f74ea03d6a8",
+  "size": 753824,
+  "subdir": "osx-64",
+  "timestamp": 1594890346000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/conda-forge/osx-64/libnghttp2-1.41.0-h8a08a2b_1.tar.bz2",
+  "version": "1.41.0"
+}
