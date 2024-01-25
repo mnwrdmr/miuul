@@ -1,0 +1,75 @@
+Building DAG of jobs...
+Creating conda environment env/env.yaml...
+Downloading and installing remote packages.
+Environment for /Users/macvbookpro/PycharmProjects/miuul/env/env.yaml created (location: .snakemake/conda/99114224f82265174792d721a4f9803c_)
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job        count
+-------  -------
+all            1
+barrnap        3
+total          4
+
+Select jobs to execute...
+
+[Thu Jan 25 18:56:10 2024]
+rule barrnap:
+    input: resource/Genome/S_salmonicida.fasta
+    output: output/barrnap/S_salmonicida_rrna.gff3
+    jobid: 3
+    reason: Missing output files: output/barrnap/S_salmonicida_rrna.gff3
+    wildcards: Genome=S_salmonicida
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+
+barrnap --kingdom euk resource/Genome/S_salmonicida.fasta -o output/barrnap/S_salmonicida_rrna.gff3
+Activating conda environment: .snakemake/conda/99114224f82265174792d721a4f9803c_
+[Thu Jan 25 18:56:26 2024]
+Finished job 3.
+1 of 4 steps (25%) done
+Select jobs to execute...
+
+[Thu Jan 25 18:56:26 2024]
+rule barrnap:
+    input: resource/Genome/G_intestinalis.fasta
+    output: output/barrnap/G_intestinalis_rrna.gff3
+    jobid: 1
+    reason: Missing output files: output/barrnap/G_intestinalis_rrna.gff3
+    wildcards: Genome=G_intestinalis
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+
+barrnap --kingdom euk resource/Genome/G_intestinalis.fasta -o output/barrnap/G_intestinalis_rrna.gff3
+Activating conda environment: .snakemake/conda/99114224f82265174792d721a4f9803c_
+[Thu Jan 25 18:56:45 2024]
+Finished job 1.
+2 of 4 steps (50%) done
+Select jobs to execute...
+
+[Thu Jan 25 18:56:45 2024]
+rule barrnap:
+    input: resource/Genome/G_muris.fasta
+    output: output/barrnap/G_muris_rrna.gff3
+    jobid: 2
+    reason: Missing output files: output/barrnap/G_muris_rrna.gff3
+    wildcards: Genome=G_muris
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+
+barrnap --kingdom euk resource/Genome/G_muris.fasta -o output/barrnap/G_muris_rrna.gff3
+Activating conda environment: .snakemake/conda/99114224f82265174792d721a4f9803c_
+[Thu Jan 25 18:57:36 2024]
+Finished job 2.
+3 of 4 steps (75%) done
+Select jobs to execute...
+
+[Thu Jan 25 18:57:36 2024]
+localrule all:
+    input: output/barrnap/G_intestinalis_rrna.gff3, output/barrnap/G_muris_rrna.gff3, output/barrnap/S_salmonicida_rrna.gff3
+    jobid: 0
+    reason: Input files updated by another job: output/barrnap/G_muris_rrna.gff3, output/barrnap/G_intestinalis_rrna.gff3, output/barrnap/S_salmonicida_rrna.gff3
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+
+[Thu Jan 25 18:57:36 2024]
+Finished job 0.
+4 of 4 steps (100%) done
+Complete log: .snakemake/log/2024-01-25T185542.953881.snakemake.log

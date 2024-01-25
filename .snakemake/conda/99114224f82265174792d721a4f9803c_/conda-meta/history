@@ -1,0 +1,12 @@
+==> 2024-01-25 18:56:09 <==
+# cmd: /Users/macvbookpro/opt/anaconda3/condabin/mamba create --quiet --file /Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/99114224f82265174792d721a4f9803c_.yaml --prefix /Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/99114224f82265174792d721a4f9803c_
+# conda version: 23.11.0
++bioconda/noarch::barrnap-0.9-hdfd78af_4
++bioconda/osx-64::bedtools-2.31.1-h6372da2_0
++bioconda/osx-64::hmmer-3.4-h7133b54_0
++conda-forge/osx-64::bzip2-1.0.8-h10d778d_5
++conda-forge/osx-64::libcxx-16.0.6-hd57cbcb_0
++conda-forge/osx-64::libzlib-1.2.13-h8a1eda9_5
++conda-forge/osx-64::perl-5.32.1-7_h10d778d_perl5
++conda-forge/osx-64::xz-5.2.6-h775f41a_0
+# update specs: ['bioconda::barrnap']
