@@ -1,0 +1,10 @@
+name: miuul
+channels:
+  - bioconda
+  - conda-forge
+  - nanoporetech
+dependencies:
+  - bioconda::orthofinder
+  - bioconda::barrnap
+
+

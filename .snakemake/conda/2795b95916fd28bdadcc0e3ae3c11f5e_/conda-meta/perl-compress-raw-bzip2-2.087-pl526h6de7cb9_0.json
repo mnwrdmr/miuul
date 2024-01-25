@@ -1,0 +1,74 @@
+{
+  "build": "pl526h6de7cb9_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "libcxx >=4.0.1",
+    "perl >=5.26.2,<5.26.3.0a0"
+  ],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/perl-compress-raw-bzip2-2.087-pl526h6de7cb9_0",
+  "features": "",
+  "files": [
+    "lib/5.26.2/darwin-thread-multi-2level/perllocal.pod",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/Compress/Raw/Bzip2.pm",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/Compress/Raw/Bzip2/.packlist",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/Compress/Raw/Bzip2/Bzip2.bundle"
+  ],
+  "fn": "perl-compress-raw-bzip2-2.087-pl526h6de7cb9_0.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/perl-compress-raw-bzip2-2.087-pl526h6de7cb9_0",
+    "type": 1
+  },
+  "md5": "63315b52c87d8d6da6335c87eb9dc711",
+  "name": "perl-compress-raw-bzip2",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/perl-compress-raw-bzip2-2.087-pl526h6de7cb9_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/5.26.2/darwin-thread-multi-2level/perllocal.pod",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "7e3b92da6e1067402c7f2a9d4d3994cd4fdb4065ec37d7d4b4709a9fc7271527",
+        "sha256_in_prefix": "37cbf268945b95b599afe04f33bf8baa6bade33cc31fdc94039a0cb7f01245a2",
+        "size_in_bytes": 272
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/Compress/Raw/Bzip2.pm",
+        "path_type": "hardlink",
+        "sha256": "8e796bf2ba071c52a0a34431f5fb84c824e198cba3ee59b9f52b36df9d60cfe4",
+        "sha256_in_prefix": "8e796bf2ba071c52a0a34431f5fb84c824e198cba3ee59b9f52b36df9d60cfe4",
+        "size_in_bytes": 10783
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/Compress/Raw/Bzip2/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "a2337b6f3a10c05b3e8ebab7ae67930ae0ef9021af4041c87c05bf7340676996",
+        "sha256_in_prefix": "40fd967e76da07b9b783f3efcd118eddec6507e9a90ea6eb0a84ad0e148bbb00",
+        "size_in_bytes": 425
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/Compress/Raw/Bzip2/Bzip2.bundle",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/distiller/project/miniconda/conda-bld/perl-compress-raw-bzip2_1565466217884/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_place",
+        "sha256": "aa4177a0e8286e4f607240a3d8a562e398138a0233d56319f58469e4ea9038c9",
+        "sha256_in_prefix": "f4ba2c2df01a38fedf6e3a5a84b57cb0a340763c974af5f044c29c41dab60564",
+        "size_in_bytes": 91864
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0f53bfdcacab0490ef896391714189ee6eef9d8e345236a30c7052878b38a2f3",
+  "size": 48600,
+  "subdir": "osx-64",
+  "timestamp": 1565466373000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/perl-compress-raw-bzip2-2.087-pl526h6de7cb9_0.tar.bz2",
+  "version": "2.087"
+}

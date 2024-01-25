@@ -1,0 +1,45 @@
+{
+  "build": "h1a26d03_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "gmp >=6.3.0,<7.0a0",
+    "libcxx >=14",
+    "openmpi >=4.1.6,<5.0a0"
+  ],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/raxml-ng-1.2.1-h1a26d03_0",
+  "features": "",
+  "files": [
+    "bin/raxml-ng"
+  ],
+  "fn": "raxml-ng-1.2.1-h1a26d03_0.tar.bz2",
+  "license": "AGPL-3",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/raxml-ng-1.2.1-h1a26d03_0",
+    "type": 1
+  },
+  "md5": "59475b40cfd98e1353b83f2d6ecf5027",
+  "name": "raxml-ng",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/raxml-ng-1.2.1-h1a26d03_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/raxml-ng",
+        "path_type": "hardlink",
+        "sha256": "3112eb1a8638628c503a01d6040e92d54ee2923a15e633d18c888700dbdff20e",
+        "sha256_in_prefix": "3112eb1a8638628c503a01d6040e92d54ee2923a15e633d18c888700dbdff20e",
+        "size_in_bytes": 1928728
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "d107a9ade8c27aa4e0a15a95d65b6bf8480722e80f4bfd71672f4c381c5be3c5",
+  "size": 826890,
+  "subdir": "osx-64",
+  "timestamp": 1703285081000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/raxml-ng-1.2.1-h1a26d03_0.tar.bz2",
+  "version": "1.2.1"
+}

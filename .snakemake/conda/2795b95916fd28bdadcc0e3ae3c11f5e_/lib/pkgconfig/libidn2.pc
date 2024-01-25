@@ -1,0 +1,11 @@
+prefix=/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/2795b95916fd28bdadcc0e3ae3c11f5e_
+exec_prefix=${prefix}
+includedir=${prefix}/include
+libdir=${exec_prefix}/lib
+
+Name: libidn2
+Description: Library implementing IDNA2008 and TR46
+Version: 2.3.4
+Cflags: -I${includedir}
+Libs: -L${libdir} -lidn2
+Libs.private: -L/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/2795b95916fd28bdadcc0e3ae3c11f5e_/lib -liconv -R/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/2795b95916fd28bdadcc0e3ae3c11f5e_/lib -L/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/2795b95916fd28bdadcc0e3ae3c11f5e_/lib -lunistring -R/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/2795b95916fd28bdadcc0e3ae3c11f5e_/lib

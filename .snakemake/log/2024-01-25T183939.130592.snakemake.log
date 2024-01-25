@@ -1,0 +1,35 @@
+Building DAG of jobs...
+Creating conda environment env/env.yaml...
+Downloading and installing remote packages.
+Environment for /Users/macvbookpro/PycharmProjects/miuul/env/env.yaml created (location: .snakemake/conda/2795b95916fd28bdadcc0e3ae3c11f5e_)
+Using shell: /bin/bash
+Provided cores: 1 (use --cores to define parallelism)
+Rules claiming more threads will be scaled down.
+Job stats:
+job            count
+-----------  -------
+all                1
+orthofinder        1
+total              2
+
+Select jobs to execute...
+
+[Thu Jan 25 18:41:52 2024]
+rule orthofinder:
+    input: resource/orthofinder
+    output: output/orthofinder
+    jobid: 1
+    reason: Missing output files: output/orthofinder
+    resources: tmpdir=/var/folders/2h/fkrvmspj2qb82s8c1zjb_5780000gn/T
+
+python -c "from __future__ import print_function; import sys, json; print(json.dumps([sys.version_info.major, sys.version_info.minor]))"
+Activating conda environment: .snakemake/conda/2795b95916fd28bdadcc0e3ae3c11f5e_
+python /Users/macvbookpro/PycharmProjects/miuul/.snakemake/scripts/tmpi8mekgaf.orthofinder.py
+Activating conda environment: .snakemake/conda/2795b95916fd28bdadcc0e3ae3c11f5e_
+Waiting at most 5 seconds for missing files.
+MissingOutputException in rule orthofinder in file /Users/macvbookpro/PycharmProjects/miuul/Snakefile, line 87:
+Job 1  completed successfully, but some output files are missing. Missing files after 5 seconds. This might be due to filesystem latency. If that is the case, consider to increase the wait time with --latency-wait:
+output/orthofinder
+Shutting down, this might take some time.
+Exiting because a job execution failed. Look above for error message
+Complete log: .snakemake/log/2024-01-25T183939.130592.snakemake.log

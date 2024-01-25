@@ -1,0 +1,11 @@
+prefix=/Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/2795b95916fd28bdadcc0e3ae3c11f5e_
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: kadm-server
+Description: Kerberos administration server library
+Version: 1.17.2
+Requires.private: kdb mit-krb5-gssapi
+Cflags: -I${includedir}
+Libs: -L${libdir} -lkadm5srv_mit

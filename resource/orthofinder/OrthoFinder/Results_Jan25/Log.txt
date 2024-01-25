@@ -1,0 +1,12 @@
+2024-01-25 18:42:05 : Started OrthoFinder version 2.5.5
+Command Line: /Users/macvbookpro/PycharmProjects/miuul/.snakemake/conda/2795b95916fd28bdadcc0e3ae3c11f5e_/bin/orthofinder -f resource/orthofinder -og
+
+WorkingDirectory_Base: /Users/macvbookpro/PycharmProjects/miuul/resource/orthofinder/OrthoFinder/Results_Jan25/WorkingDirectory/
+
+Species used: 
+0: G_intestinalis_aa.fasta
+1: G_muris_aa.fasta
+2: S_salmonicida_aa.fasta
+
+FN_Orthogroups: /Users/macvbookpro/PycharmProjects/miuul/resource/orthofinder/OrthoFinder/Results_Jan25/WorkingDirectory/clusters_OrthoFinder_I1.5.txt_id_pairs.txt
+2024-01-25 18:47:00 : OrthoFinder run completed

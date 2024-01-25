@@ -1,0 +1,489 @@
+{
+  "build": "h2413b67_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [
+    "__osx >=10.12"
+  ],
+  "depends": [
+    "gawk"
+  ],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/mafft-7.520-h2413b67_3",
+  "features": "",
+  "files": [
+    "bin/einsi",
+    "bin/fftns",
+    "bin/fftnsi",
+    "bin/ginsi",
+    "bin/linsi",
+    "bin/mafft",
+    "bin/mafft-distance",
+    "bin/mafft-einsi",
+    "bin/mafft-fftns",
+    "bin/mafft-fftnsi",
+    "bin/mafft-ginsi",
+    "bin/mafft-homologs.rb",
+    "bin/mafft-linsi",
+    "bin/mafft-nwns",
+    "bin/mafft-nwnsi",
+    "bin/mafft-profile",
+    "bin/mafft-qinsi",
+    "bin/mafft-sparsecore.rb",
+    "bin/mafft-xinsi",
+    "bin/nwns",
+    "bin/nwnsi",
+    "libexec/mafft/addsingle",
+    "libexec/mafft/contrafoldwrap",
+    "libexec/mafft/countlen",
+    "libexec/mafft/dash_client",
+    "libexec/mafft/disttbfast",
+    "libexec/mafft/dndblast",
+    "libexec/mafft/dndfast7",
+    "libexec/mafft/dndpre",
+    "libexec/mafft/dvtditr",
+    "libexec/mafft/f2cl",
+    "libexec/mafft/filter",
+    "libexec/mafft/getlag",
+    "libexec/mafft/hex2maffttext",
+    "libexec/mafft/mafft-distance",
+    "libexec/mafft/mafft-profile",
+    "libexec/mafft/mafftash_premafft.pl",
+    "libexec/mafft/maffttext2hex",
+    "libexec/mafft/makedirectionlist",
+    "libexec/mafft/mccaskillwrap",
+    "libexec/mafft/multi2hat3s",
+    "libexec/mafft/nodepair",
+    "libexec/mafft/pairash",
+    "libexec/mafft/pairlocalalign",
+    "libexec/mafft/regtable2seq",
+    "libexec/mafft/replaceu",
+    "libexec/mafft/restoreu",
+    "libexec/mafft/score",
+    "libexec/mafft/seekquencer_premafft.pl",
+    "libexec/mafft/seq2regtable",
+    "libexec/mafft/setcore",
+    "libexec/mafft/setdirection",
+    "libexec/mafft/sextet5",
+    "libexec/mafft/splittbfast",
+    "libexec/mafft/tbfast",
+    "libexec/mafft/version",
+    "share/man/man1/mafft-homologs.1",
+    "share/man/man1/mafft.1"
+  ],
+  "fn": "mafft-7.520-h2413b67_3.tar.bz2",
+  "license": "BSD",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/mafft-7.520-h2413b67_3",
+    "type": 1
+  },
+  "md5": "da5c2022a033ff92edd621ce3e072931",
+  "name": "mafft",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/mafft-7.520-h2413b67_3.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/einsi",
+        "path_type": "softlink",
+        "sha256": "76960ac5241811047b17afc7ea3d5b17cfd42707d2267519cc0cf4059825c743",
+        "size_in_bytes": 109810
+      },
+      {
+        "_path": "bin/fftns",
+        "path_type": "softlink",
+        "sha256": "76960ac5241811047b17afc7ea3d5b17cfd42707d2267519cc0cf4059825c743",
+        "size_in_bytes": 109810
+      },
+      {
+        "_path": "bin/fftnsi",
+        "path_type": "softlink",
+        "sha256": "76960ac5241811047b17afc7ea3d5b17cfd42707d2267519cc0cf4059825c743",
+        "size_in_bytes": 109810
+      },
+      {
+        "_path": "bin/ginsi",
+        "path_type": "softlink",
+        "sha256": "76960ac5241811047b17afc7ea3d5b17cfd42707d2267519cc0cf4059825c743",
+        "size_in_bytes": 109810
+      },
+      {
+        "_path": "bin/linsi",
+        "path_type": "softlink",
+        "sha256": "76960ac5241811047b17afc7ea3d5b17cfd42707d2267519cc0cf4059825c743",
+        "size_in_bytes": 109810
+      },
+      {
+        "_path": "bin/mafft",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/mambaforge/envs/bioconda/conda-bld/mafft_1698165053078/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "76960ac5241811047b17afc7ea3d5b17cfd42707d2267519cc0cf4059825c743",
+        "sha256_in_prefix": "cc65924bd5731c44367222ddb49668a17986e66bdb798c747e856c8675519721",
+        "size_in_bytes": 109810
+      },
+      {
+        "_path": "bin/mafft-distance",
+        "path_type": "softlink",
+        "sha256": "cf6812eda13b0ec56562df721dbd0396d58192173dd7c8d42b25b55360b1eb09",
+        "size_in_bytes": 415488
+      },
+      {
+        "_path": "bin/mafft-einsi",
+        "path_type": "softlink",
+        "sha256": "76960ac5241811047b17afc7ea3d5b17cfd42707d2267519cc0cf4059825c743",
+        "size_in_bytes": 109810
+      },
+      {
+        "_path": "bin/mafft-fftns",
+        "path_type": "softlink",
+        "sha256": "76960ac5241811047b17afc7ea3d5b17cfd42707d2267519cc0cf4059825c743",
+        "size_in_bytes": 109810
+      },
+      {
+        "_path": "bin/mafft-fftnsi",
+        "path_type": "softlink",
+        "sha256": "76960ac5241811047b17afc7ea3d5b17cfd42707d2267519cc0cf4059825c743",
+        "size_in_bytes": 109810
+      },
+      {
+        "_path": "bin/mafft-ginsi",
+        "path_type": "softlink",
+        "sha256": "76960ac5241811047b17afc7ea3d5b17cfd42707d2267519cc0cf4059825c743",
+        "size_in_bytes": 109810
+      },
+      {
+        "_path": "bin/mafft-homologs.rb",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/mambaforge/envs/bioconda/conda-bld/mafft_1698165053078/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "4b355f65a19c020b8d94c33b39f980b88b5153645b8e70c2669fb1a335b390bf",
+        "sha256_in_prefix": "a5e292e640ff724843cc43669f48b011da6e150053803157dddb93c38aabe5fd",
+        "size_in_bytes": 11792
+      },
+      {
+        "_path": "bin/mafft-linsi",
+        "path_type": "softlink",
+        "sha256": "76960ac5241811047b17afc7ea3d5b17cfd42707d2267519cc0cf4059825c743",
+        "size_in_bytes": 109810
+      },
+      {
+        "_path": "bin/mafft-nwns",
+        "path_type": "softlink",
+        "sha256": "76960ac5241811047b17afc7ea3d5b17cfd42707d2267519cc0cf4059825c743",
+        "size_in_bytes": 109810
+      },
+      {
+        "_path": "bin/mafft-nwnsi",
+        "path_type": "softlink",
+        "sha256": "76960ac5241811047b17afc7ea3d5b17cfd42707d2267519cc0cf4059825c743",
+        "size_in_bytes": 109810
+      },
+      {
+        "_path": "bin/mafft-profile",
+        "path_type": "softlink",
+        "sha256": "d3183ca8725ce73afeb48191654a921965e6533f74e28b8202a5d43cb1450e3d",
+        "size_in_bytes": 760584
+      },
+      {
+        "_path": "bin/mafft-qinsi",
+        "path_type": "softlink",
+        "sha256": "76960ac5241811047b17afc7ea3d5b17cfd42707d2267519cc0cf4059825c743",
+        "size_in_bytes": 109810
+      },
+      {
+        "_path": "bin/mafft-sparsecore.rb",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/mambaforge/envs/bioconda/conda-bld/mafft_1698165053078/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehol",
+        "sha256": "5b1881464fda76dbd33a81810262ad5d4fe4c6d4a45c2b9c248ec238dc3aff7f",
+        "sha256_in_prefix": "8ed9ad16d23e94411fb1dea6c6ba2402768bc6882fe9dbd066c83bf288ea91cc",
+        "size_in_bytes": 8029
+      },
+      {
+        "_path": "bin/mafft-xinsi",
+        "path_type": "softlink",
+        "sha256": "76960ac5241811047b17afc7ea3d5b17cfd42707d2267519cc0cf4059825c743",
+        "size_in_bytes": 109810
+      },
+      {
+        "_path": "bin/nwns",
+        "path_type": "softlink",
+        "sha256": "76960ac5241811047b17afc7ea3d5b17cfd42707d2267519cc0cf4059825c743",
+        "size_in_bytes": 109810
+      },
+      {
+        "_path": "bin/nwnsi",
+        "path_type": "softlink",
+        "sha256": "76960ac5241811047b17afc7ea3d5b17cfd42707d2267519cc0cf4059825c743",
+        "size_in_bytes": 109810
+      },
+      {
+        "_path": "libexec/mafft/addsingle",
+        "path_type": "hardlink",
+        "sha256": "24157fb8f4296324c0d01e000beb7c27f440c39a3c3e935a35007e5324a71b78",
+        "sha256_in_prefix": "24157fb8f4296324c0d01e000beb7c27f440c39a3c3e935a35007e5324a71b78",
+        "size_in_bytes": 839128
+      },
+      {
+        "_path": "libexec/mafft/contrafoldwrap",
+        "path_type": "hardlink",
+        "sha256": "7353ff8ac8db5036ef9e16d3e47b1701c7ac0a19981660bd377fb531e9aaa9d8",
+        "sha256_in_prefix": "7353ff8ac8db5036ef9e16d3e47b1701c7ac0a19981660bd377fb531e9aaa9d8",
+        "size_in_bytes": 394168
+      },
+      {
+        "_path": "libexec/mafft/countlen",
+        "path_type": "hardlink",
+        "sha256": "a2fa90cc6f3f7a75652a529189d3f128b6e6ae05641cbec41eecdef6f48d5296",
+        "sha256_in_prefix": "a2fa90cc6f3f7a75652a529189d3f128b6e6ae05641cbec41eecdef6f48d5296",
+        "size_in_bytes": 103128
+      },
+      {
+        "_path": "libexec/mafft/dash_client",
+        "path_type": "hardlink",
+        "sha256": "af203fa9a419effa8a0be1414050150e756ef862b69e3a274333daf2b742c262",
+        "sha256_in_prefix": "af203fa9a419effa8a0be1414050150e756ef862b69e3a274333daf2b742c262",
+        "size_in_bytes": 7250496
+      },
+      {
+        "_path": "libexec/mafft/disttbfast",
+        "path_type": "hardlink",
+        "sha256": "9ff523150d823a831fe73db3da9618976a76b36f177f55dcb4a4b1979a9148e1",
+        "sha256_in_prefix": "9ff523150d823a831fe73db3da9618976a76b36f177f55dcb4a4b1979a9148e1",
+        "size_in_bytes": 851624
+      },
+      {
+        "_path": "libexec/mafft/dndblast",
+        "path_type": "hardlink",
+        "sha256": "c2684e4b2b3ace16c2ee52cab99366c16422e5567ff80904866f524d645d0b3c",
+        "sha256_in_prefix": "c2684e4b2b3ace16c2ee52cab99366c16422e5567ff80904866f524d645d0b3c",
+        "size_in_bytes": 415496
+      },
+      {
+        "_path": "libexec/mafft/dndfast7",
+        "path_type": "hardlink",
+        "sha256": "2f7fdae0469318a2f0f26880617f2aaaa1a1057edd468ab397c7de2dd0da9d80",
+        "sha256_in_prefix": "2f7fdae0469318a2f0f26880617f2aaaa1a1057edd468ab397c7de2dd0da9d80",
+        "size_in_bytes": 415496
+      },
+      {
+        "_path": "libexec/mafft/dndpre",
+        "path_type": "hardlink",
+        "sha256": "608b059fb338029326fd2c1556265fbfe0bf5e9a445f97e372d716a54692f075",
+        "sha256_in_prefix": "608b059fb338029326fd2c1556265fbfe0bf5e9a445f97e372d716a54692f075",
+        "size_in_bytes": 394128
+      },
+      {
+        "_path": "libexec/mafft/dvtditr",
+        "path_type": "hardlink",
+        "sha256": "53975a9620321164a2979ca94b93e125a07a7f34b88e6894374a61da4117510d",
+        "sha256_in_prefix": "53975a9620321164a2979ca94b93e125a07a7f34b88e6894374a61da4117510d",
+        "size_in_bytes": 856112
+      },
+      {
+        "_path": "libexec/mafft/f2cl",
+        "path_type": "hardlink",
+        "sha256": "da81470b1091214c1a4e9578d59ea998b01769521522f22fbd9ccfbd1e325381",
+        "sha256_in_prefix": "da81470b1091214c1a4e9578d59ea998b01769521522f22fbd9ccfbd1e325381",
+        "size_in_bytes": 185512
+      },
+      {
+        "_path": "libexec/mafft/filter",
+        "path_type": "hardlink",
+        "sha256": "3f4fdcc1f7883028052a9ab8e3ce52115e185db286e4922242a118063d870425",
+        "sha256_in_prefix": "3f4fdcc1f7883028052a9ab8e3ce52115e185db286e4922242a118063d870425",
+        "size_in_bytes": 311760
+      },
+      {
+        "_path": "libexec/mafft/getlag",
+        "path_type": "hardlink",
+        "sha256": "fa4b4d7c5698e0f578cbad5f1da9ba8be2f6467c78e04de16565457b6edb9021",
+        "sha256_in_prefix": "fa4b4d7c5698e0f578cbad5f1da9ba8be2f6467c78e04de16565457b6edb9021",
+        "size_in_bytes": 760536
+      },
+      {
+        "_path": "libexec/mafft/hex2maffttext",
+        "path_type": "hardlink",
+        "sha256": "139a01194e2c82d57a6fe32248ee7c37097481bbc07420a84e688eb4189bb4e9",
+        "sha256_in_prefix": "139a01194e2c82d57a6fe32248ee7c37097481bbc07420a84e688eb4189bb4e9",
+        "size_in_bytes": 9024
+      },
+      {
+        "_path": "libexec/mafft/mafft-distance",
+        "path_type": "hardlink",
+        "sha256": "cf6812eda13b0ec56562df721dbd0396d58192173dd7c8d42b25b55360b1eb09",
+        "sha256_in_prefix": "cf6812eda13b0ec56562df721dbd0396d58192173dd7c8d42b25b55360b1eb09",
+        "size_in_bytes": 415488
+      },
+      {
+        "_path": "libexec/mafft/mafft-profile",
+        "path_type": "hardlink",
+        "sha256": "d3183ca8725ce73afeb48191654a921965e6533f74e28b8202a5d43cb1450e3d",
+        "sha256_in_prefix": "d3183ca8725ce73afeb48191654a921965e6533f74e28b8202a5d43cb1450e3d",
+        "size_in_bytes": 760584
+      },
+      {
+        "_path": "libexec/mafft/mafftash_premafft.pl",
+        "path_type": "hardlink",
+        "sha256": "0594ba064e06ad0b647a9927bc73541edd85fd18c09a65c7a5c849b318b93ef9",
+        "sha256_in_prefix": "0594ba064e06ad0b647a9927bc73541edd85fd18c09a65c7a5c849b318b93ef9",
+        "size_in_bytes": 10475
+      },
+      {
+        "_path": "libexec/mafft/maffttext2hex",
+        "path_type": "hardlink",
+        "sha256": "55b6c56c440f9906d0f67a589fb38b91850cfe37f4784632e8adb9ff09768b20",
+        "sha256_in_prefix": "55b6c56c440f9906d0f67a589fb38b91850cfe37f4784632e8adb9ff09768b20",
+        "size_in_bytes": 13216
+      },
+      {
+        "_path": "libexec/mafft/makedirectionlist",
+        "path_type": "hardlink",
+        "sha256": "49526651a8bf75592f04024823c451cc5ee799f4078d4e0b4f9e9c5245844d01",
+        "sha256_in_prefix": "49526651a8bf75592f04024823c451cc5ee799f4078d4e0b4f9e9c5245844d01",
+        "size_in_bytes": 810352
+      },
+      {
+        "_path": "libexec/mafft/mccaskillwrap",
+        "path_type": "hardlink",
+        "sha256": "4acff9c4978883dd0711b65a5ea81ae68d14ce40d3ab701716a3676b3d0ce890",
+        "sha256_in_prefix": "4acff9c4978883dd0711b65a5ea81ae68d14ce40d3ab701716a3676b3d0ce890",
+        "size_in_bytes": 398296
+      },
+      {
+        "_path": "libexec/mafft/multi2hat3s",
+        "path_type": "hardlink",
+        "sha256": "4d4322ab13a55f8c94138eaac07d6255f155b3eb1ed16028636d268b7411c4ed",
+        "sha256_in_prefix": "4d4322ab13a55f8c94138eaac07d6255f155b3eb1ed16028636d268b7411c4ed",
+        "size_in_bytes": 427992
+      },
+      {
+        "_path": "libexec/mafft/nodepair",
+        "path_type": "hardlink",
+        "sha256": "339f37cfecf4c67bebf0b89829a61b607804391292806b135ae94b287334c94b",
+        "sha256_in_prefix": "339f37cfecf4c67bebf0b89829a61b607804391292806b135ae94b287334c94b",
+        "size_in_bytes": 851344
+      },
+      {
+        "_path": "libexec/mafft/pairash",
+        "path_type": "hardlink",
+        "sha256": "57765dee32187c056f428364d415b8bfcc4acb52de2aadfe7c49981045a894fb",
+        "sha256_in_prefix": "57765dee32187c056f428364d415b8bfcc4acb52de2aadfe7c49981045a894fb",
+        "size_in_bytes": 781120
+      },
+      {
+        "_path": "libexec/mafft/pairlocalalign",
+        "path_type": "hardlink",
+        "sha256": "65e8f3664fbc426f7449473a8e1f054fab9e02762f3effebc1a944ef191ca231",
+        "sha256_in_prefix": "65e8f3664fbc426f7449473a8e1f054fab9e02762f3effebc1a944ef191ca231",
+        "size_in_bytes": 805808
+      },
+      {
+        "_path": "libexec/mafft/regtable2seq",
+        "path_type": "hardlink",
+        "sha256": "9bffe3f83fc0ae2b8453171ac3b68d0d1c0de97ccffc3cd7b42faa6a55a72a70",
+        "sha256_in_prefix": "9bffe3f83fc0ae2b8453171ac3b68d0d1c0de97ccffc3cd7b42faa6a55a72a70",
+        "size_in_bytes": 315936
+      },
+      {
+        "_path": "libexec/mafft/replaceu",
+        "path_type": "hardlink",
+        "sha256": "fd2db1c81912176b3515e708d7c503bd2d3a131920b115915b2e8f6c16428713",
+        "sha256_in_prefix": "fd2db1c81912176b3515e708d7c503bd2d3a131920b115915b2e8f6c16428713",
+        "size_in_bytes": 311744
+      },
+      {
+        "_path": "libexec/mafft/restoreu",
+        "path_type": "hardlink",
+        "sha256": "a7cff6cd4761bc9b31bdf2cc436824dc4283acc08fdcf7416a5eda0305e450db",
+        "sha256_in_prefix": "a7cff6cd4761bc9b31bdf2cc436824dc4283acc08fdcf7416a5eda0305e450db",
+        "size_in_bytes": 315912
+      },
+      {
+        "_path": "libexec/mafft/score",
+        "path_type": "hardlink",
+        "sha256": "b69743c188aa0346eaa853db0d0eae374ed1f1c6fc2a320091b4597c98297033",
+        "sha256_in_prefix": "b69743c188aa0346eaa853db0d0eae374ed1f1c6fc2a320091b4597c98297033",
+        "size_in_bytes": 394120
+      },
+      {
+        "_path": "libexec/mafft/seekquencer_premafft.pl",
+        "path_type": "hardlink",
+        "sha256": "bfe2f4cd579c3734ac9a4979c9a1b577bef8993f5242c342019df2c490d82fd3",
+        "sha256_in_prefix": "bfe2f4cd579c3734ac9a4979c9a1b577bef8993f5242c342019df2c490d82fd3",
+        "size_in_bytes": 15541
+      },
+      {
+        "_path": "libexec/mafft/seq2regtable",
+        "path_type": "hardlink",
+        "sha256": "7c0997a1ec038cab8a0d9094c6df5a0e4ee4a71f0b41b69139e52b07b814d2d1",
+        "sha256_in_prefix": "7c0997a1ec038cab8a0d9094c6df5a0e4ee4a71f0b41b69139e52b07b814d2d1",
+        "size_in_bytes": 103152
+      },
+      {
+        "_path": "libexec/mafft/setcore",
+        "path_type": "hardlink",
+        "sha256": "43af39ae4e83392c20c5bf46f2e653f8c827958805353071846dd7987cb07f5a",
+        "sha256_in_prefix": "43af39ae4e83392c20c5bf46f2e653f8c827958805353071846dd7987cb07f5a",
+        "size_in_bytes": 760552
+      },
+      {
+        "_path": "libexec/mafft/setdirection",
+        "path_type": "hardlink",
+        "sha256": "5068b2d16c7208c868db049690dc14f4a37bec5fe277ea56e417656c756b3f62",
+        "sha256_in_prefix": "5068b2d16c7208c868db049690dc14f4a37bec5fe277ea56e417656c756b3f62",
+        "size_in_bytes": 315880
+      },
+      {
+        "_path": "libexec/mafft/sextet5",
+        "path_type": "hardlink",
+        "sha256": "48d0c2406449772a2a41cace895378366fcb5a3b32451183de4ff97e3e5b58d2",
+        "sha256_in_prefix": "48d0c2406449772a2a41cace895378366fcb5a3b32451183de4ff97e3e5b58d2",
+        "size_in_bytes": 411384
+      },
+      {
+        "_path": "libexec/mafft/splittbfast",
+        "path_type": "hardlink",
+        "sha256": "74101198af19d517a610185be8db14ec4c4e2589c3d706bcbd23076b3770227d",
+        "sha256_in_prefix": "74101198af19d517a610185be8db14ec4c4e2589c3d706bcbd23076b3770227d",
+        "size_in_bytes": 785360
+      },
+      {
+        "_path": "libexec/mafft/tbfast",
+        "path_type": "hardlink",
+        "sha256": "ce312e373052d3dfbecfda0e169f4f0958a20fecb63aa4629541163245dfa123",
+        "sha256_in_prefix": "ce312e373052d3dfbecfda0e169f4f0958a20fecb63aa4629541163245dfa123",
+        "size_in_bytes": 896736
+      },
+      {
+        "_path": "libexec/mafft/version",
+        "path_type": "hardlink",
+        "sha256": "bd0fc02801d041d1ac15870aeb34e239472669f9aea7c1ef61274463fb84d551",
+        "sha256_in_prefix": "bd0fc02801d041d1ac15870aeb34e239472669f9aea7c1ef61274463fb84d551",
+        "size_in_bytes": 8496
+      },
+      {
+        "_path": "share/man/man1/mafft-homologs.1",
+        "path_type": "hardlink",
+        "sha256": "af8149827654a2db14de0f4104a58681548af261b48fa1c74870aa08c870a847",
+        "sha256_in_prefix": "af8149827654a2db14de0f4104a58681548af261b48fa1c74870aa08c870a847",
+        "size_in_bytes": 4550
+      },
+      {
+        "_path": "share/man/man1/mafft.1",
+        "path_type": "hardlink",
+        "sha256": "319b30bf9cd7a1cd1e64848950b84196268c8208faf5fc90d0e9d5ffe9fa6875",
+        "sha256_in_prefix": "319b30bf9cd7a1cd1e64848950b84196268c8208faf5fc90d0e9d5ffe9fa6875",
+        "size_in_bytes": 14771
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "685ebfff7739389963b40b266283d33d9d079da73dd00d52543235379aed134b",
+  "size": 9594548,
+  "subdir": "osx-64",
+  "timestamp": 1698165284000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/mafft-7.520-h2413b67_3.tar.bz2",
+  "version": "7.520"
+}

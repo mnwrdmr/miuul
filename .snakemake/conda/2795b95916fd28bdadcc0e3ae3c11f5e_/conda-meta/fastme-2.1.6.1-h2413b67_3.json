@@ -1,0 +1,41 @@
+{
+  "build": "h2413b67_3",
+  "build_number": 3,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/fastme-2.1.6.1-h2413b67_3",
+  "features": "",
+  "files": [
+    "bin/fastme"
+  ],
+  "fn": "fastme-2.1.6.1-h2413b67_3.tar.bz2",
+  "license": "GPLv3",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/fastme-2.1.6.1-h2413b67_3",
+    "type": 1
+  },
+  "md5": "fd0abdab8c29ff70ab51c817da8c4858",
+  "name": "fastme",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/fastme-2.1.6.1-h2413b67_3.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/fastme",
+        "path_type": "hardlink",
+        "sha256": "608c2e9467662fc3399a38d1da12611bd9b2dc9cf03afb16270223c5148f7bda",
+        "sha256_in_prefix": "608c2e9467662fc3399a38d1da12611bd9b2dc9cf03afb16270223c5148f7bda",
+        "size_in_bytes": 285704
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "0889c904d6b73ec24a241b8ab6291e6869375cb54882029cf6cbcb455129498b",
+  "size": 157713,
+  "subdir": "osx-64",
+  "timestamp": 1684219839000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/fastme-2.1.6.1-h2413b67_3.tar.bz2",
+  "version": "2.1.6.1"
+}

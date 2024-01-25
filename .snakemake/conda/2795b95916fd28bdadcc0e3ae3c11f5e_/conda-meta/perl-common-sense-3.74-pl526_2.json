@@ -1,0 +1,69 @@
+{
+  "build": "pl526_2",
+  "build_number": 2,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.2,<5.26.3.0a0"
+  ],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/perl-common-sense-3.74-pl526_2",
+  "features": "",
+  "files": [
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/common/sense/.packlist",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/common/sense.pm",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/common/sense.pod",
+    "man/man3/common::sense.3"
+  ],
+  "fn": "perl-common-sense-3.74-pl526_2.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/perl-common-sense-3.74-pl526_2",
+    "type": 1
+  },
+  "md5": "514e0a92db4b7e2d87a80e7b29fa9b99",
+  "name": "perl-common-sense",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/perl-common-sense-3.74-pl526_2.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/common/sense/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "35b183195756a456e0af106376578e7ef14be8cad5c1728063999a4dfa1bce3f",
+        "sha256_in_prefix": "a5fd2e28559cf5a808889f8ad84d32fe5266a5e2a7c7611decd4dbf83a07285c",
+        "size_in_bytes": 386
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/common/sense.pm",
+        "path_type": "hardlink",
+        "sha256": "ebd3e1efa97fa5923847f7860d8a413fc243db1a78072683f51a14ec5e6740c2",
+        "sha256_in_prefix": "ebd3e1efa97fa5923847f7860d8a413fc243db1a78072683f51a14ec5e6740c2",
+        "size_in_bytes": 492
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/common/sense.pod",
+        "path_type": "hardlink",
+        "sha256": "d8d7878105a562aa02df7895a905249f25c64e60262e478c1b59c3fb19c9d1e0",
+        "sha256_in_prefix": "d8d7878105a562aa02df7895a905249f25c64e60262e478c1b59c3fb19c9d1e0",
+        "size_in_bytes": 15959
+      },
+      {
+        "_path": "man/man3/common::sense.3",
+        "path_type": "hardlink",
+        "sha256": "c737e68088039c175f2ca527008e0375d21a3c2ef8d5f65f05ca4ab9ce206a3b",
+        "sha256_in_prefix": "c737e68088039c175f2ca527008e0375d21a3c2ef8d5f65f05ca4ab9ce206a3b",
+        "size_in_bytes": 20950
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9142f03652cc96205ad5da84f323b2f5b80cb5ab51d39033b5672438eaf071e7",
+  "size": 15586,
+  "subdir": "osx-64",
+  "timestamp": 1533073506000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/perl-common-sense-3.74-pl526_2.tar.bz2",
+  "version": "3.74"
+}

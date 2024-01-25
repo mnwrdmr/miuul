@@ -1,0 +1,348 @@
+{
+  "build": "0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/c-ares-1.11.0-0",
+  "features": "",
+  "files": [
+    "include/ares.h",
+    "include/ares_build.h",
+    "include/ares_dns.h",
+    "include/ares_rules.h",
+    "include/ares_version.h",
+    "lib/libcares.2.dylib",
+    "lib/libcares.a",
+    "lib/libcares.dylib",
+    "lib/libcares.la",
+    "lib/pkgconfig/libcares.pc",
+    "share/man/man3/ares_cancel.3",
+    "share/man/man3/ares_create_query.3",
+    "share/man/man3/ares_destroy.3",
+    "share/man/man3/ares_destroy_options.3",
+    "share/man/man3/ares_dup.3",
+    "share/man/man3/ares_expand_name.3",
+    "share/man/man3/ares_expand_string.3",
+    "share/man/man3/ares_fds.3",
+    "share/man/man3/ares_free_data.3",
+    "share/man/man3/ares_free_hostent.3",
+    "share/man/man3/ares_free_string.3",
+    "share/man/man3/ares_get_servers.3",
+    "share/man/man3/ares_get_servers_ports.3",
+    "share/man/man3/ares_gethostbyaddr.3",
+    "share/man/man3/ares_gethostbyname.3",
+    "share/man/man3/ares_gethostbyname_file.3",
+    "share/man/man3/ares_getnameinfo.3",
+    "share/man/man3/ares_getsock.3",
+    "share/man/man3/ares_inet_ntop.3",
+    "share/man/man3/ares_inet_pton.3",
+    "share/man/man3/ares_init.3",
+    "share/man/man3/ares_init_options.3",
+    "share/man/man3/ares_library_cleanup.3",
+    "share/man/man3/ares_library_init.3",
+    "share/man/man3/ares_mkquery.3",
+    "share/man/man3/ares_parse_a_reply.3",
+    "share/man/man3/ares_parse_aaaa_reply.3",
+    "share/man/man3/ares_parse_mx_reply.3",
+    "share/man/man3/ares_parse_naptr_reply.3",
+    "share/man/man3/ares_parse_ns_reply.3",
+    "share/man/man3/ares_parse_ptr_reply.3",
+    "share/man/man3/ares_parse_soa_reply.3",
+    "share/man/man3/ares_parse_srv_reply.3",
+    "share/man/man3/ares_parse_txt_reply.3",
+    "share/man/man3/ares_process.3",
+    "share/man/man3/ares_query.3",
+    "share/man/man3/ares_save_options.3",
+    "share/man/man3/ares_search.3",
+    "share/man/man3/ares_send.3",
+    "share/man/man3/ares_set_local_dev.3",
+    "share/man/man3/ares_set_local_ip4.3",
+    "share/man/man3/ares_set_local_ip6.3",
+    "share/man/man3/ares_set_servers.3",
+    "share/man/man3/ares_set_servers_csv.3",
+    "share/man/man3/ares_set_servers_ports.3",
+    "share/man/man3/ares_set_servers_ports_csv.3",
+    "share/man/man3/ares_set_socket_callback.3",
+    "share/man/man3/ares_set_socket_configure_callback.3",
+    "share/man/man3/ares_set_sortlist.3",
+    "share/man/man3/ares_strerror.3",
+    "share/man/man3/ares_timeout.3",
+    "share/man/man3/ares_version.3"
+  ],
+  "fn": "c-ares-1.11.0-0.tar.bz2",
+  "license": "MIT",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/c-ares-1.11.0-0",
+    "type": 1
+  },
+  "md5": "6402401b84b82357f5161563079eb6b7",
+  "name": "c-ares",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/c-ares-1.11.0-0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "include/ares.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/ares_build.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/ares_dns.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/ares_rules.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "include/ares_version.h",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libcares.2.dylib",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libcares.a",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "lib/libcares.dylib",
+        "path_type": "softlink"
+      },
+      {
+        "_path": "lib/libcares.la",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "085f49bbfd47c6a61bafc0a6c9f2572d57bb8cadf6b7353d4e6d032e2d31bbee"
+      },
+      {
+        "_path": "lib/pkgconfig/libcares.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256_in_prefix": "98404b243474d913aed88717a7254c74b6573127d3e2c00af609f0cc867856bc"
+      },
+      {
+        "_path": "share/man/man3/ares_cancel.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_create_query.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_destroy.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_destroy_options.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_dup.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_expand_name.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_expand_string.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_fds.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_free_data.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_free_hostent.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_free_string.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_get_servers.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_get_servers_ports.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_gethostbyaddr.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_gethostbyname.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_gethostbyname_file.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_getnameinfo.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_getsock.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_inet_ntop.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_inet_pton.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_init.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_init_options.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_library_cleanup.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_library_init.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_mkquery.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_parse_a_reply.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_parse_aaaa_reply.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_parse_mx_reply.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_parse_naptr_reply.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_parse_ns_reply.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_parse_ptr_reply.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_parse_soa_reply.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_parse_srv_reply.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_parse_txt_reply.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_process.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_query.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_save_options.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_search.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_send.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_set_local_dev.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_set_local_ip4.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_set_local_ip6.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_set_servers.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_set_servers_csv.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_set_servers_ports.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_set_servers_ports_csv.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_set_socket_callback.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_set_socket_configure_callback.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_set_sortlist.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_strerror.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_timeout.3",
+        "path_type": "hardlink"
+      },
+      {
+        "_path": "share/man/man3/ares_version.3",
+        "path_type": "hardlink"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "8aa3c6a8ad790c48024ecaf108773b20e5cc13709384fe78e4d42afdd0fa1476",
+  "size": 74880,
+  "subdir": "osx-64",
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/c-ares-1.11.0-0.tar.bz2",
+  "version": "1.11.0"
+}

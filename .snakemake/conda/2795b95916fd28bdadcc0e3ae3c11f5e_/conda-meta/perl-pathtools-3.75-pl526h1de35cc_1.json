@@ -1,0 +1,144 @@
+{
+  "build": "pl526h1de35cc_1",
+  "build_number": 1,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "perl >=5.26.2,<5.26.3.0a0",
+    "perl-carp"
+  ],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/perl-pathtools-3.75-pl526h1de35cc_1",
+  "features": "",
+  "files": [
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/Cwd.pm",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/File/Spec.pm",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/File/Spec/AmigaOS.pm",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/File/Spec/Cygwin.pm",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/File/Spec/Epoc.pm",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/File/Spec/Functions.pm",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/File/Spec/Mac.pm",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/File/Spec/OS2.pm",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/File/Spec/Unix.pm",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/File/Spec/VMS.pm",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/File/Spec/Win32.pm",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/Cwd/.packlist",
+    "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/Cwd/Cwd.bundle"
+  ],
+  "fn": "perl-pathtools-3.75-pl526h1de35cc_1.tar.bz2",
+  "license": "perl_5",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/perl-pathtools-3.75-pl526h1de35cc_1",
+    "type": 1
+  },
+  "md5": "fca2723e55a2a5e2a7f989f701eb9f85",
+  "name": "perl-pathtools",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/perl-pathtools-3.75-pl526h1de35cc_1.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/Cwd.pm",
+        "path_type": "hardlink",
+        "sha256": "6c9b33ffb74620ec48d44be52ead95e813208f9372753c500a25e9e018106164",
+        "sha256_in_prefix": "6c9b33ffb74620ec48d44be52ead95e813208f9372753c500a25e9e018106164",
+        "size_in_bytes": 21799
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/File/Spec.pm",
+        "path_type": "hardlink",
+        "sha256": "982290da0038fbbe38b8ce344ef3aeab8c035a8cd0706429880e2032b14c6c57",
+        "sha256_in_prefix": "982290da0038fbbe38b8ce344ef3aeab8c035a8cd0706429880e2032b14c6c57",
+        "size_in_bytes": 10571
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/File/Spec/AmigaOS.pm",
+        "path_type": "hardlink",
+        "sha256": "17e0afbf8b9165e0da26527317154f281e3b46ef48ea9940a75201715242335e",
+        "sha256_in_prefix": "17e0afbf8b9165e0da26527317154f281e3b46ef48ea9940a75201715242335e",
+        "size_in_bytes": 982
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/File/Spec/Cygwin.pm",
+        "path_type": "hardlink",
+        "sha256": "5c69f87f9e92ac60f51b6793fc062bd09a51716f1d758393466f09fc84c57a6e",
+        "sha256_in_prefix": "5c69f87f9e92ac60f51b6793fc062bd09a51716f1d758393466f09fc84c57a6e",
+        "size_in_bytes": 3610
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/File/Spec/Epoc.pm",
+        "path_type": "hardlink",
+        "sha256": "483d099ed4d94763e94bc387d166d34aaa473350b6c4b58bc176e0dc216a1a78",
+        "sha256_in_prefix": "483d099ed4d94763e94bc387d166d34aaa473350b6c4b58bc176e0dc216a1a78",
+        "size_in_bytes": 1571
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/File/Spec/Functions.pm",
+        "path_type": "hardlink",
+        "sha256": "78de5323ffa68119bdffad5293171a9ee1ae9199705446e7d20e5c4ee300659c",
+        "sha256_in_prefix": "78de5323ffa68119bdffad5293171a9ee1ae9199705446e7d20e5c4ee300659c",
+        "size_in_bytes": 2348
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/File/Spec/Mac.pm",
+        "path_type": "hardlink",
+        "sha256": "5b8993c6e7cdb4efdfe8931286fbce5e6b9e4c675c311cd7dec43d1d08b00c8e",
+        "sha256_in_prefix": "5b8993c6e7cdb4efdfe8931286fbce5e6b9e4c675c311cd7dec43d1d08b00c8e",
+        "size_in_bytes": 22274
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/File/Spec/OS2.pm",
+        "path_type": "hardlink",
+        "sha256": "cd1284605637617f9ed65ce7aa97d65020f8a88284f5ebc2bbd1b1ffad3cc504",
+        "sha256_in_prefix": "cd1284605637617f9ed65ce7aa97d65020f8a88284f5ebc2bbd1b1ffad3cc504",
+        "size_in_bytes": 6766
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/File/Spec/Unix.pm",
+        "path_type": "hardlink",
+        "sha256": "b6b4dd2433b0205abbdbb51823fcb1b6370423160431892ed18de5961fe19fc8",
+        "sha256_in_prefix": "b6b4dd2433b0205abbdbb51823fcb1b6370423160431892ed18de5961fe19fc8",
+        "size_in_bytes": 15889
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/File/Spec/VMS.pm",
+        "path_type": "hardlink",
+        "sha256": "5dfac7cfad1ad20c685e27aaddf93755e93f42ee52d0952a13dce462acb822e7",
+        "sha256_in_prefix": "5dfac7cfad1ad20c685e27aaddf93755e93f42ee52d0952a13dce462acb822e7",
+        "size_in_bytes": 16326
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/File/Spec/Win32.pm",
+        "path_type": "hardlink",
+        "sha256": "0bba18ac6c80a5a29528b3c2e65bfefea2319863ffe5b4e5527cde4075b86836",
+        "sha256_in_prefix": "0bba18ac6c80a5a29528b3c2e65bfefea2319863ffe5b4e5527cde4075b86836",
+        "size_in_bytes": 11217
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/Cwd/.packlist",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/opt/anaconda1anaconda2anaconda3",
+        "sha256": "4e295ff0f943018d3ea7983715849791606e198832b01789c60888fb5baad53b",
+        "sha256_in_prefix": "62fd714419a666cb4bd2868a52ddedef2c8d64caf4a4c1f68f5f2eea88bbd753",
+        "size_in_bytes": 2880
+      },
+      {
+        "_path": "lib/site_perl/5.26.2/darwin-thread-multi-2level/auto/Cwd/Cwd.bundle",
+        "file_mode": "binary",
+        "path_type": "hardlink",
+        "prefix_placeholder": "/Users/distiller/project/miniconda/conda-bld/perl-pathtools_1556737748683/_h_env_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_placehold_plac",
+        "sha256": "3dcff1b31cc198bec131b841d70d0017975bd8e0268f57093128c1cfbad90bd4",
+        "sha256_in_prefix": "c19806f29c72562b1abc5ee9c34f8f82119ffb8fecc263cc5e5f4746d3f504e7",
+        "size_in_bytes": 19468
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "9997fa98171ac02e8abe412bffaf8c559efeba846594b0886720bb1ca10702b5",
+  "size": 40163,
+  "subdir": "osx-64",
+  "timestamp": 1556737811000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/perl-pathtools-3.75-pl526h1de35cc_1.tar.bz2",
+  "version": "3.75"
+}

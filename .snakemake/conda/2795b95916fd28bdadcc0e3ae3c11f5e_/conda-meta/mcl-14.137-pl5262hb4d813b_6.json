@@ -1,0 +1,1540 @@
+{
+  "build": "pl5262hb4d813b_6",
+  "build_number": 6,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "blast",
+    "perl >=5.26.2,<5.26.3.0a0"
+  ],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/mcl-14.137-pl5262hb4d813b_6",
+  "features": "",
+  "files": [
+    "bin/clm",
+    "bin/clmformat",
+    "bin/clxdo",
+    "bin/mcl",
+    "bin/mclblastline",
+    "bin/mclcm",
+    "bin/mclpipeline",
+    "bin/mcx",
+    "bin/mcxarray",
+    "bin/mcxassemble",
+    "bin/mcxdeblast",
+    "bin/mcxdump",
+    "bin/mcxi",
+    "bin/mcxload",
+    "bin/mcxmap",
+    "bin/mcxrand",
+    "bin/mcxsubs",
+    "share/doc/mcl/clm.html",
+    "share/doc/mcl/clm.ps",
+    "share/doc/mcl/clmclose.html",
+    "share/doc/mcl/clmclose.ps",
+    "share/doc/mcl/clmdist.html",
+    "share/doc/mcl/clmdist.ps",
+    "share/doc/mcl/clmformat.html",
+    "share/doc/mcl/clmformat.ps",
+    "share/doc/mcl/clmimac.html",
+    "share/doc/mcl/clmimac.ps",
+    "share/doc/mcl/clminfo.html",
+    "share/doc/mcl/clminfo.ps",
+    "share/doc/mcl/clminfo2.html",
+    "share/doc/mcl/clminfo2.ps",
+    "share/doc/mcl/clmmate.html",
+    "share/doc/mcl/clmmate.ps",
+    "share/doc/mcl/clmmeet.html",
+    "share/doc/mcl/clmmeet.ps",
+    "share/doc/mcl/clmoptics.html",
+    "share/doc/mcl/clmoptics.ps",
+    "share/doc/mcl/clmorder.html",
+    "share/doc/mcl/clmorder.ps",
+    "share/doc/mcl/clmprotocols.html",
+    "share/doc/mcl/clmprotocols.ps",
+    "share/doc/mcl/clmprotocols2.html",
+    "share/doc/mcl/clmprotocols2.ps",
+    "share/doc/mcl/clmresidue.html",
+    "share/doc/mcl/clmresidue.ps",
+    "share/doc/mcl/clmvol.html",
+    "share/doc/mcl/clmvol.ps",
+    "share/doc/mcl/examples/T",
+    "share/doc/mcl/examples/Tx",
+    "share/doc/mcl/examples/Txy",
+    "share/doc/mcl/examples/Ty",
+    "share/doc/mcl/examples/data.abc.hdr",
+    "share/doc/mcl/examples/data.abc.map",
+    "share/doc/mcl/examples/data.abc.raw",
+    "share/doc/mcl/examples/data.hdr",
+    "share/doc/mcl/examples/data.raw",
+    "share/doc/mcl/examples/data.tab",
+    "share/doc/mcl/examples/fa.ps",
+    "share/doc/mcl/examples/fa_1024.png",
+    "share/doc/mcl/examples/fa_400.png",
+    "share/doc/mcl/examples/fa_600.png",
+    "share/doc/mcl/examples/fa_large.png",
+    "share/doc/mcl/examples/falkner-bidi.ps",
+    "share/doc/mcl/examples/falkner.coords",
+    "share/doc/mcl/examples/falkner.mci",
+    "share/doc/mcl/examples/falkner.ps",
+    "share/doc/mcl/examples/falkner2.mci",
+    "share/doc/mcl/examples/friends",
+    "share/doc/mcl/examples/fznyy.mci",
+    "share/doc/mcl/examples/fznyy.tab",
+    "share/doc/mcl/examples/honey.mci",
+    "share/doc/mcl/examples/infinity.mci",
+    "share/doc/mcl/examples/lattice.mci",
+    "share/doc/mcl/examples/make-falkner.pl",
+    "share/doc/mcl/examples/matula.mci",
+    "share/doc/mcl/examples/petersen.mci",
+    "share/doc/mcl/examples/proteins.mci",
+    "share/doc/mcl/examples/seven.mci",
+    "share/doc/mcl/examples/small.map",
+    "share/doc/mcl/examples/small.mci",
+    "share/doc/mcl/examples/small.png",
+    "share/doc/mcl/examples/small.ps",
+    "share/doc/mcl/examples/small.tab",
+    "share/doc/mcl/examples/small64.mci",
+    "share/doc/mcl/examples/tiny-min.mci",
+    "share/doc/mcl/examples/tiny-nil.mci",
+    "share/doc/mcl/examples/tiny-nilnine.mci",
+    "share/doc/mcl/examples/tiny-ninenil.mci",
+    "share/doc/mcl/examples/tiny-one.mci",
+    "share/doc/mcl/examples/tiny-zero.mci",
+    "share/doc/mcl/index.html",
+    "share/doc/mcl/mcl.html",
+    "share/doc/mcl/mcl.ps",
+    "share/doc/mcl/mcl.txt",
+    "share/doc/mcl/mclblastline.html",
+    "share/doc/mcl/mclblastline.ps",
+    "share/doc/mcl/mclcm.html",
+    "share/doc/mcl/mclcm.ps",
+    "share/doc/mcl/mclcm.txt",
+    "share/doc/mcl/mclfamily.html",
+    "share/doc/mcl/mclfamily.ps",
+    "share/doc/mcl/mclfaq.html",
+    "share/doc/mcl/mclfaq.ps",
+    "share/doc/mcl/mclfaq.txt",
+    "share/doc/mcl/mclindex.ps",
+    "share/doc/mcl/mclmcl.txt",
+    "share/doc/mcl/mclpipeline.html",
+    "share/doc/mcl/mclpipeline.ps",
+    "share/doc/mcl/mcx.html",
+    "share/doc/mcl/mcx.ps",
+    "share/doc/mcl/mcxalter.html",
+    "share/doc/mcl/mcxalter.ps",
+    "share/doc/mcl/mcxarray.html",
+    "share/doc/mcl/mcxarray.ps",
+    "share/doc/mcl/mcxassemble.html",
+    "share/doc/mcl/mcxassemble.ps",
+    "share/doc/mcl/mcxclcf.html",
+    "share/doc/mcl/mcxclcf.ps",
+    "share/doc/mcl/mcxconvert.html",
+    "share/doc/mcl/mcxconvert.ps",
+    "share/doc/mcl/mcxctty.html",
+    "share/doc/mcl/mcxctty.ps",
+    "share/doc/mcl/mcxdeblast.html",
+    "share/doc/mcl/mcxdeblast.ps",
+    "share/doc/mcl/mcxdiameter.html",
+    "share/doc/mcl/mcxdiameter.ps",
+    "share/doc/mcl/mcxdump.html",
+    "share/doc/mcl/mcxdump.ps",
+    "share/doc/mcl/mcxerdos.html",
+    "share/doc/mcl/mcxerdos.ps",
+    "share/doc/mcl/mcxi.html",
+    "share/doc/mcl/mcxi.ps",
+    "share/doc/mcl/mcxio.html",
+    "share/doc/mcl/mcxio.ps",
+    "share/doc/mcl/mcxload.html",
+    "share/doc/mcl/mcxload.ps",
+    "share/doc/mcl/mcxmap.html",
+    "share/doc/mcl/mcxmap.ps",
+    "share/doc/mcl/mcxquery.html",
+    "share/doc/mcl/mcxquery.ps",
+    "share/doc/mcl/mcxrand.html",
+    "share/doc/mcl/mcxrand.ps",
+    "share/doc/mcl/mcxsubs.html",
+    "share/doc/mcl/mcxsubs.ps",
+    "share/doc/mcl/minimcl",
+    "share/doc/mcl/tingea.log.html",
+    "share/doc/mcl/tingea.log.ps",
+    "share/man/man1/clm.1",
+    "share/man/man1/clmclose.1",
+    "share/man/man1/clmdist.1",
+    "share/man/man1/clmformat.1",
+    "share/man/man1/clmimac.1",
+    "share/man/man1/clminfo.1",
+    "share/man/man1/clminfo2.1",
+    "share/man/man1/clmmate.1",
+    "share/man/man1/clmmeet.1",
+    "share/man/man1/clmoptics.1",
+    "share/man/man1/clmorder.1",
+    "share/man/man1/clmresidue.1",
+    "share/man/man1/clmvol.1",
+    "share/man/man1/mcl.1",
+    "share/man/man1/mclblastline.1",
+    "share/man/man1/mclcm.1",
+    "share/man/man1/mclpipeline.1",
+    "share/man/man1/mcx.1",
+    "share/man/man1/mcxalter.1",
+    "share/man/man1/mcxarray.1",
+    "share/man/man1/mcxassemble.1",
+    "share/man/man1/mcxclcf.1",
+    "share/man/man1/mcxconvert.1",
+    "share/man/man1/mcxctty.1",
+    "share/man/man1/mcxdeblast.1",
+    "share/man/man1/mcxdiameter.1",
+    "share/man/man1/mcxdump.1",
+    "share/man/man1/mcxerdos.1",
+    "share/man/man1/mcxi.1",
+    "share/man/man1/mcxload.1",
+    "share/man/man1/mcxmap.1",
+    "share/man/man1/mcxquery.1",
+    "share/man/man1/mcxrand.1",
+    "share/man/man1/mcxsubs.1",
+    "share/man/man5/clmprotocols.5",
+    "share/man/man5/clmprotocols2.5",
+    "share/man/man5/mcxio.5",
+    "share/man/man7/mclfamily.7",
+    "share/man/man7/mclfaq.7",
+    "share/man/man7/mclindex.7",
+    "share/man/man7/tingea.log.7"
+  ],
+  "fn": "mcl-14.137-pl5262hb4d813b_6.tar.bz2",
+  "license": "GPL3",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/mcl-14.137-pl5262hb4d813b_6",
+    "type": 1
+  },
+  "md5": "7fc78775387403ff1ab9534678e44275",
+  "name": "mcl",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/mcl-14.137-pl5262hb4d813b_6.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/clm",
+        "path_type": "hardlink",
+        "sha256": "b0bab2d381f510823af0a1df7f1bdb10f167105fb284a5ed586635845466dca5",
+        "sha256_in_prefix": "b0bab2d381f510823af0a1df7f1bdb10f167105fb284a5ed586635845466dca5",
+        "size_in_bytes": 359496
+      },
+      {
+        "_path": "bin/clmformat",
+        "path_type": "hardlink",
+        "sha256": "c398f9eca3f60eb5303a8d23983c1bb80213a8c3fe02ca6fecdebea3a7b0e4dd",
+        "sha256_in_prefix": "c398f9eca3f60eb5303a8d23983c1bb80213a8c3fe02ca6fecdebea3a7b0e4dd",
+        "size_in_bytes": 319392
+      },
+      {
+        "_path": "bin/clxdo",
+        "path_type": "hardlink",
+        "sha256": "d3879b3a140d111cc8fc0431b39d24fabe1baa97e0f9fb21b88d97d994edee55",
+        "sha256_in_prefix": "d3879b3a140d111cc8fc0431b39d24fabe1baa97e0f9fb21b88d97d994edee55",
+        "size_in_bytes": 9526
+      },
+      {
+        "_path": "bin/mcl",
+        "path_type": "hardlink",
+        "sha256": "77ee990cae05ab194d66eee7d076078e5ba0565c851e983ce6386321ba7835f0",
+        "sha256_in_prefix": "77ee990cae05ab194d66eee7d076078e5ba0565c851e983ce6386321ba7835f0",
+        "size_in_bytes": 293952
+      },
+      {
+        "_path": "bin/mclblastline",
+        "path_type": "hardlink",
+        "sha256": "4e7e0804aa5546896e77172b95c852e6e20ba316d63751aa90468ca6476854ae",
+        "sha256_in_prefix": "4e7e0804aa5546896e77172b95c852e6e20ba316d63751aa90468ca6476854ae",
+        "size_in_bytes": 1663
+      },
+      {
+        "_path": "bin/mclcm",
+        "path_type": "hardlink",
+        "sha256": "03fc0bab56c740abac4e1dd6a425086819edefd2dce56469282b6870be665053",
+        "sha256_in_prefix": "03fc0bab56c740abac4e1dd6a425086819edefd2dce56469282b6870be665053",
+        "size_in_bytes": 302808
+      },
+      {
+        "_path": "bin/mclpipeline",
+        "path_type": "hardlink",
+        "sha256": "6fe67c7382d6e645907a9ddd9832672011706400fc89a30ff1b5a7fdb8a33d2f",
+        "sha256_in_prefix": "6fe67c7382d6e645907a9ddd9832672011706400fc89a30ff1b5a7fdb8a33d2f",
+        "size_in_bytes": 18990
+      },
+      {
+        "_path": "bin/mcx",
+        "path_type": "hardlink",
+        "sha256": "d5b59193f103a9075ba893e98c032682dae5d578492f07287aaac31e391d655c",
+        "sha256_in_prefix": "d5b59193f103a9075ba893e98c032682dae5d578492f07287aaac31e391d655c",
+        "size_in_bytes": 363712
+      },
+      {
+        "_path": "bin/mcxarray",
+        "path_type": "hardlink",
+        "sha256": "21884d1233a78d4830cb0da689edcb98eb3a9be4e7bcd83fc1726693d193879a",
+        "sha256_in_prefix": "21884d1233a78d4830cb0da689edcb98eb3a9be4e7bcd83fc1726693d193879a",
+        "size_in_bytes": 311080
+      },
+      {
+        "_path": "bin/mcxassemble",
+        "path_type": "hardlink",
+        "sha256": "a82046ab65eb7d2d1c5efab1d68033ee9a9ea95cf761711c21d7ab549b61e9b8",
+        "sha256_in_prefix": "a82046ab65eb7d2d1c5efab1d68033ee9a9ea95cf761711c21d7ab549b61e9b8",
+        "size_in_bytes": 293552
+      },
+      {
+        "_path": "bin/mcxdeblast",
+        "path_type": "hardlink",
+        "sha256": "228ef20e8a26b2f9726e2ea3561515e2a3f442fbb406583b873e1edd3fe39fb4",
+        "sha256_in_prefix": "228ef20e8a26b2f9726e2ea3561515e2a3f442fbb406583b873e1edd3fe39fb4",
+        "size_in_bytes": 11901
+      },
+      {
+        "_path": "bin/mcxdump",
+        "path_type": "hardlink",
+        "sha256": "fea254438b080af33880869c6ed86c248f590b520a4bce2ee799d9f5710cc9ca",
+        "sha256_in_prefix": "fea254438b080af33880869c6ed86c248f590b520a4bce2ee799d9f5710cc9ca",
+        "size_in_bytes": 293840
+      },
+      {
+        "_path": "bin/mcxi",
+        "path_type": "hardlink",
+        "sha256": "ce57b30f709938abd1ccf2878d3c5da2d96ea65e5fd3e0d5fb4c2a00c9f528ab",
+        "sha256_in_prefix": "ce57b30f709938abd1ccf2878d3c5da2d96ea65e5fd3e0d5fb4c2a00c9f528ab",
+        "size_in_bytes": 329272
+      },
+      {
+        "_path": "bin/mcxload",
+        "path_type": "hardlink",
+        "sha256": "c765b2f2da6b75993e22648630b4f786d31c68ccf3e7f132f9c80c016dcc336f",
+        "sha256_in_prefix": "c765b2f2da6b75993e22648630b4f786d31c68ccf3e7f132f9c80c016dcc336f",
+        "size_in_bytes": 297736
+      },
+      {
+        "_path": "bin/mcxmap",
+        "path_type": "hardlink",
+        "sha256": "f97c0dab5d580fe525127438b29f13d1d88d9f179e32a856b459dac756168250",
+        "sha256_in_prefix": "f97c0dab5d580fe525127438b29f13d1d88d9f179e32a856b459dac756168250",
+        "size_in_bytes": 182064
+      },
+      {
+        "_path": "bin/mcxrand",
+        "path_type": "hardlink",
+        "sha256": "1a1f9430dce9c954dbd751892329b9d917561ad28b64eb6c20eb2ce0f164240b",
+        "sha256_in_prefix": "1a1f9430dce9c954dbd751892329b9d917561ad28b64eb6c20eb2ce0f164240b",
+        "size_in_bytes": 191080
+      },
+      {
+        "_path": "bin/mcxsubs",
+        "path_type": "hardlink",
+        "sha256": "0fcf4e4f92ddefffedcb7d8ad1053862932dde2e7f9fa3692f26ddd34f65f42c",
+        "sha256_in_prefix": "0fcf4e4f92ddefffedcb7d8ad1053862932dde2e7f9fa3692f26ddd34f65f42c",
+        "size_in_bytes": 316940
+      },
+      {
+        "_path": "share/doc/mcl/clm.html",
+        "path_type": "hardlink",
+        "sha256": "97337912781eb267fd7f5c5398e4f202611ad6719a41b37571dbd267befb8cb1",
+        "sha256_in_prefix": "97337912781eb267fd7f5c5398e4f202611ad6719a41b37571dbd267befb8cb1",
+        "size_in_bytes": 9043
+      },
+      {
+        "_path": "share/doc/mcl/clm.ps",
+        "path_type": "hardlink",
+        "sha256": "ad7c60294d30ca07fa0f122923b5bf008bae89563fe5faaf2f60cb48593d8ed1",
+        "sha256_in_prefix": "ad7c60294d30ca07fa0f122923b5bf008bae89563fe5faaf2f60cb48593d8ed1",
+        "size_in_bytes": 13929
+      },
+      {
+        "_path": "share/doc/mcl/clmclose.html",
+        "path_type": "hardlink",
+        "sha256": "8becfbd6f10458c713d43939f5b8153bb8aecb834eedbf1798d748dac06c23c9",
+        "sha256_in_prefix": "8becfbd6f10458c713d43939f5b8153bb8aecb834eedbf1798d748dac06c23c9",
+        "size_in_bytes": 10315
+      },
+      {
+        "_path": "share/doc/mcl/clmclose.ps",
+        "path_type": "hardlink",
+        "sha256": "9b3c805dd587dd8db07249110859c072ac1c829ff52f5234ae0df741f202f77e",
+        "sha256_in_prefix": "9b3c805dd587dd8db07249110859c072ac1c829ff52f5234ae0df741f202f77e",
+        "size_in_bytes": 14884
+      },
+      {
+        "_path": "share/doc/mcl/clmdist.html",
+        "path_type": "hardlink",
+        "sha256": "fa74ec6af21033863f06b87aa254ed2a6685f65fb220324dfc8f29029b2f875b",
+        "sha256_in_prefix": "fa74ec6af21033863f06b87aa254ed2a6685f65fb220324dfc8f29029b2f875b",
+        "size_in_bytes": 23427
+      },
+      {
+        "_path": "share/doc/mcl/clmdist.ps",
+        "path_type": "hardlink",
+        "sha256": "6ecab93e63cabffb17e18ac8ca5734a3e18667469767c45eec40b5a940e51c5f",
+        "sha256_in_prefix": "6ecab93e63cabffb17e18ac8ca5734a3e18667469767c45eec40b5a940e51c5f",
+        "size_in_bytes": 44367
+      },
+      {
+        "_path": "share/doc/mcl/clmformat.html",
+        "path_type": "hardlink",
+        "sha256": "f8f58d0d0bf2a5cfec9cd3639e703bcda8dee213d5122e586435df23d2681140",
+        "sha256_in_prefix": "f8f58d0d0bf2a5cfec9cd3639e703bcda8dee213d5122e586435df23d2681140",
+        "size_in_bytes": 34256
+      },
+      {
+        "_path": "share/doc/mcl/clmformat.ps",
+        "path_type": "hardlink",
+        "sha256": "bba4f106f103bb762152578789e030ff75055dbc98c2d387b827c0ea8eaaab42",
+        "sha256_in_prefix": "bba4f106f103bb762152578789e030ff75055dbc98c2d387b827c0ea8eaaab42",
+        "size_in_bytes": 57733
+      },
+      {
+        "_path": "share/doc/mcl/clmimac.html",
+        "path_type": "hardlink",
+        "sha256": "be551ca1f1104422b220297f3219ef43352c8d199dd368e1ae5c26266f9f47b2",
+        "sha256_in_prefix": "be551ca1f1104422b220297f3219ef43352c8d199dd368e1ae5c26266f9f47b2",
+        "size_in_bytes": 8839
+      },
+      {
+        "_path": "share/doc/mcl/clmimac.ps",
+        "path_type": "hardlink",
+        "sha256": "8f42eadd72590e246dcad3bd2fadd74970397bc1dda84791d2ee72e480511ddc",
+        "sha256_in_prefix": "8f42eadd72590e246dcad3bd2fadd74970397bc1dda84791d2ee72e480511ddc",
+        "size_in_bytes": 13398
+      },
+      {
+        "_path": "share/doc/mcl/clminfo.html",
+        "path_type": "hardlink",
+        "sha256": "c59104cf889e2a2ce0de2a25600c9ed7415d978c476a08f123c3b081e145af4a",
+        "sha256_in_prefix": "c59104cf889e2a2ce0de2a25600c9ed7415d978c476a08f123c3b081e145af4a",
+        "size_in_bytes": 12389
+      },
+      {
+        "_path": "share/doc/mcl/clminfo.ps",
+        "path_type": "hardlink",
+        "sha256": "43c5085029b85ad65006c82c89867f0bb74e3481784e3ef5d02e3e629ab65bf7",
+        "sha256_in_prefix": "43c5085029b85ad65006c82c89867f0bb74e3481784e3ef5d02e3e629ab65bf7",
+        "size_in_bytes": 20120
+      },
+      {
+        "_path": "share/doc/mcl/clminfo2.html",
+        "path_type": "hardlink",
+        "sha256": "a11c53d20eae5607acd5d4fb58f7ff7709f049799b978205fa735fac964f4e91",
+        "sha256_in_prefix": "a11c53d20eae5607acd5d4fb58f7ff7709f049799b978205fa735fac964f4e91",
+        "size_in_bytes": 12395
+      },
+      {
+        "_path": "share/doc/mcl/clminfo2.ps",
+        "path_type": "hardlink",
+        "sha256": "3d0c9ccb625e315166c391c317b5edb5c872e31cef7b585a458fdbb9a8f1afba",
+        "sha256_in_prefix": "3d0c9ccb625e315166c391c317b5edb5c872e31cef7b585a458fdbb9a8f1afba",
+        "size_in_bytes": 18944
+      },
+      {
+        "_path": "share/doc/mcl/clmmate.html",
+        "path_type": "hardlink",
+        "sha256": "3c1cca99e10c8d263a84cd64252e16f9db7919dfcade40ecc46aacada2504a60",
+        "sha256_in_prefix": "3c1cca99e10c8d263a84cd64252e16f9db7919dfcade40ecc46aacada2504a60",
+        "size_in_bytes": 8697
+      },
+      {
+        "_path": "share/doc/mcl/clmmate.ps",
+        "path_type": "hardlink",
+        "sha256": "ff955b59267bf5d18a6b13a5a03cf9587d9997cff43f506db80ed0a1ba3455fc",
+        "sha256_in_prefix": "ff955b59267bf5d18a6b13a5a03cf9587d9997cff43f506db80ed0a1ba3455fc",
+        "size_in_bytes": 14623
+      },
+      {
+        "_path": "share/doc/mcl/clmmeet.html",
+        "path_type": "hardlink",
+        "sha256": "22e204d18c569a52a5953e1f9083296305e583554179d2d8384e1982ceae590c",
+        "sha256_in_prefix": "22e204d18c569a52a5953e1f9083296305e583554179d2d8384e1982ceae590c",
+        "size_in_bytes": 6034
+      },
+      {
+        "_path": "share/doc/mcl/clmmeet.ps",
+        "path_type": "hardlink",
+        "sha256": "8b75ca22025ca50cd79bff99ffc9c8427838c2755fcad4b9a2b0a4ac31caeeb4",
+        "sha256_in_prefix": "8b75ca22025ca50cd79bff99ffc9c8427838c2755fcad4b9a2b0a4ac31caeeb4",
+        "size_in_bytes": 9725
+      },
+      {
+        "_path": "share/doc/mcl/clmoptics.html",
+        "path_type": "hardlink",
+        "sha256": "c75382622ccd0e4ff0b9b4346b7b2bc027f4f479e08a86de9d3729b33b311977",
+        "sha256_in_prefix": "c75382622ccd0e4ff0b9b4346b7b2bc027f4f479e08a86de9d3729b33b311977",
+        "size_in_bytes": 10049
+      },
+      {
+        "_path": "share/doc/mcl/clmoptics.ps",
+        "path_type": "hardlink",
+        "sha256": "a7d04cf28f7c6211caa7bb2afe6495a5541792dea1823a5e363cc14795106e77",
+        "sha256_in_prefix": "a7d04cf28f7c6211caa7bb2afe6495a5541792dea1823a5e363cc14795106e77",
+        "size_in_bytes": 15396
+      },
+      {
+        "_path": "share/doc/mcl/clmorder.html",
+        "path_type": "hardlink",
+        "sha256": "103bd6d550a2edc1cdc4263488cc4d9c5f93cf264fdd086e53a8e34079a720c1",
+        "sha256_in_prefix": "103bd6d550a2edc1cdc4263488cc4d9c5f93cf264fdd086e53a8e34079a720c1",
+        "size_in_bytes": 6661
+      },
+      {
+        "_path": "share/doc/mcl/clmorder.ps",
+        "path_type": "hardlink",
+        "sha256": "9dc399b8b490a65d07ae113ffb29f25c312565687f3b95f3b5270fb9f7c8dce4",
+        "sha256_in_prefix": "9dc399b8b490a65d07ae113ffb29f25c312565687f3b95f3b5270fb9f7c8dce4",
+        "size_in_bytes": 11640
+      },
+      {
+        "_path": "share/doc/mcl/clmprotocols.html",
+        "path_type": "hardlink",
+        "sha256": "69f9981abc1c71a97e918c0b781758064034fdc0c4e5dab7da721ba8f3f471bb",
+        "sha256_in_prefix": "69f9981abc1c71a97e918c0b781758064034fdc0c4e5dab7da721ba8f3f471bb",
+        "size_in_bytes": 21065
+      },
+      {
+        "_path": "share/doc/mcl/clmprotocols.ps",
+        "path_type": "hardlink",
+        "sha256": "cc8b763b46b2de4c99a03e4b95750b87d007b0dd259e4aa030a65ec5f9055e69",
+        "sha256_in_prefix": "cc8b763b46b2de4c99a03e4b95750b87d007b0dd259e4aa030a65ec5f9055e69",
+        "size_in_bytes": 41284
+      },
+      {
+        "_path": "share/doc/mcl/clmprotocols2.html",
+        "path_type": "hardlink",
+        "sha256": "155994b2e8d442b592e5a1e8d77d1229c58d1e519d1edd611cd4fa416a465eb4",
+        "sha256_in_prefix": "155994b2e8d442b592e5a1e8d77d1229c58d1e519d1edd611cd4fa416a465eb4",
+        "size_in_bytes": 24975
+      },
+      {
+        "_path": "share/doc/mcl/clmprotocols2.ps",
+        "path_type": "hardlink",
+        "sha256": "ef1b8eda2996d5769c918c81a59b2afc2ab077d2515567e639f763a8a3955d5e",
+        "sha256_in_prefix": "ef1b8eda2996d5769c918c81a59b2afc2ab077d2515567e639f763a8a3955d5e",
+        "size_in_bytes": 38783
+      },
+      {
+        "_path": "share/doc/mcl/clmresidue.html",
+        "path_type": "hardlink",
+        "sha256": "5f5b278f2459d0caa48afb65a846e528a20d7684c53981327dbbb7e9f9ae9b1e",
+        "sha256_in_prefix": "5f5b278f2459d0caa48afb65a846e528a20d7684c53981327dbbb7e9f9ae9b1e",
+        "size_in_bytes": 7285
+      },
+      {
+        "_path": "share/doc/mcl/clmresidue.ps",
+        "path_type": "hardlink",
+        "sha256": "b2aa38f33d70aa13f612ce24b6c13a5e120d47ba6d75e9e8a1c1f4c626d28a75",
+        "sha256_in_prefix": "b2aa38f33d70aa13f612ce24b6c13a5e120d47ba6d75e9e8a1c1f4c626d28a75",
+        "size_in_bytes": 11299
+      },
+      {
+        "_path": "share/doc/mcl/clmvol.html",
+        "path_type": "hardlink",
+        "sha256": "0454023b64408212847c9bdc011db5303c16b869bd7ef4d29b304e8f10329b97",
+        "sha256_in_prefix": "0454023b64408212847c9bdc011db5303c16b869bd7ef4d29b304e8f10329b97",
+        "size_in_bytes": 6322
+      },
+      {
+        "_path": "share/doc/mcl/clmvol.ps",
+        "path_type": "hardlink",
+        "sha256": "634779b2759e260c92a1c1131ab774886e6f9f7a49a0596bba1c9320908b23ed",
+        "sha256_in_prefix": "634779b2759e260c92a1c1131ab774886e6f9f7a49a0596bba1c9320908b23ed",
+        "size_in_bytes": 10481
+      },
+      {
+        "_path": "share/doc/mcl/examples/T",
+        "path_type": "hardlink",
+        "sha256": "16453a1298760df81bd44c178f9ceff5263cb6ba2b7f502afb60090bbb762d38",
+        "sha256_in_prefix": "16453a1298760df81bd44c178f9ceff5263cb6ba2b7f502afb60090bbb762d38",
+        "size_in_bytes": 141
+      },
+      {
+        "_path": "share/doc/mcl/examples/Tx",
+        "path_type": "hardlink",
+        "sha256": "10c66fc18ce1d60e1e1a4d29155366ee8001986349d3a1f98c49e0b73b75b030",
+        "sha256_in_prefix": "10c66fc18ce1d60e1e1a4d29155366ee8001986349d3a1f98c49e0b73b75b030",
+        "size_in_bytes": 151
+      },
+      {
+        "_path": "share/doc/mcl/examples/Txy",
+        "path_type": "hardlink",
+        "sha256": "58238af6d7554b4b4805c90e74eb2bd697275eb37c2a60db35355395070d1072",
+        "sha256_in_prefix": "58238af6d7554b4b4805c90e74eb2bd697275eb37c2a60db35355395070d1072",
+        "size_in_bytes": 161
+      },
+      {
+        "_path": "share/doc/mcl/examples/Ty",
+        "path_type": "hardlink",
+        "sha256": "47b392413aa575de77f9268c7416cfa7af05438f58f9d720c872468ed79a3ac8",
+        "sha256_in_prefix": "47b392413aa575de77f9268c7416cfa7af05438f58f9d720c872468ed79a3ac8",
+        "size_in_bytes": 151
+      },
+      {
+        "_path": "share/doc/mcl/examples/data.abc.hdr",
+        "path_type": "hardlink",
+        "sha256": "768ff059f0212db13623c59daa64fba3bc585cd8158723a927e0cc6c6a2e4ee9",
+        "sha256_in_prefix": "768ff059f0212db13623c59daa64fba3bc585cd8158723a927e0cc6c6a2e4ee9",
+        "size_in_bytes": 45
+      },
+      {
+        "_path": "share/doc/mcl/examples/data.abc.map",
+        "path_type": "hardlink",
+        "sha256": "d07a13d9556bc363a7581885fae05a9e7e7f542633a832b978db07b6d867cbc9",
+        "sha256_in_prefix": "d07a13d9556bc363a7581885fae05a9e7e7f542633a832b978db07b6d867cbc9",
+        "size_in_bytes": 140
+      },
+      {
+        "_path": "share/doc/mcl/examples/data.abc.raw",
+        "path_type": "hardlink",
+        "sha256": "2472cf5181140778357110cc02c27559965459f2321ce4e814ddf6e52168ec88",
+        "sha256_in_prefix": "2472cf5181140778357110cc02c27559965459f2321ce4e814ddf6e52168ec88",
+        "size_in_bytes": 553
+      },
+      {
+        "_path": "share/doc/mcl/examples/data.hdr",
+        "path_type": "hardlink",
+        "sha256": "768ff059f0212db13623c59daa64fba3bc585cd8158723a927e0cc6c6a2e4ee9",
+        "sha256_in_prefix": "768ff059f0212db13623c59daa64fba3bc585cd8158723a927e0cc6c6a2e4ee9",
+        "size_in_bytes": 45
+      },
+      {
+        "_path": "share/doc/mcl/examples/data.raw",
+        "path_type": "hardlink",
+        "sha256": "1118369bcfd25774c2c89276f156e95a978714f2e3a53cb5f0533eaa88e71d82",
+        "sha256_in_prefix": "1118369bcfd25774c2c89276f156e95a978714f2e3a53cb5f0533eaa88e71d82",
+        "size_in_bytes": 496
+      },
+      {
+        "_path": "share/doc/mcl/examples/data.tab",
+        "path_type": "hardlink",
+        "sha256": "e0a880ab60291538589b2b9fee78b29a12b30a3ba31612651e1aa4e88dd04ea8",
+        "sha256_in_prefix": "e0a880ab60291538589b2b9fee78b29a12b30a3ba31612651e1aa4e88dd04ea8",
+        "size_in_bytes": 134
+      },
+      {
+        "_path": "share/doc/mcl/examples/fa.ps",
+        "path_type": "hardlink",
+        "sha256": "779e276a2f345c7261bec7c1f062986eb37f531f526e0dc01d14ec6cd5809b5b",
+        "sha256_in_prefix": "779e276a2f345c7261bec7c1f062986eb37f531f526e0dc01d14ec6cd5809b5b",
+        "size_in_bytes": 135636
+      },
+      {
+        "_path": "share/doc/mcl/examples/fa_1024.png",
+        "path_type": "hardlink",
+        "sha256": "2fd9ab0f6f38e62e1711277d441ab0cdd01eea96672da9f57302875fc4bbc500",
+        "sha256_in_prefix": "2fd9ab0f6f38e62e1711277d441ab0cdd01eea96672da9f57302875fc4bbc500",
+        "size_in_bytes": 273571
+      },
+      {
+        "_path": "share/doc/mcl/examples/fa_400.png",
+        "path_type": "hardlink",
+        "sha256": "19e10b6a8367a8c1e0cff7ddb4669f7e3c41eb69582ce901c7779ab3525b84e3",
+        "sha256_in_prefix": "19e10b6a8367a8c1e0cff7ddb4669f7e3c41eb69582ce901c7779ab3525b84e3",
+        "size_in_bytes": 40983
+      },
+      {
+        "_path": "share/doc/mcl/examples/fa_600.png",
+        "path_type": "hardlink",
+        "sha256": "51522367004f190075787cf154a5f5bb14b1aa2cac198dd1708841f88751ae1e",
+        "sha256_in_prefix": "51522367004f190075787cf154a5f5bb14b1aa2cac198dd1708841f88751ae1e",
+        "size_in_bytes": 90126
+      },
+      {
+        "_path": "share/doc/mcl/examples/fa_large.png",
+        "path_type": "hardlink",
+        "sha256": "1f9f1543323033c7777bdca0e4940dda108946840f62d6672ce791aa2e386cb1",
+        "sha256_in_prefix": "1f9f1543323033c7777bdca0e4940dda108946840f62d6672ce791aa2e386cb1",
+        "size_in_bytes": 330679
+      },
+      {
+        "_path": "share/doc/mcl/examples/falkner-bidi.ps",
+        "path_type": "hardlink",
+        "sha256": "7d12496281093aa2cee96a225d8d138fa2c02d72e16b069e37c2b9e081f80b12",
+        "sha256_in_prefix": "7d12496281093aa2cee96a225d8d138fa2c02d72e16b069e37c2b9e081f80b12",
+        "size_in_bytes": 41176
+      },
+      {
+        "_path": "share/doc/mcl/examples/falkner.coords",
+        "path_type": "hardlink",
+        "sha256": "39ad5150088e7249832f3e1be81dae54ad8dbb886670c0ed695a3fc24e1d8964",
+        "sha256_in_prefix": "39ad5150088e7249832f3e1be81dae54ad8dbb886670c0ed695a3fc24e1d8964",
+        "size_in_bytes": 2506
+      },
+      {
+        "_path": "share/doc/mcl/examples/falkner.mci",
+        "path_type": "hardlink",
+        "sha256": "c4566211e443f8796739a0369708b7e5ec370d84718654b7ed461342b175c0bb",
+        "sha256_in_prefix": "c4566211e443f8796739a0369708b7e5ec370d84718654b7ed461342b175c0bb",
+        "size_in_bytes": 24155
+      },
+      {
+        "_path": "share/doc/mcl/examples/falkner.ps",
+        "path_type": "hardlink",
+        "sha256": "29afb82feeeec89c40c975484e641694ac12b27c8811cfb3f8bfa0aad73c4c98",
+        "sha256_in_prefix": "29afb82feeeec89c40c975484e641694ac12b27c8811cfb3f8bfa0aad73c4c98",
+        "size_in_bytes": 35981
+      },
+      {
+        "_path": "share/doc/mcl/examples/falkner2.mci",
+        "path_type": "hardlink",
+        "sha256": "f929bd699ef5ff21b99fa555384f27ec41c825f5c843a81bb5dae8d00a375d4f",
+        "sha256_in_prefix": "f929bd699ef5ff21b99fa555384f27ec41c825f5c843a81bb5dae8d00a375d4f",
+        "size_in_bytes": 13116
+      },
+      {
+        "_path": "share/doc/mcl/examples/friends",
+        "path_type": "hardlink",
+        "sha256": "d765b150079a485e8e2f4863be85a474188e15bc72a00360be0d61ba31c9e48f",
+        "sha256_in_prefix": "d765b150079a485e8e2f4863be85a474188e15bc72a00360be0d61ba31c9e48f",
+        "size_in_bytes": 220
+      },
+      {
+        "_path": "share/doc/mcl/examples/fznyy.mci",
+        "path_type": "hardlink",
+        "sha256": "361467b7e400fb254e40823a4f8d68917b95ed8d2ab4b1594f86bec01290df6d",
+        "sha256_in_prefix": "361467b7e400fb254e40823a4f8d68917b95ed8d2ab4b1594f86bec01290df6d",
+        "size_in_bytes": 684
+      },
+      {
+        "_path": "share/doc/mcl/examples/fznyy.tab",
+        "path_type": "hardlink",
+        "sha256": "395260f510f2d9ffb072734c366475caf039e94b33efa7688cd68b6b6b5c47d8",
+        "sha256_in_prefix": "395260f510f2d9ffb072734c366475caf039e94b33efa7688cd68b6b6b5c47d8",
+        "size_in_bytes": 246
+      },
+      {
+        "_path": "share/doc/mcl/examples/honey.mci",
+        "path_type": "hardlink",
+        "sha256": "a2b48ccba4c49c64a87f8bdedf9aa7bf7ff6765a9bd36086477d2281fd3aa630",
+        "sha256_in_prefix": "a2b48ccba4c49c64a87f8bdedf9aa7bf7ff6765a9bd36086477d2281fd3aa630",
+        "size_in_bytes": 1369
+      },
+      {
+        "_path": "share/doc/mcl/examples/infinity.mci",
+        "path_type": "hardlink",
+        "sha256": "4103392f53a4a99cbc0b71b84f893e0a28564dd4d33e95547f1584f79ad81cdd",
+        "sha256_in_prefix": "4103392f53a4a99cbc0b71b84f893e0a28564dd4d33e95547f1584f79ad81cdd",
+        "size_in_bytes": 133
+      },
+      {
+        "_path": "share/doc/mcl/examples/lattice.mci",
+        "path_type": "hardlink",
+        "sha256": "8a9595aa76b0d263e167a8be46da9e36a1a45df6cfbe28fbbf89f6c8db19fb91",
+        "sha256_in_prefix": "8a9595aa76b0d263e167a8be46da9e36a1a45df6cfbe28fbbf89f6c8db19fb91",
+        "size_in_bytes": 624
+      },
+      {
+        "_path": "share/doc/mcl/examples/make-falkner.pl",
+        "path_type": "hardlink",
+        "sha256": "b2c590fd1f5c08418be799eca7db1881c09800fe89042b3c97e15c250a6a5185",
+        "sha256_in_prefix": "b2c590fd1f5c08418be799eca7db1881c09800fe89042b3c97e15c250a6a5185",
+        "size_in_bytes": 3590
+      },
+      {
+        "_path": "share/doc/mcl/examples/matula.mci",
+        "path_type": "hardlink",
+        "sha256": "b426ade238b132c44287dfadef46e0df58d410aae484aaa46b93bbb2165beb1f",
+        "sha256_in_prefix": "b426ade238b132c44287dfadef46e0df58d410aae484aaa46b93bbb2165beb1f",
+        "size_in_bytes": 444
+      },
+      {
+        "_path": "share/doc/mcl/examples/petersen.mci",
+        "path_type": "hardlink",
+        "sha256": "215f9bc827d5189c6f821b0c42648a54422414299437b95cd443f554267c23e0",
+        "sha256_in_prefix": "215f9bc827d5189c6f821b0c42648a54422414299437b95cd443f554267c23e0",
+        "size_in_bytes": 174
+      },
+      {
+        "_path": "share/doc/mcl/examples/proteins.mci",
+        "path_type": "hardlink",
+        "sha256": "8be8b7b8230f96047cf0dbb8740060d5f7b80b6bc93f95a4ee202da6bc4245a5",
+        "sha256_in_prefix": "8be8b7b8230f96047cf0dbb8740060d5f7b80b6bc93f95a4ee202da6bc4245a5",
+        "size_in_bytes": 105297
+      },
+      {
+        "_path": "share/doc/mcl/examples/seven.mci",
+        "path_type": "hardlink",
+        "sha256": "8ee5f7a63da2c5540c4cebad923d1ee938f49544f762008fe1117d2294569306",
+        "sha256_in_prefix": "8ee5f7a63da2c5540c4cebad923d1ee938f49544f762008fe1117d2294569306",
+        "size_in_bytes": 336
+      },
+      {
+        "_path": "share/doc/mcl/examples/small.map",
+        "path_type": "hardlink",
+        "sha256": "671cc73a75c043da62b2d32e0bca8b13ddc1344fec57173158b2076b0865b18e",
+        "sha256_in_prefix": "671cc73a75c043da62b2d32e0bca8b13ddc1344fec57173158b2076b0865b18e",
+        "size_in_bytes": 245
+      },
+      {
+        "_path": "share/doc/mcl/examples/small.mci",
+        "path_type": "hardlink",
+        "sha256": "3d0ddaf7831027a80615695beade8f52187794f8846b61402f6010c524edcd24",
+        "sha256_in_prefix": "3d0ddaf7831027a80615695beade8f52187794f8846b61402f6010c524edcd24",
+        "size_in_bytes": 247
+      },
+      {
+        "_path": "share/doc/mcl/examples/small.png",
+        "path_type": "hardlink",
+        "sha256": "2dfa91f922f7bb38e1b94cd44831aca2e338dcc1ab1629c9ffbdd963b07b82c4",
+        "sha256_in_prefix": "2dfa91f922f7bb38e1b94cd44831aca2e338dcc1ab1629c9ffbdd963b07b82c4",
+        "size_in_bytes": 1268
+      },
+      {
+        "_path": "share/doc/mcl/examples/small.ps",
+        "path_type": "hardlink",
+        "sha256": "95ea37d1981130ce95a9ec60c2c63110d280ac576c9a63469fb50f083af4b0f7",
+        "sha256_in_prefix": "95ea37d1981130ce95a9ec60c2c63110d280ac576c9a63469fb50f083af4b0f7",
+        "size_in_bytes": 3026
+      },
+      {
+        "_path": "share/doc/mcl/examples/small.tab",
+        "path_type": "hardlink",
+        "sha256": "7693be6f6ccc629f3b2a81c77624a8570e2e96fd2c91aaa897b510a735198cee",
+        "sha256_in_prefix": "7693be6f6ccc629f3b2a81c77624a8570e2e96fd2c91aaa897b510a735198cee",
+        "size_in_bytes": 84
+      },
+      {
+        "_path": "share/doc/mcl/examples/small64.mci",
+        "path_type": "hardlink",
+        "sha256": "7042ba17efc02f3aea5485892fb481c82930840d92926791452cfe14d045a32a",
+        "sha256_in_prefix": "7042ba17efc02f3aea5485892fb481c82930840d92926791452cfe14d045a32a",
+        "size_in_bytes": 938
+      },
+      {
+        "_path": "share/doc/mcl/examples/tiny-min.mci",
+        "path_type": "hardlink",
+        "sha256": "1f501dbe268e1b57b7f6779ad9693d2e6afb9d4c69e2e871974ac338a5f05fcf",
+        "sha256_in_prefix": "1f501dbe268e1b57b7f6779ad9693d2e6afb9d4c69e2e871974ac338a5f05fcf",
+        "size_in_bytes": 75
+      },
+      {
+        "_path": "share/doc/mcl/examples/tiny-nil.mci",
+        "path_type": "hardlink",
+        "sha256": "bef39b19972f002035ef8e1356a2795bb0a5d4f42115d983beb9a884bcd4cebc",
+        "sha256_in_prefix": "bef39b19972f002035ef8e1356a2795bb0a5d4f42115d983beb9a884bcd4cebc",
+        "size_in_bytes": 64
+      },
+      {
+        "_path": "share/doc/mcl/examples/tiny-nilnine.mci",
+        "path_type": "hardlink",
+        "sha256": "ca3e004495a2ef71e94df4b2109b8625a66591be37a1d1ef52d6e7b802592df0",
+        "sha256_in_prefix": "ca3e004495a2ef71e94df4b2109b8625a66591be37a1d1ef52d6e7b802592df0",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "share/doc/mcl/examples/tiny-ninenil.mci",
+        "path_type": "hardlink",
+        "sha256": "d427b75602d1ab186b8466b3a998eb9bf06f724fd5fbec7024f965ffcf34f456",
+        "sha256_in_prefix": "d427b75602d1ab186b8466b3a998eb9bf06f724fd5fbec7024f965ffcf34f456",
+        "size_in_bytes": 103
+      },
+      {
+        "_path": "share/doc/mcl/examples/tiny-one.mci",
+        "path_type": "hardlink",
+        "sha256": "97a59ef085a2673cbbc5159452f98da4f33f5779d8c5d2ac4dfb8f1db5f858d5",
+        "sha256_in_prefix": "97a59ef085a2673cbbc5159452f98da4f33f5779d8c5d2ac4dfb8f1db5f858d5",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "share/doc/mcl/examples/tiny-zero.mci",
+        "path_type": "hardlink",
+        "sha256": "421f9f046fac8d9c62693c244707a267f92b7ee27d854ceac0d9fd7cef6a7a6e",
+        "sha256_in_prefix": "421f9f046fac8d9c62693c244707a267f92b7ee27d854ceac0d9fd7cef6a7a6e",
+        "size_in_bytes": 74
+      },
+      {
+        "_path": "share/doc/mcl/index.html",
+        "path_type": "hardlink",
+        "sha256": "0b49b360f131f4ef2b7a2a734223b3a9dac0316ec7a7070dc0fc124f1963d0fa",
+        "sha256_in_prefix": "0b49b360f131f4ef2b7a2a734223b3a9dac0316ec7a7070dc0fc124f1963d0fa",
+        "size_in_bytes": 5792
+      },
+      {
+        "_path": "share/doc/mcl/mcl.html",
+        "path_type": "hardlink",
+        "sha256": "b4e978c4c3ffd27055e002bd528544e4bc04f0641ab98820593b5fb3f0fbb97c",
+        "sha256_in_prefix": "b4e978c4c3ffd27055e002bd528544e4bc04f0641ab98820593b5fb3f0fbb97c",
+        "size_in_bytes": 92509
+      },
+      {
+        "_path": "share/doc/mcl/mcl.ps",
+        "path_type": "hardlink",
+        "sha256": "cf532f41b4846ec9956cb57ddd02858d9e3967cc1e12c3fde72ebb90738a2ab3",
+        "sha256_in_prefix": "cf532f41b4846ec9956cb57ddd02858d9e3967cc1e12c3fde72ebb90738a2ab3",
+        "size_in_bytes": 154086
+      },
+      {
+        "_path": "share/doc/mcl/mcl.txt",
+        "path_type": "hardlink",
+        "sha256": "65f6e84650d0626f4b2e1b9a925f7e6b3e32a95d7b98cf015db391679931c560",
+        "sha256_in_prefix": "65f6e84650d0626f4b2e1b9a925f7e6b3e32a95d7b98cf015db391679931c560",
+        "size_in_bytes": 59948
+      },
+      {
+        "_path": "share/doc/mcl/mclblastline.html",
+        "path_type": "hardlink",
+        "sha256": "112c4bc8c9f052ed05c2da7f11cfb85eb5d82656b6852e47d59bdd5ea210ba37",
+        "sha256_in_prefix": "112c4bc8c9f052ed05c2da7f11cfb85eb5d82656b6852e47d59bdd5ea210ba37",
+        "size_in_bytes": 9600
+      },
+      {
+        "_path": "share/doc/mcl/mclblastline.ps",
+        "path_type": "hardlink",
+        "sha256": "28e6c68ab9a439d9f0783ebea15905613db764dfa0076d178df00772965c3ffd",
+        "sha256_in_prefix": "28e6c68ab9a439d9f0783ebea15905613db764dfa0076d178df00772965c3ffd",
+        "size_in_bytes": 17148
+      },
+      {
+        "_path": "share/doc/mcl/mclcm.html",
+        "path_type": "hardlink",
+        "sha256": "865761e99d951aae843a7fbc14cc3d0f8f42215d7841fab1e8b70f515a402ab7",
+        "sha256_in_prefix": "865761e99d951aae843a7fbc14cc3d0f8f42215d7841fab1e8b70f515a402ab7",
+        "size_in_bytes": 21570
+      },
+      {
+        "_path": "share/doc/mcl/mclcm.ps",
+        "path_type": "hardlink",
+        "sha256": "d134cd9b8f4e9b5b13d9390372b22dd958f8cca3fb4a1ad90208923581952c17",
+        "sha256_in_prefix": "d134cd9b8f4e9b5b13d9390372b22dd958f8cca3fb4a1ad90208923581952c17",
+        "size_in_bytes": 33827
+      },
+      {
+        "_path": "share/doc/mcl/mclcm.txt",
+        "path_type": "hardlink",
+        "sha256": "da69ed2fd34df818c4892a4ce7af7faca038b8b0117d2fb87e645d2858390c9c",
+        "sha256_in_prefix": "da69ed2fd34df818c4892a4ce7af7faca038b8b0117d2fb87e645d2858390c9c",
+        "size_in_bytes": 11493
+      },
+      {
+        "_path": "share/doc/mcl/mclfamily.html",
+        "path_type": "hardlink",
+        "sha256": "2b48d726953dcc4c70c5ee60037e6df8f9d4b11e1f60dcba707dd7fb420dfc10",
+        "sha256_in_prefix": "2b48d726953dcc4c70c5ee60037e6df8f9d4b11e1f60dcba707dd7fb420dfc10",
+        "size_in_bytes": 12556
+      },
+      {
+        "_path": "share/doc/mcl/mclfamily.ps",
+        "path_type": "hardlink",
+        "sha256": "5bea3d5ee2ecc76df6f7a6c6dd529774b1e863659c47650d9c4ab297993109a6",
+        "sha256_in_prefix": "5bea3d5ee2ecc76df6f7a6c6dd529774b1e863659c47650d9c4ab297993109a6",
+        "size_in_bytes": 11100
+      },
+      {
+        "_path": "share/doc/mcl/mclfaq.html",
+        "path_type": "hardlink",
+        "sha256": "875826bbe4e3f5e94bfb885d7e0c7a52a94fd7ebb3c72c2ad2de06538f6ba2ef",
+        "sha256_in_prefix": "875826bbe4e3f5e94bfb885d7e0c7a52a94fd7ebb3c72c2ad2de06538f6ba2ef",
+        "size_in_bytes": 87957
+      },
+      {
+        "_path": "share/doc/mcl/mclfaq.ps",
+        "path_type": "hardlink",
+        "sha256": "97722793b3547d9532a71c1113724927c0c15f52c042a44066f6a4e9eba094e1",
+        "sha256_in_prefix": "97722793b3547d9532a71c1113724927c0c15f52c042a44066f6a4e9eba094e1",
+        "size_in_bytes": 138852
+      },
+      {
+        "_path": "share/doc/mcl/mclfaq.txt",
+        "path_type": "hardlink",
+        "sha256": "2fa689c9ad53e145ba1f8105b627282b99659e66c52bbcf5308a017ef1113b41",
+        "sha256_in_prefix": "2fa689c9ad53e145ba1f8105b627282b99659e66c52bbcf5308a017ef1113b41",
+        "size_in_bytes": 54577
+      },
+      {
+        "_path": "share/doc/mcl/mclindex.ps",
+        "path_type": "hardlink",
+        "sha256": "f56f4a833ccb2abe08f7e2fb03165c1c5aeb087aef0783e0575806ba78033f8a",
+        "sha256_in_prefix": "f56f4a833ccb2abe08f7e2fb03165c1c5aeb087aef0783e0575806ba78033f8a",
+        "size_in_bytes": 10568
+      },
+      {
+        "_path": "share/doc/mcl/mclmcl.txt",
+        "path_type": "hardlink",
+        "sha256": "20d745d3b01c459ff15268464a49d150b977049233d6f869626ccb8d856aa934",
+        "sha256_in_prefix": "20d745d3b01c459ff15268464a49d150b977049233d6f869626ccb8d856aa934",
+        "size_in_bytes": 4241
+      },
+      {
+        "_path": "share/doc/mcl/mclpipeline.html",
+        "path_type": "hardlink",
+        "sha256": "0ceba275617d7743446385149d077576ebf0f4196d736f09c0114248b9bcc2a4",
+        "sha256_in_prefix": "0ceba275617d7743446385149d077576ebf0f4196d736f09c0114248b9bcc2a4",
+        "size_in_bytes": 32196
+      },
+      {
+        "_path": "share/doc/mcl/mclpipeline.ps",
+        "path_type": "hardlink",
+        "sha256": "ec913d0d1ced096ed1d050547278b1a066afb79c005a4238d6a1bea74a25afd8",
+        "sha256_in_prefix": "ec913d0d1ced096ed1d050547278b1a066afb79c005a4238d6a1bea74a25afd8",
+        "size_in_bytes": 48521
+      },
+      {
+        "_path": "share/doc/mcl/mcx.html",
+        "path_type": "hardlink",
+        "sha256": "a87443f7011fb879534fb236178ab0304c5e68a515cdf8fd34d6395ca1a38378",
+        "sha256_in_prefix": "a87443f7011fb879534fb236178ab0304c5e68a515cdf8fd34d6395ca1a38378",
+        "size_in_bytes": 8458
+      },
+      {
+        "_path": "share/doc/mcl/mcx.ps",
+        "path_type": "hardlink",
+        "sha256": "db95d1e540c189fd4a2776f17ecc0c15845e399db4bad71014537447b517a92c",
+        "sha256_in_prefix": "db95d1e540c189fd4a2776f17ecc0c15845e399db4bad71014537447b517a92c",
+        "size_in_bytes": 13320
+      },
+      {
+        "_path": "share/doc/mcl/mcxalter.html",
+        "path_type": "hardlink",
+        "sha256": "78f2ca08f7ccea70df7b9606fce4de32f0d4672b6573e01af466ac9bef2ba1b4",
+        "sha256_in_prefix": "78f2ca08f7ccea70df7b9606fce4de32f0d4672b6573e01af466ac9bef2ba1b4",
+        "size_in_bytes": 8312
+      },
+      {
+        "_path": "share/doc/mcl/mcxalter.ps",
+        "path_type": "hardlink",
+        "sha256": "d3d32e251a10490688b8c7dddd9c317d05408e3ffcee29f56e19201f80067bc6",
+        "sha256_in_prefix": "d3d32e251a10490688b8c7dddd9c317d05408e3ffcee29f56e19201f80067bc6",
+        "size_in_bytes": 10605
+      },
+      {
+        "_path": "share/doc/mcl/mcxarray.html",
+        "path_type": "hardlink",
+        "sha256": "3750b9da94cc2aad22bbe0c12b404e3a8bc968244b85c99788bbc6361ad1466c",
+        "sha256_in_prefix": "3750b9da94cc2aad22bbe0c12b404e3a8bc968244b85c99788bbc6361ad1466c",
+        "size_in_bytes": 27351
+      },
+      {
+        "_path": "share/doc/mcl/mcxarray.ps",
+        "path_type": "hardlink",
+        "sha256": "b00e487dcfd053bd6df6783dc1cffdcd3ac6ccd75451b168f79715d171511d25",
+        "sha256_in_prefix": "b00e487dcfd053bd6df6783dc1cffdcd3ac6ccd75451b168f79715d171511d25",
+        "size_in_bytes": 35203
+      },
+      {
+        "_path": "share/doc/mcl/mcxassemble.html",
+        "path_type": "hardlink",
+        "sha256": "bda22ca50930ced415b5ffc5a370cb00de75328a014e10f4496072fd4ae68aba",
+        "sha256_in_prefix": "bda22ca50930ced415b5ffc5a370cb00de75328a014e10f4496072fd4ae68aba",
+        "size_in_bytes": 29001
+      },
+      {
+        "_path": "share/doc/mcl/mcxassemble.ps",
+        "path_type": "hardlink",
+        "sha256": "3394c2486adf3378bdd77fc2608b55fad93e86de6ce6ab65f2046acdcf99f484",
+        "sha256_in_prefix": "3394c2486adf3378bdd77fc2608b55fad93e86de6ce6ab65f2046acdcf99f484",
+        "size_in_bytes": 45515
+      },
+      {
+        "_path": "share/doc/mcl/mcxclcf.html",
+        "path_type": "hardlink",
+        "sha256": "78415512e7fbbfa7882af8772e9737fbe2c478705261ca4b9b13b053c3bc4016",
+        "sha256_in_prefix": "78415512e7fbbfa7882af8772e9737fbe2c478705261ca4b9b13b053c3bc4016",
+        "size_in_bytes": 9437
+      },
+      {
+        "_path": "share/doc/mcl/mcxclcf.ps",
+        "path_type": "hardlink",
+        "sha256": "0a4ea910aeb10d5ce15b0b70fe7290579790077909477ceb0966f43eb123c54b",
+        "sha256_in_prefix": "0a4ea910aeb10d5ce15b0b70fe7290579790077909477ceb0966f43eb123c54b",
+        "size_in_bytes": 14538
+      },
+      {
+        "_path": "share/doc/mcl/mcxconvert.html",
+        "path_type": "hardlink",
+        "sha256": "175162b2518ce09301b1bfde9048b3c610b8281aab068b9d880affa9b6179cca",
+        "sha256_in_prefix": "175162b2518ce09301b1bfde9048b3c610b8281aab068b9d880affa9b6179cca",
+        "size_in_bytes": 8732
+      },
+      {
+        "_path": "share/doc/mcl/mcxconvert.ps",
+        "path_type": "hardlink",
+        "sha256": "4def829debe5d9f4d7fdbc09d0eb198dbfc859c2b15b5998567961176a70142b",
+        "sha256_in_prefix": "4def829debe5d9f4d7fdbc09d0eb198dbfc859c2b15b5998567961176a70142b",
+        "size_in_bytes": 13708
+      },
+      {
+        "_path": "share/doc/mcl/mcxctty.html",
+        "path_type": "hardlink",
+        "sha256": "e26762ee199fa29d836b23a453818d45b4f61cf00f74574227f9b0820da54121",
+        "sha256_in_prefix": "e26762ee199fa29d836b23a453818d45b4f61cf00f74574227f9b0820da54121",
+        "size_in_bytes": 11578
+      },
+      {
+        "_path": "share/doc/mcl/mcxctty.ps",
+        "path_type": "hardlink",
+        "sha256": "925ad065d0c6f76e3c2612ec7bbd49e80054b0fa48dd9952cc2dd7e9bafe021e",
+        "sha256_in_prefix": "925ad065d0c6f76e3c2612ec7bbd49e80054b0fa48dd9952cc2dd7e9bafe021e",
+        "size_in_bytes": 17856
+      },
+      {
+        "_path": "share/doc/mcl/mcxdeblast.html",
+        "path_type": "hardlink",
+        "sha256": "d06d46266a55e6bb84e880142eb07380df68b73f345019a47ae7f5facc5151cb",
+        "sha256_in_prefix": "d06d46266a55e6bb84e880142eb07380df68b73f345019a47ae7f5facc5151cb",
+        "size_in_bytes": 14105
+      },
+      {
+        "_path": "share/doc/mcl/mcxdeblast.ps",
+        "path_type": "hardlink",
+        "sha256": "49e5f5c7a990734964da3bec71fd1a4c893c7310edc6712b44463fccae166a1b",
+        "sha256_in_prefix": "49e5f5c7a990734964da3bec71fd1a4c893c7310edc6712b44463fccae166a1b",
+        "size_in_bytes": 20619
+      },
+      {
+        "_path": "share/doc/mcl/mcxdiameter.html",
+        "path_type": "hardlink",
+        "sha256": "73079624c38c9f977a978bdefb045e0abad7b078ba3c30d0aa42607fc80ba33b",
+        "sha256_in_prefix": "73079624c38c9f977a978bdefb045e0abad7b078ba3c30d0aa42607fc80ba33b",
+        "size_in_bytes": 10110
+      },
+      {
+        "_path": "share/doc/mcl/mcxdiameter.ps",
+        "path_type": "hardlink",
+        "sha256": "f65ba885e2f3a58af43c6b52e57b7b41edcdcfde3696ec81a7ab5a8fa1d376ff",
+        "sha256_in_prefix": "f65ba885e2f3a58af43c6b52e57b7b41edcdcfde3696ec81a7ab5a8fa1d376ff",
+        "size_in_bytes": 16007
+      },
+      {
+        "_path": "share/doc/mcl/mcxdump.html",
+        "path_type": "hardlink",
+        "sha256": "2578a5a0490fd4b89ecac2d2b4c5ff6fe4f137a04c145118fc7f206f464cfa22",
+        "sha256_in_prefix": "2578a5a0490fd4b89ecac2d2b4c5ff6fe4f137a04c145118fc7f206f464cfa22",
+        "size_in_bytes": 28036
+      },
+      {
+        "_path": "share/doc/mcl/mcxdump.ps",
+        "path_type": "hardlink",
+        "sha256": "0ef8ee0dbc0cb04e6aae96cf880a01f1bf8fad69cb20d4dd0f98f23a4db17140",
+        "sha256_in_prefix": "0ef8ee0dbc0cb04e6aae96cf880a01f1bf8fad69cb20d4dd0f98f23a4db17140",
+        "size_in_bytes": 37955
+      },
+      {
+        "_path": "share/doc/mcl/mcxerdos.html",
+        "path_type": "hardlink",
+        "sha256": "cf21e69d684c67b50e987d7bf477b3947f35ff2ea331fa5188ed80c740f894ce",
+        "sha256_in_prefix": "cf21e69d684c67b50e987d7bf477b3947f35ff2ea331fa5188ed80c740f894ce",
+        "size_in_bytes": 11820
+      },
+      {
+        "_path": "share/doc/mcl/mcxerdos.ps",
+        "path_type": "hardlink",
+        "sha256": "e2ff1796767163bcf1ca90f4c2d4b6be51d58b5a34ded50384f88c99bf04f144",
+        "sha256_in_prefix": "e2ff1796767163bcf1ca90f4c2d4b6be51d58b5a34ded50384f88c99bf04f144",
+        "size_in_bytes": 19069
+      },
+      {
+        "_path": "share/doc/mcl/mcxi.html",
+        "path_type": "hardlink",
+        "sha256": "48bfcc08ef95096e6d0fe771d46d0ce9e1f04e825c81bb74351af3aecf5358af",
+        "sha256_in_prefix": "48bfcc08ef95096e6d0fe771d46d0ce9e1f04e825c81bb74351af3aecf5358af",
+        "size_in_bytes": 21302
+      },
+      {
+        "_path": "share/doc/mcl/mcxi.ps",
+        "path_type": "hardlink",
+        "sha256": "feef788554ff0788bb8d4bf0674670eac6866debe28679dd25d21064e3118817",
+        "sha256_in_prefix": "feef788554ff0788bb8d4bf0674670eac6866debe28679dd25d21064e3118817",
+        "size_in_bytes": 34945
+      },
+      {
+        "_path": "share/doc/mcl/mcxio.html",
+        "path_type": "hardlink",
+        "sha256": "f5d3110070ec11c6ba408f3403e0b49a571872f3454dadae710a14e923aa0ba5",
+        "sha256_in_prefix": "f5d3110070ec11c6ba408f3403e0b49a571872f3454dadae710a14e923aa0ba5",
+        "size_in_bytes": 37389
+      },
+      {
+        "_path": "share/doc/mcl/mcxio.ps",
+        "path_type": "hardlink",
+        "sha256": "00842a755dfa4280c9ca2b5f19f31670b6c2b213d220df93208d1acc081e9bfe",
+        "sha256_in_prefix": "00842a755dfa4280c9ca2b5f19f31670b6c2b213d220df93208d1acc081e9bfe",
+        "size_in_bytes": 67114
+      },
+      {
+        "_path": "share/doc/mcl/mcxload.html",
+        "path_type": "hardlink",
+        "sha256": "05c31f21f2581ecdb6215504963d80bda1b68230c26ab8830f56993e9e37e787",
+        "sha256_in_prefix": "05c31f21f2581ecdb6215504963d80bda1b68230c26ab8830f56993e9e37e787",
+        "size_in_bytes": 36506
+      },
+      {
+        "_path": "share/doc/mcl/mcxload.ps",
+        "path_type": "hardlink",
+        "sha256": "a73042810635c6e25a9cd0494568694dbd52d8304797a2589e90332e33fc92ef",
+        "sha256_in_prefix": "a73042810635c6e25a9cd0494568694dbd52d8304797a2589e90332e33fc92ef",
+        "size_in_bytes": 53456
+      },
+      {
+        "_path": "share/doc/mcl/mcxmap.html",
+        "path_type": "hardlink",
+        "sha256": "52d4d594040b430900332abbaa6550028b25e0eebaaa3b95edc26fbc6c38fd1e",
+        "sha256_in_prefix": "52d4d594040b430900332abbaa6550028b25e0eebaaa3b95edc26fbc6c38fd1e",
+        "size_in_bytes": 12932
+      },
+      {
+        "_path": "share/doc/mcl/mcxmap.ps",
+        "path_type": "hardlink",
+        "sha256": "882a7e20308c6763a41226c1c2b6f7ca56c54aa2a72da5a0ecd6dd18fdb9f471",
+        "sha256_in_prefix": "882a7e20308c6763a41226c1c2b6f7ca56c54aa2a72da5a0ecd6dd18fdb9f471",
+        "size_in_bytes": 17392
+      },
+      {
+        "_path": "share/doc/mcl/mcxquery.html",
+        "path_type": "hardlink",
+        "sha256": "9ff5882bc339b18e481f3a735473928dcb829fe1ec63417380d239ff921141fe",
+        "sha256_in_prefix": "9ff5882bc339b18e481f3a735473928dcb829fe1ec63417380d239ff921141fe",
+        "size_in_bytes": 20869
+      },
+      {
+        "_path": "share/doc/mcl/mcxquery.ps",
+        "path_type": "hardlink",
+        "sha256": "51dd927eee3d3dbefa9ea2267f2d14215e24692f4ea12a7cac566098ab52d3c8",
+        "sha256_in_prefix": "51dd927eee3d3dbefa9ea2267f2d14215e24692f4ea12a7cac566098ab52d3c8",
+        "size_in_bytes": 28963
+      },
+      {
+        "_path": "share/doc/mcl/mcxrand.html",
+        "path_type": "hardlink",
+        "sha256": "f8114276b2416116e560311851958eb93d493a7325e63e3386ebdeff51c4a56b",
+        "sha256_in_prefix": "f8114276b2416116e560311851958eb93d493a7325e63e3386ebdeff51c4a56b",
+        "size_in_bytes": 15592
+      },
+      {
+        "_path": "share/doc/mcl/mcxrand.ps",
+        "path_type": "hardlink",
+        "sha256": "333a1b67f0b40eb4b992821cb50e08724ea7c6216eec49920419e7aec22118f2",
+        "sha256_in_prefix": "333a1b67f0b40eb4b992821cb50e08724ea7c6216eec49920419e7aec22118f2",
+        "size_in_bytes": 25271
+      },
+      {
+        "_path": "share/doc/mcl/mcxsubs.html",
+        "path_type": "hardlink",
+        "sha256": "6c8a0abd1a428a63a2c205faf69b0960d9ef6347cd58725bdb8319b2b3b84fed",
+        "sha256_in_prefix": "6c8a0abd1a428a63a2c205faf69b0960d9ef6347cd58725bdb8319b2b3b84fed",
+        "size_in_bytes": 33892
+      },
+      {
+        "_path": "share/doc/mcl/mcxsubs.ps",
+        "path_type": "hardlink",
+        "sha256": "8ba4bef786f1910b9fddab15a329e5c3e38ca70d1fc3180e946eb22394b315fc",
+        "sha256_in_prefix": "8ba4bef786f1910b9fddab15a329e5c3e38ca70d1fc3180e946eb22394b315fc",
+        "size_in_bytes": 52501
+      },
+      {
+        "_path": "share/doc/mcl/minimcl",
+        "path_type": "hardlink",
+        "sha256": "b178bdcb1663df340b1bf09ea882b7cbeb021d584e92cc66ed38fb2256c3da77",
+        "sha256_in_prefix": "b178bdcb1663df340b1bf09ea882b7cbeb021d584e92cc66ed38fb2256c3da77",
+        "size_in_bytes": 6524
+      },
+      {
+        "_path": "share/doc/mcl/tingea.log.html",
+        "path_type": "hardlink",
+        "sha256": "6673de4716370141ff443e40f4e0abf1f494b4b78cdf048a1301d89ece65cfee",
+        "sha256_in_prefix": "6673de4716370141ff443e40f4e0abf1f494b4b78cdf048a1301d89ece65cfee",
+        "size_in_bytes": 8029
+      },
+      {
+        "_path": "share/doc/mcl/tingea.log.ps",
+        "path_type": "hardlink",
+        "sha256": "e25cc92fdfa1b9639cbde817b15a465d7a0696f2f675a12d458ec0147f463ce0",
+        "sha256_in_prefix": "e25cc92fdfa1b9639cbde817b15a465d7a0696f2f675a12d458ec0147f463ce0",
+        "size_in_bytes": 20000
+      },
+      {
+        "_path": "share/man/man1/clm.1",
+        "path_type": "hardlink",
+        "sha256": "b4cb73b9301eecae1ce5c6422617d13efb7a8ddf8990944fd0a9dabb9f83984c",
+        "sha256_in_prefix": "b4cb73b9301eecae1ce5c6422617d13efb7a8ddf8990944fd0a9dabb9f83984c",
+        "size_in_bytes": 3802
+      },
+      {
+        "_path": "share/man/man1/clmclose.1",
+        "path_type": "hardlink",
+        "sha256": "22d0e20a0058f2bdf4e2d76703f017dd5878744418a6b749873d26e6b7871d73",
+        "sha256_in_prefix": "22d0e20a0058f2bdf4e2d76703f017dd5878744418a6b749873d26e6b7871d73",
+        "size_in_bytes": 4362
+      },
+      {
+        "_path": "share/man/man1/clmdist.1",
+        "path_type": "hardlink",
+        "sha256": "37cd2a4e729d8d07b7e35951be5754f1f34dc5fe43391d98875984c5f15ad296",
+        "sha256_in_prefix": "37cd2a4e729d8d07b7e35951be5754f1f34dc5fe43391d98875984c5f15ad296",
+        "size_in_bytes": 16111
+      },
+      {
+        "_path": "share/man/man1/clmformat.1",
+        "path_type": "hardlink",
+        "sha256": "2e2fadd83ddbb0d49ff77d4199c2647a7bbbc11a50b571f6255ea7df75ca6b1b",
+        "sha256_in_prefix": "2e2fadd83ddbb0d49ff77d4199c2647a7bbbc11a50b571f6255ea7df75ca6b1b",
+        "size_in_bytes": 22398
+      },
+      {
+        "_path": "share/man/man1/clmimac.1",
+        "path_type": "hardlink",
+        "sha256": "1f77dc5cc0b59a188f91010bcc1ff6d64e637ee948ef078bea58e411c240e900",
+        "sha256_in_prefix": "1f77dc5cc0b59a188f91010bcc1ff6d64e637ee948ef078bea58e411c240e900",
+        "size_in_bytes": 3563
+      },
+      {
+        "_path": "share/man/man1/clminfo.1",
+        "path_type": "hardlink",
+        "sha256": "f6aed8a257671a774befb4e3bfcf0bde9d59fe6139ec7c2f7368c0a3ba251a75",
+        "sha256_in_prefix": "f6aed8a257671a774befb4e3bfcf0bde9d59fe6139ec7c2f7368c0a3ba251a75",
+        "size_in_bytes": 6463
+      },
+      {
+        "_path": "share/man/man1/clminfo2.1",
+        "path_type": "hardlink",
+        "sha256": "8a55a4d8b306d659dbb7297230a1e9af9757305452faedd9f961f2c2f0feb505",
+        "sha256_in_prefix": "8a55a4d8b306d659dbb7297230a1e9af9757305452faedd9f961f2c2f0feb505",
+        "size_in_bytes": 6054
+      },
+      {
+        "_path": "share/man/man1/clmmate.1",
+        "path_type": "hardlink",
+        "sha256": "c098f04cfb0ff135240e4c10dc30259cbe6a7aa27988bee41b6f9c51d5e6d1e2",
+        "sha256_in_prefix": "c098f04cfb0ff135240e4c10dc30259cbe6a7aa27988bee41b6f9c51d5e6d1e2",
+        "size_in_bytes": 4108
+      },
+      {
+        "_path": "share/man/man1/clmmeet.1",
+        "path_type": "hardlink",
+        "sha256": "136d0ff28da64b141776bcd34c90a1827ef687072cb661ab0e0289cae275f9db",
+        "sha256_in_prefix": "136d0ff28da64b141776bcd34c90a1827ef687072cb661ab0e0289cae275f9db",
+        "size_in_bytes": 2086
+      },
+      {
+        "_path": "share/man/man1/clmoptics.1",
+        "path_type": "hardlink",
+        "sha256": "cb4d0f1b15a0f03d6f0a1483b74d29133c5e02519628b4bd16007fc90d1c10fd",
+        "sha256_in_prefix": "cb4d0f1b15a0f03d6f0a1483b74d29133c5e02519628b4bd16007fc90d1c10fd",
+        "size_in_bytes": 4520
+      },
+      {
+        "_path": "share/man/man1/clmorder.1",
+        "path_type": "hardlink",
+        "sha256": "0712bac53adfc30e4492725adfca500224b471cce5be9f5875bf336c6a5e4b89",
+        "sha256_in_prefix": "0712bac53adfc30e4492725adfca500224b471cce5be9f5875bf336c6a5e4b89",
+        "size_in_bytes": 2794
+      },
+      {
+        "_path": "share/man/man1/clmresidue.1",
+        "path_type": "hardlink",
+        "sha256": "2706428f8606ce5eb14b061924c3be1576df5d3afab69fe5bd3bd66cb9da7e15",
+        "sha256_in_prefix": "2706428f8606ce5eb14b061924c3be1576df5d3afab69fe5bd3bd66cb9da7e15",
+        "size_in_bytes": 2769
+      },
+      {
+        "_path": "share/man/man1/clmvol.1",
+        "path_type": "hardlink",
+        "sha256": "5c98fcf82336a05822b124db1800612db6f1828a4e5a55d2824ddfaec0ff02bc",
+        "sha256_in_prefix": "5c98fcf82336a05822b124db1800612db6f1828a4e5a55d2824ddfaec0ff02bc",
+        "size_in_bytes": 2369
+      },
+      {
+        "_path": "share/man/man1/mcl.1",
+        "path_type": "hardlink",
+        "sha256": "e5518aa61905b2e14f0f148662b2de15e146331f2579a7b358357af8c0ea93cd",
+        "sha256_in_prefix": "e5518aa61905b2e14f0f148662b2de15e146331f2579a7b358357af8c0ea93cd",
+        "size_in_bytes": 60998
+      },
+      {
+        "_path": "share/man/man1/mclblastline.1",
+        "path_type": "hardlink",
+        "sha256": "908eaa695f7177e88eabc53f02fe0aee02ab4abf6949f831fe33a8f9c3fd45d2",
+        "sha256_in_prefix": "908eaa695f7177e88eabc53f02fe0aee02ab4abf6949f831fe33a8f9c3fd45d2",
+        "size_in_bytes": 5084
+      },
+      {
+        "_path": "share/man/man1/mclcm.1",
+        "path_type": "hardlink",
+        "sha256": "059df8c859c0858719bc82a0bb22e67c6ef3e70075bb2597320702d124d51262",
+        "sha256_in_prefix": "059df8c859c0858719bc82a0bb22e67c6ef3e70075bb2597320702d124d51262",
+        "size_in_bytes": 12109
+      },
+      {
+        "_path": "share/man/man1/mclpipeline.1",
+        "path_type": "hardlink",
+        "sha256": "3206ccf49c0e084d53a4204c554f7aedbc0e332ce30f5aeca3b969934e966a30",
+        "sha256_in_prefix": "3206ccf49c0e084d53a4204c554f7aedbc0e332ce30f5aeca3b969934e966a30",
+        "size_in_bytes": 18463
+      },
+      {
+        "_path": "share/man/man1/mcx.1",
+        "path_type": "hardlink",
+        "sha256": "7bc09cff39f0b83ac524a00a2e66b111c4e342d5fde1006d308b7518157a3d32",
+        "sha256_in_prefix": "7bc09cff39f0b83ac524a00a2e66b111c4e342d5fde1006d308b7518157a3d32",
+        "size_in_bytes": 3475
+      },
+      {
+        "_path": "share/man/man1/mcxalter.1",
+        "path_type": "hardlink",
+        "sha256": "52d0d475dadd09eed362987d4a41540c83b2dca7c2775a409352a6e2370d44eb",
+        "sha256_in_prefix": "52d0d475dadd09eed362987d4a41540c83b2dca7c2775a409352a6e2370d44eb",
+        "size_in_bytes": 2650
+      },
+      {
+        "_path": "share/man/man1/mcxarray.1",
+        "path_type": "hardlink",
+        "sha256": "f7658481330af7c085cb55225bfd7d32cec40599b4a7bcd5b2b2eab45507737b",
+        "sha256_in_prefix": "f7658481330af7c085cb55225bfd7d32cec40599b4a7bcd5b2b2eab45507737b",
+        "size_in_bytes": 13614
+      },
+      {
+        "_path": "share/man/man1/mcxassemble.1",
+        "path_type": "hardlink",
+        "sha256": "7a2f75a789b5509d4848aa8839c1de0f859cd9daa98bc7559ce2dedcc98a049b",
+        "sha256_in_prefix": "7a2f75a789b5509d4848aa8839c1de0f859cd9daa98bc7559ce2dedcc98a049b",
+        "size_in_bytes": 17530
+      },
+      {
+        "_path": "share/man/man1/mcxclcf.1",
+        "path_type": "hardlink",
+        "sha256": "d5ad4a2dbcca425d3a3aa2459cdf79ba3574eedbbcaa2475f74f58158c3f1a4d",
+        "sha256_in_prefix": "d5ad4a2dbcca425d3a3aa2459cdf79ba3574eedbbcaa2475f74f58158c3f1a4d",
+        "size_in_bytes": 4127
+      },
+      {
+        "_path": "share/man/man1/mcxconvert.1",
+        "path_type": "hardlink",
+        "sha256": "0ce5c7bf3123329a4b00667289cc26073f03fc9429911c0c0e9eeb3293d755dc",
+        "sha256_in_prefix": "0ce5c7bf3123329a4b00667289cc26073f03fc9429911c0c0e9eeb3293d755dc",
+        "size_in_bytes": 3619
+      },
+      {
+        "_path": "share/man/man1/mcxctty.1",
+        "path_type": "hardlink",
+        "sha256": "bc493dd6c3a6a0d6222f32a6c4921e25b214a90ea7d6c34650213965b41d91ac",
+        "sha256_in_prefix": "bc493dd6c3a6a0d6222f32a6c4921e25b214a90ea7d6c34650213965b41d91ac",
+        "size_in_bytes": 5503
+      },
+      {
+        "_path": "share/man/man1/mcxdeblast.1",
+        "path_type": "hardlink",
+        "sha256": "7b76ffb758d8c560149ceda0cb570d2fee9b38a686ee4666b0a75beaf9083419",
+        "sha256_in_prefix": "7b76ffb758d8c560149ceda0cb570d2fee9b38a686ee4666b0a75beaf9083419",
+        "size_in_bytes": 6676
+      },
+      {
+        "_path": "share/man/man1/mcxdiameter.1",
+        "path_type": "hardlink",
+        "sha256": "a724ad4deb94bea38fa480672c83387ef8b7bf1aae6187ff5752fa672499dcaf",
+        "sha256_in_prefix": "a724ad4deb94bea38fa480672c83387ef8b7bf1aae6187ff5752fa672499dcaf",
+        "size_in_bytes": 4732
+      },
+      {
+        "_path": "share/man/man1/mcxdump.1",
+        "path_type": "hardlink",
+        "sha256": "6ebd7bb68deb2342d2ffbc7a7e291d089b9e9b9dae70a6aeffe8f6e7dff344d0",
+        "sha256_in_prefix": "6ebd7bb68deb2342d2ffbc7a7e291d089b9e9b9dae70a6aeffe8f6e7dff344d0",
+        "size_in_bytes": 14466
+      },
+      {
+        "_path": "share/man/man1/mcxerdos.1",
+        "path_type": "hardlink",
+        "sha256": "2caa7b947dcd794ca44f32e5c80a2206a087f984c50fb8475d3f5c1ec187b857",
+        "sha256_in_prefix": "2caa7b947dcd794ca44f32e5c80a2206a087f984c50fb8475d3f5c1ec187b857",
+        "size_in_bytes": 5962
+      },
+      {
+        "_path": "share/man/man1/mcxi.1",
+        "path_type": "hardlink",
+        "sha256": "b9631be257d9149a1eafadf17d2b8d8b2d19370f530a037aa8e9c9c7ea5a3d6e",
+        "sha256_in_prefix": "b9631be257d9149a1eafadf17d2b8d8b2d19370f530a037aa8e9c9c7ea5a3d6e",
+        "size_in_bytes": 12334
+      },
+      {
+        "_path": "share/man/man1/mcxload.1",
+        "path_type": "hardlink",
+        "sha256": "a87c67b463239644d9074be073e258c5017ad2d87cb3ae2047bdc347900ada26",
+        "sha256_in_prefix": "a87c67b463239644d9074be073e258c5017ad2d87cb3ae2047bdc347900ada26",
+        "size_in_bytes": 20720
+      },
+      {
+        "_path": "share/man/man1/mcxmap.1",
+        "path_type": "hardlink",
+        "sha256": "88b4374786978abc6531fc4926af10a7d3d94daddf40bc9f7d7ca2282cba262f",
+        "sha256_in_prefix": "88b4374786978abc6531fc4926af10a7d3d94daddf40bc9f7d7ca2282cba262f",
+        "size_in_bytes": 5403
+      },
+      {
+        "_path": "share/man/man1/mcxquery.1",
+        "path_type": "hardlink",
+        "sha256": "9580755f5a0832b55e45b7221fe584f53140eff01126e4fbb73164c741ae628e",
+        "sha256_in_prefix": "9580755f5a0832b55e45b7221fe584f53140eff01126e4fbb73164c741ae628e",
+        "size_in_bytes": 10471
+      },
+      {
+        "_path": "share/man/man1/mcxrand.1",
+        "path_type": "hardlink",
+        "sha256": "28127ebbadda28270d710e8c086010c9e80956378d3c1aec4307f16dc44990d8",
+        "sha256_in_prefix": "28127ebbadda28270d710e8c086010c9e80956378d3c1aec4307f16dc44990d8",
+        "size_in_bytes": 8259
+      },
+      {
+        "_path": "share/man/man1/mcxsubs.1",
+        "path_type": "hardlink",
+        "sha256": "040d56b327db4c37fc809997e10f3bd09cdc9bf452b4236d707abc40e24d938d",
+        "sha256_in_prefix": "040d56b327db4c37fc809997e10f3bd09cdc9bf452b4236d707abc40e24d938d",
+        "size_in_bytes": 19721
+      },
+      {
+        "_path": "share/man/man5/clmprotocols.5",
+        "path_type": "hardlink",
+        "sha256": "d3d8f8b3cc0f93c4607c214516fcb4855e900dd904f3f6d1017ae2afd6c268d4",
+        "sha256_in_prefix": "d3d8f8b3cc0f93c4607c214516fcb4855e900dd904f3f6d1017ae2afd6c268d4",
+        "size_in_bytes": 15354
+      },
+      {
+        "_path": "share/man/man5/clmprotocols2.5",
+        "path_type": "hardlink",
+        "sha256": "6fde3657fc100338f405d5b63a41104716441b1409b7fd7259222774c918225c",
+        "sha256_in_prefix": "6fde3657fc100338f405d5b63a41104716441b1409b7fd7259222774c918225c",
+        "size_in_bytes": 14391
+      },
+      {
+        "_path": "share/man/man5/mcxio.5",
+        "path_type": "hardlink",
+        "sha256": "a3ea04497e94ed29297f2fb6be868f050f6ca798a320bbf9cc386a55bf763be1",
+        "sha256_in_prefix": "a3ea04497e94ed29297f2fb6be868f050f6ca798a320bbf9cc386a55bf763be1",
+        "size_in_bytes": 24333
+      },
+      {
+        "_path": "share/man/man7/mclfamily.7",
+        "path_type": "hardlink",
+        "sha256": "0eb4ec43af2cc10a15c1f6cf6f5799a19297fb1f319833f6d0b801cf13dfd8fe",
+        "sha256_in_prefix": "0eb4ec43af2cc10a15c1f6cf6f5799a19297fb1f319833f6d0b801cf13dfd8fe",
+        "size_in_bytes": 3325
+      },
+      {
+        "_path": "share/man/man7/mclfaq.7",
+        "path_type": "hardlink",
+        "sha256": "85bc244f85dc13a880d27184a1a4ddc3423e167ff53722ee5659e1d8a5d471df",
+        "sha256_in_prefix": "85bc244f85dc13a880d27184a1a4ddc3423e167ff53722ee5659e1d8a5d471df",
+        "size_in_bytes": 51998
+      },
+      {
+        "_path": "share/man/man7/mclindex.7",
+        "path_type": "hardlink",
+        "sha256": "c45dad300bb1a43b743fc768caded0d098e9deaeee8335488fd1ae4eba167729",
+        "sha256_in_prefix": "c45dad300bb1a43b743fc768caded0d098e9deaeee8335488fd1ae4eba167729",
+        "size_in_bytes": 2953
+      },
+      {
+        "_path": "share/man/man7/tingea.log.7",
+        "path_type": "hardlink",
+        "sha256": "e31f8b543f39c80abbdee2faafb1f145fae35cd39cc3b1bd5de7c2ca619db936",
+        "sha256_in_prefix": "e31f8b543f39c80abbdee2faafb1f145fae35cd39cc3b1bd5de7c2ca619db936",
+        "size_in_bytes": 5935
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "a4d63daee448b6abc47077f13217d6d75894f0a82ca36175c7b574ee2de49a87",
+  "size": 2449694,
+  "subdir": "osx-64",
+  "timestamp": 1617289780000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/mcl-14.137-pl5262hb4d813b_6.tar.bz2",
+  "version": "14.137"
+}

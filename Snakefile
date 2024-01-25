@@ -4,7 +4,18 @@ rule all:
             #expand('output/tRNAscan/{sp}.tRNA', sp=['G_muris', 'G_intestinalis']),
             #expand('output/tRNAscan/{sp}.tRNA',sp=['G_muris', 'S_salmonicida']),
             #expand('output/blastn/G_intestinalis/{sp}.blastn',sp=['G_muris', 'S_salmonicida']),
-            expand('output/orthofinder/')
+            expand("output/barrnap/{Genome}_rrna.gff3",Genome=['G_intestinalis', 'G_muris', 'S_salmonicida']),
+            #expand('output/orthofinder/')
+
+rule barrnap:
+    input:
+            genome = 'resource/Genome/{Genome}.fasta'
+    output:
+            barrnap = 'output/barrnap/{Genome}_rrna.gff3'
+    conda:
+        'env/env.yaml'
+    shell:
+        """barrnap --kingdom euk --quiet {input} > {output}"""
 
 rule tRNAscan:
     input: 'resource/Genome/G_intestinalis.fasta'

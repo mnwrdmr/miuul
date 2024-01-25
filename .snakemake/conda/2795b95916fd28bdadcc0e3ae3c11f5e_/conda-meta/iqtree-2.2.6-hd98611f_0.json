@@ -1,0 +1,87 @@
+{
+  "build": "hd98611f_0",
+  "build_number": 0,
+  "channel": "https://conda.anaconda.org/bioconda/osx-64",
+  "constrains": [],
+  "depends": [
+    "__osx >=10.9",
+    "libcxx >=15.0.7",
+    "libzlib >=1.2.13,<1.3.0a0",
+    "llvm-openmp >=15.0.7",
+    "llvm-openmp >=17.0.6"
+  ],
+  "extracted_package_dir": "/Users/macvbookpro/opt/anaconda3/pkgs/iqtree-2.2.6-hd98611f_0",
+  "features": "",
+  "files": [
+    "bin/iqtree",
+    "bin/iqtree2",
+    "example.cf",
+    "example.nex",
+    "example.phy",
+    "models.nex"
+  ],
+  "fn": "iqtree-2.2.6-hd98611f_0.tar.bz2",
+  "license": "GPL-2.0-or-later",
+  "link": {
+    "source": "/Users/macvbookpro/opt/anaconda3/pkgs/iqtree-2.2.6-hd98611f_0",
+    "type": 1
+  },
+  "md5": "8cffad58a00e57060b1cdd1d43898f30",
+  "name": "iqtree",
+  "package_tarball_full_path": "/Users/macvbookpro/opt/anaconda3/pkgs/iqtree-2.2.6-hd98611f_0.tar.bz2",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "bin/iqtree",
+        "path_type": "hardlink",
+        "sha256": "7d9317bdd2e1c86812866ec11e8483605d2f5b1e5266225de7cf5e5cb6b22a16",
+        "sha256_in_prefix": "7d9317bdd2e1c86812866ec11e8483605d2f5b1e5266225de7cf5e5cb6b22a16",
+        "size_in_bytes": 11179568
+      },
+      {
+        "_path": "bin/iqtree2",
+        "path_type": "hardlink",
+        "sha256": "7d9317bdd2e1c86812866ec11e8483605d2f5b1e5266225de7cf5e5cb6b22a16",
+        "sha256_in_prefix": "7d9317bdd2e1c86812866ec11e8483605d2f5b1e5266225de7cf5e5cb6b22a16",
+        "size_in_bytes": 11179568
+      },
+      {
+        "_path": "example.cf",
+        "path_type": "hardlink",
+        "sha256": "9e41faaea1c845b0c3a2e2f87a41e12966c26c1383382a98d3585ffe1da515dd",
+        "sha256_in_prefix": "9e41faaea1c845b0c3a2e2f87a41e12966c26c1383382a98d3585ffe1da515dd",
+        "size_in_bytes": 2237314
+      },
+      {
+        "_path": "example.nex",
+        "path_type": "hardlink",
+        "sha256": "359f1c6bdbaea2aaff49f233b9ba9afecad653ab68442775240e228a196eff83",
+        "sha256_in_prefix": "359f1c6bdbaea2aaff49f233b9ba9afecad653ab68442775240e228a196eff83",
+        "size_in_bytes": 174
+      },
+      {
+        "_path": "example.phy",
+        "path_type": "hardlink",
+        "sha256": "d3365cbea79ab6d7b184d1bd9153871616041c6e0e8e591d2a0b4bd08dc0b9bf",
+        "sha256_in_prefix": "d3365cbea79ab6d7b184d1bd9153871616041c6e0e8e591d2a0b4bd08dc0b9bf",
+        "size_in_bytes": 34178
+      },
+      {
+        "_path": "models.nex",
+        "path_type": "hardlink",
+        "sha256": "2645e5906033fe9ae0deb0c9a2598b296330a5ba7d618785bb3f59cd8bca2da0",
+        "sha256_in_prefix": "2645e5906033fe9ae0deb0c9a2598b296330a5ba7d618785bb3f59cd8bca2da0",
+        "size_in_bytes": 121669
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "None",
+  "sha256": "93823cc91c4023dcd126bdef8f140d57e647056fcc6e9abe01a402410a3a059f",
+  "size": 8469356,
+  "subdir": "osx-64",
+  "timestamp": 1702000035000,
+  "track_features": "",
+  "url": "https://conda.anaconda.org/bioconda/osx-64/iqtree-2.2.6-hd98611f_0.tar.bz2",
+  "version": "2.2.6"
+}
