@@ -2,7 +2,7 @@ import pandas as pd
 import glob
 
 path = '/Users/macvbookpro/PycharmProjects/miuul/Interproscan/*.tsv'
-out_file = '/Users/macvbookpro/PycharmProjects/miuul/data/ipr_concat.csv'
+out_file = '/output/data/ipr_concat.csv'
 list_file = glob.glob(path)
 
 #get species name from the filenames
