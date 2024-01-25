@@ -1,0 +1,7 @@
+Building DAG of jobs...
+MissingInputException in rule all in file /Users/macvbookpro/PycharmProjects/miuul/Snakefile, line 1:
+Missing input files for rule all:
+    affected files:
+        output/barrnap/G_intestinalis.gff3
+        output/barrnap/S_salmonicida.gff3
+        output/barrnap/G_muris.gff3
