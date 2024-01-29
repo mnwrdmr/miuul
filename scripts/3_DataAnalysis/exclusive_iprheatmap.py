@@ -4,7 +4,7 @@ import matplotlib.pyplot as plt
 from matplotlib.colors import LogNorm
 
 ipr_concat = '/Users/macvbookpro/PycharmProjects/miuul/output/data/ipr_concat.csv'
-out_file = '/Users/macvbookpro/PycharmProjects/miuul/output/data/ipr_exclusiveheatmap.png'
+out_file = '/Users/macvbookpro/PycharmProjects/miuul/output/data/ipr_purpleexclusiveheatmap.png'
 
 def plot_heatmap(df):
     sns.set_style('whitegrid', {'axes.grid': False})
@@ -14,7 +14,8 @@ def plot_heatmap(df):
     ax= sns.heatmap(df,
 
 
-                    cmap=sns.color_palette("rocket_r", as_cmap=True),
+                    #cmap=sns.color_palette("rocket_r", as_cmap=True)
+                    cmap=sns.color_palette("ch:s=-.2,r=.6", as_cmap=True),
                     square=True,
                     fmt='g',
                     linewidths=.4,
